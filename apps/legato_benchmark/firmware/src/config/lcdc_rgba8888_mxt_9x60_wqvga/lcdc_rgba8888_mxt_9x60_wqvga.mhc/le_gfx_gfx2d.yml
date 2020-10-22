@@ -1,0 +1,45 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: le_gfx_gfx2d}
+children:
+- type: Symbols
+  children:
+  - type: Combo
+    attributes: {id: DRV_GFX2D_MODE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_gfx2d, value: Asynchronous}
+      - type: User
+        attributes: {value: Synchronous}
+- type: Attachments
+  children:
+  - type: DirectDependency
+    attributes: {id: GFX2D}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: plib_gfx2d}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: GFX2D}
+  - type: DirectCapability
+    attributes: {id: LE GPU Driver}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: gfx_legato}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: gpu_driver}
+- type: ElementPosition
+  attributes: {x: '593', y: '381', id: le_gfx_gfx2d}

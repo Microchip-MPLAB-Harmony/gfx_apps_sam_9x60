@@ -84,7 +84,7 @@ extern leImage QuickstartUp_WVGA;
  * Name:   MHGS_logo_WVGA
  * Size:   320x300 pixels
  * Type:   RGB Data
- * Format: RGB_888
+ * Format: RGBA_8888
  ***********************************/
 extern leImage MHGS_logo_WVGA;
 

@@ -1,0 +1,88 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: le_gfx_lcdc}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: DisplayHeight}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_lcdc, value: '272'}
+  - type: Menu
+    attributes: {id: DisplaySettingsMenu}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Integer
+    attributes: {id: DisplayWidth}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_lcdc, value: '480'}
+  - type: Comment
+    attributes: {id: HALComment}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Integer
+    attributes: {id: TotalNumLayers}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_lcdc, value: '3'}
+- type: Attachments
+  children:
+  - type: DirectDependency
+    attributes: {id: Graphics Display}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: gfx_disp_pdatm4301b_480x272}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: gfx_display}
+  - type: DirectDependency
+    attributes: {id: LCDC}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: lcdc}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: LCDC_LCDC}
+  - type: DirectCapability
+    attributes: {id: le_gfx_driver_lcdc}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: gfx_legato}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: gfx_driver}
+- type: ElementPosition
+  attributes: {x: '583', y: '251', id: le_gfx_lcdc}
