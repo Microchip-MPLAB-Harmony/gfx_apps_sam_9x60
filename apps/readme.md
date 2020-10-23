@@ -11,7 +11,7 @@ market:
 
 # Example Applications
 
-The following applications are provided to demonstrate both basic and advanced Graphics capabilities of the PIC32 MZ DA Family.
+The following applications are provided to demonstrate both basic and advanced Graphics capabilities of the SAM 9x60 Family.
 
 ## Legato Library Examples 
 
