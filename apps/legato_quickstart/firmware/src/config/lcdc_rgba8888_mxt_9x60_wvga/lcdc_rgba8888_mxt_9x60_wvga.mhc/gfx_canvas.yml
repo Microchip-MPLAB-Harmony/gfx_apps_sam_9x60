@@ -1,0 +1,113 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: gfx_canvas}
+children:
+- type: Symbols
+  children:
+  - type: Combo
+    attributes: {id: Canvas0FrameBufferAlloc}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Auto}
+  - type: Integer
+    attributes: {id: Canvas0Height}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '480'}
+  - type: Integer
+    attributes: {id: Canvas0Width}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '800'}
+  - type: Combo
+    attributes: {id: Canvas1FrameBufferAlloc}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Auto}
+  - type: Integer
+    attributes: {id: Canvas1Height}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '480'}
+  - type: Integer
+    attributes: {id: Canvas1Width}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '800'}
+  - type: Combo
+    attributes: {id: Canvas2FrameBufferAlloc}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: Auto}
+  - type: Integer
+    attributes: {id: Canvas2Height}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '480'}
+  - type: Integer
+    attributes: {id: Canvas2Width}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '800'}
+  - type: String
+    attributes: {id: DisplayDriverName}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: gfx_canvas, value: lcdcDisplayDriver}
+  - type: Boolean
+    attributes: {id: WindowClippingEnabled}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+- type: Attachments
+  children:
+  - type: DirectCapability
+    attributes: {id: gfx_canvas}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: gfx_legato}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: gfx_driver}
+  - type: DirectDependency
+    attributes: {id: gfx_display_driver}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: le_gfx_lcdc}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: le_gfx_driver_lcdc}
+- type: ElementPosition
+  attributes: {x: '594', y: '386', id: gfx_canvas}

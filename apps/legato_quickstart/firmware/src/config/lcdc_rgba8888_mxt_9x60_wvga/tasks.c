@@ -77,6 +77,8 @@ void SYS_Tasks ( void )
     /* Maintain Device Drivers */
     DRV_LCDC_Update();
 
+    GFX_CANVAS_Task();
+
 
     DRV_MAXTOUCH_Tasks(sysObj.drvMAXTOUCH);
 
@@ -92,8 +94,8 @@ void SYS_Tasks ( void )
 
 
     /* Maintain the application's state machine. */
-        /* Call Application task APP_GLCD. */
-    APP_GLCD_Tasks();
+        /* Call Application task APP_CANVAS. */
+    APP_CANVAS_Tasks();
 
 
 

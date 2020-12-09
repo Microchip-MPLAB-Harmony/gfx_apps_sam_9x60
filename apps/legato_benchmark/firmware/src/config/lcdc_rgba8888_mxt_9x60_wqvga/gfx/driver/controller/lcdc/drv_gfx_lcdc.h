@@ -68,11 +68,56 @@
 // Section: Functions
 // *****************************************************************************
 // *****************************************************************************
+
+/**
+ * @brief Initialize driver.
+ * @details Initializes the LCDC driver. This routine is typically called
+ * by a graphics library or by the application during application initialization.
+ * @code
+ * gfxResult res = DRV_LCDC_Initialize();
+ * @endcode
+ * @return GFX_SUCCESS if driver ready to render, otherwise GFX_FAILURE.
+ */
 gfxResult DRV_LCDC_Initialize(void);
 
+
+/**
+ * @brief Execute update task.
+ * @details Performs a driver task update.
+ * @code
+ * DRV_LCDC_Update();
+ * @endcode
+ * @return void.
+ */
 void DRV_LCDC_Update(void);
+
+/**
+ * @brief Blit buffer.
+ * @details Copies <span class="param">buf</span>
+ * to the framebuffer at location <span class="param">x</span> and
+ * <span class="param">y</span> with
+ * <span class="param">blend</span> composition.
+ * @code
+ * gfxDisplayDriver* drv;
+ * gfxResult res = drv->blitBuffer();
+ * @endcode
+ * @return GFX_SUCCESS if blit was performed, otherwise GFX_FAILURE.
+ */
 gfxResult DRV_LCDC_BlitBuffer(int32_t x, int32_t y, gfxPixelBuffer* buf);
+
+
+/**
+ * @brief Graphics driver generic IOCTL interface.
+ * @details Sends an IOCTL message to the driver.
+ * @code
+ * gfxIOCTLArg_Value val;
+ * val.value.v_uint = 1;
+ * DRV_LCDC_IOCTL(gfxDriverIOCTLRequest req, void* arg);
+ * @endcode
+ * @return gfxDriverIOCTLResponse the IOCTL handler response
+ */
 gfxDriverIOCTLResponse DRV_LCDC_IOCTL(gfxDriverIOCTLRequest req, void* arg);
+
 
 static const gfxDisplayDriver gfxDriverInterface =
 {

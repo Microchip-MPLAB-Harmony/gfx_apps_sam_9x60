@@ -274,6 +274,8 @@ static leResult setString(leButtonWidget* _this,
 
     _this->string = str;
 
+    if(_this->string != NULL)
+    {
     _this->string->fn->setPreInvalidateCallback((leString*)_this->string,
                                                 (leString_InvalidateCallback)stringPreinvalidate,
                                                 _this);
@@ -283,6 +285,7 @@ static leResult setString(leButtonWidget* _this,
                                              _this);
 
     invalidateTextRect(_this);
+    }
 
     return LE_SUCCESS;
 }

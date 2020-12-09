@@ -22,6 +22,13 @@ This demonstration provides a touch-enabled starting point for the legato graphi
 ![](./../docs/html/legato_quickstart.png)
 
 
+* [Legato Dashboard](./legato_dashboard/readme.md)
+
+This application presents a vehicle dashboard User Interface (UI). 
+
+![](./../docs/html/legato_dashboard.png)
+
+
 * [Legato Benchmark](./legato_benchmark/readme.md)
 
 This demonstration is used to benchmark the draw performance of the Legato Graphics Library on the device.

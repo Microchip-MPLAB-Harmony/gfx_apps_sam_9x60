@@ -20,3 +20,6 @@
 *.ttf binary
 *.bin binary
 *.a binary
+*.so binary
+*.otf binary
+*.pdf binary

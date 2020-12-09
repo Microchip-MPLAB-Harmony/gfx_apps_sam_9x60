@@ -18,4 +18,4 @@ children:
         children:
         - {type: Value, value: LCDC}
 - type: ElementPosition
-  attributes: {x: '342', y: '314', id: lcdc}
+  attributes: {x: '131', y: '407', id: lcdc}

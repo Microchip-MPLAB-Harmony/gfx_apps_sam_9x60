@@ -5,7 +5,7 @@ frameworkPath: ../../..
 processor: SAM9X60
 projectName: ''
 settings:
-  PackageFilter: aerospace;audio;bsp;core;csp;gfx;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;touch;usb;
+  PackageFilter: aerospace;audio;bsp;core;csp;gfx;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;touch;usb;
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   CMSISPath: .\dev_packs\arm\CMSIS\5.7.0

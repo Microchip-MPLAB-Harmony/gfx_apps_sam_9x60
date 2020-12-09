@@ -4,6 +4,13 @@ attributes: {id: le_gfx_lcdc}
 children:
 - type: Symbols
   children:
+  - type: Boolean
+    attributes: {id: CanvasModeOnly}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
   - type: Integer
     attributes: {id: DisplayHeight}
     children:
@@ -68,10 +75,10 @@ children:
       - type: String
         attributes: {id: targetComponentID}
         children:
-        - {type: Value, value: gfx_legato}
+        - {type: Value, value: gfx_canvas}
       - type: String
         attributes: {id: targetAttachmentID}
         children:
-        - {type: Value, value: gfx_driver}
+        - {type: Value, value: gfx_display_driver}
 - type: ElementPosition
-  attributes: {x: '483', y: '288', id: le_gfx_lcdc}
+  attributes: {x: '417', y: '310', id: le_gfx_lcdc}

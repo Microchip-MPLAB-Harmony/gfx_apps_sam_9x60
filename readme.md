@@ -30,7 +30,7 @@ For more information on the tools, libraries and basic development with the MPLA
 | docs       | Contains files supporting documentation |
 
 
-Documentation is available for offline viewing.  It can be used only after cloning this repository onto a local machine. For online viewing, please use [github pages](https://microchip-mplab-harmony.github.io/gfx_apps_pic32mz_da) of this repository.
+Documentation is available for offline viewing.  It can be used only after cloning this repository onto a local machine. For online viewing, please use [github pages](https://microchip-mplab-harmony.github.io/gfx_apps_sam9x60) of this repository.
 
 ## Graphics application examples
 
@@ -40,7 +40,7 @@ The following applications are provided to demonstrate a subset of the capabilit
 | --- | --- | ---- |---- |
 |  apps | [legato_quickstart](./apps/legato_quickstart/readme.md) | Legato Graphics Library Quickstart Examples | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 |     | [legato_benchmark](./apps/legato_benchmark/readme.md) | Legato Graphics Library Performance Benchmarking Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-
+|     | [legato_dashboard](./apps/legato_dashboard/readme.md) | Legato Graphics Library and Canvas Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
 ____
 

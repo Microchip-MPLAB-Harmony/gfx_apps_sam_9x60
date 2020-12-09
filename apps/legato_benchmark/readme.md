@@ -14,7 +14,7 @@ This demonstration runs on:
 
 |MPLABX Configuration|Board Configuration|
 |:-------------------|:------------------|
-|[legato\_bm\_9x60\_ek\_tm4301b.X](./firmware/legato_bm_9x60_ek_tm4301b.X/readme.md)|Curiosity PIC32MZ DA 2.0 Development Board using GLCD peripheral display controller to drive the [High-Performance 4.3" WQVGA Display Module with maXTouch® Technology](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/AC320005-4)|
+|[legato\_bm\_9x60\_ek\_tm4301b.X](./firmware/legato_bm_9x60_ek_tm4301b.X/readme.md)| SAM 9x60 Evaluation Kit using LCDC internal graphics controller to drive the [High-Performance WQVGA Display Module with maXTouch® Technology](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/AC320005-4)|
 
 
  

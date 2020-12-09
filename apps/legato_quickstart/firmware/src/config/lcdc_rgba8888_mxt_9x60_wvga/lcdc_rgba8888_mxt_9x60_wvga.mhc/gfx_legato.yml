@@ -17,7 +17,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: gfx_legato, value: lcdcDisplayDriver}
+        attributes: {id: gfx_legato, value: gfxcVirtualDisplayDriver}
   - type: Menu
     attributes: {id: rtosMenu}
     children:
@@ -37,10 +37,10 @@ children:
       - type: String
         attributes: {id: targetComponentID}
         children:
-        - {type: Value, value: le_gfx_lcdc}
+        - {type: Value, value: gfx_canvas}
       - type: String
         attributes: {id: targetAttachmentID}
         children:
-        - {type: Value, value: le_gfx_driver_lcdc}
+        - {type: Value, value: gfx_canvas}
 - type: ElementPosition
-  attributes: {x: '671', y: '315', id: gfx_legato}
+  attributes: {x: '808', y: '437', id: gfx_legato}
