@@ -18,4 +18,4 @@ children:
         children:
         - {type: Value, value: GFX2D}
 - type: ElementPosition
-  attributes: {x: '239', y: '398', id: plib_gfx2d}
+  attributes: {x: '30', y: '160', id: plib_gfx2d}

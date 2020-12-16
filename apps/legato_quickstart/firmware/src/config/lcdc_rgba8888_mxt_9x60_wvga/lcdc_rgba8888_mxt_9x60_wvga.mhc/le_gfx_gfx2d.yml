@@ -2,6 +2,15 @@ format_version: v1.0
 type: UniqueComponent
 attributes: {id: le_gfx_gfx2d}
 children:
+- type: Symbols
+  children:
+  - type: Combo
+    attributes: {id: DRV_GFX2D_MODE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: le_gfx_gfx2d, value: Asynchronous}
 - type: Attachments
   children:
   - type: DirectDependency
@@ -31,4 +40,4 @@ children:
         children:
         - {type: Value, value: gpu_driver}
 - type: ElementPosition
-  attributes: {x: '408', y: '414', id: le_gfx_gfx2d}
+  attributes: {x: '367', y: '494', id: le_gfx_gfx2d}

@@ -384,7 +384,6 @@ uint32_t PLIB_GFX2D_GetPerformanceMetric(GFX2D_PERFORMANCE_REGISTER reg)
         case GFX2D_PERFORMANCE_REG1:
             return GFX2D_REGS->GFX2D_SUB0[1].GFX2D_MC;
     }
-
     return 0;
 }
 
@@ -703,6 +702,7 @@ GFX2D_STATUS PLIB_GFX2D_Copy(GFX2D_BUFFER *dst, GFX2D_RECTANGLE *dst_rect, GFX2D
     return _gpu_instruction((uint32_t *)(&instr), 4);
 }
 
+
 GFX2D_STATUS PLIB_GFX2D_Blend(GFX2D_BUFFER *dst, GFX2D_RECTANGLE *dst_rect, GFX2D_BUFFER *fg,
                          GFX2D_RECTANGLE *fg_rect, GFX2D_BUFFER *bg, GFX2D_RECTANGLE *bg_rect,
                          GFX2D_BLEND blend)
@@ -750,9 +750,8 @@ GFX2D_STATUS PLIB_GFX2D_Rop(GFX2D_BUFFER *dst, GFX2D_RECTANGLE *dst_rect, GFX2D_
     GFX2D_REGS->GFX2D_CHID[2].GFX2D_CFG = pattern->format;
 
     GFX2D_REGS->GFX2D_CHID[3].GFX2D_PA = pmask->addr;
-    /* these registers are not required for mask surface */
-    //GFX2D_REGS->GFX2D_CHID[3].GFX2D_PITCH = pmask->width * _gfx2d_pixel_size[pmask->format];
-    //GFX2D_REGS->GFX2D_CHID[3].GFX2D_CFG = pmask->format;
+    GFX2D_REGS->GFX2D_CHID[3].GFX2D_PITCH = pmask->width * _gfx2d_pixel_size[pmask->format];
+    GFX2D_REGS->GFX2D_CHID[3].GFX2D_CFG = pmask->format;
     
     instr.wd0 = GFX2D_INST_ROP_WD0(0, 1);
     instr.wd1 = GFX2D_INST_ROP_WD1((dst_rect->width - 1), (dst_rect->height - 1));

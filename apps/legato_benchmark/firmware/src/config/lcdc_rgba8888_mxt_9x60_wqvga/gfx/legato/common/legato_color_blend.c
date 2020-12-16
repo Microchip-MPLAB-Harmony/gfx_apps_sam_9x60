@@ -42,10 +42,10 @@ static uint8_t calculateBlendColor(uint8_t ca,
 
     cr = caaa * 100;
     cr /= ar;
-    
+
     if(cr > 255)
         return 255;
-    
+
     return (uint8_t)cr;
 
     /*float lclr, rclr, lalpha, ralpha, calpha;
@@ -55,22 +55,21 @@ static uint8_t calculateBlendColor(uint8_t ca,
     rclr = (float)cb / 255.0f;
     ralpha = (float)ab / 100.0f;
     calpha = ar / 100.0f;
-    
-    float caaa = lclr * lalpha; // Ca aa
-    float cbab = (rclr * ralpha) * (1.0f - lalpha); // Cb ab
+
+    float caaa = lclr * lalpha; // Ca αa
+    float cbab = (rclr * ralpha) * (1.0f - lalpha); // Cb αb
     float cr;
-        
-    caaa += cbab; // Ca aa + (Cb ab (1 - aa))
+
+    caaa += cbab; // Ca αa + (Cb αb (1 - αa))
     cr = caaa / calpha;
-        
+
     cr *= 255.0f;
 
     return (uint8_t)cr;*/
-
 }
 
-// ar = aa + ab (1 - aa)
-// Cr = (Ca aa + Cb ab (1 - aa)) / ar
+// αr = αa + αb (1 - αa)
+// Cr = (Ca αa + Cb αb (1 - αa)) / αr
 leColor leColorBlend_RGBA_8888(leColor c1, leColor c2)
 {
     uint32_t result = 0;
@@ -79,10 +78,10 @@ leColor leColorBlend_RGBA_8888(leColor c1, leColor c2)
 
     c1a = c1 & RGBA_8888_ALPHA_MASK;
     c2a = c2 & RGBA_8888_ALPHA_MASK;
-        
+
     c1a = lePercentWholeRounded(c1a, 255);
     c2a = lePercentWholeRounded(c2a, 255);
-    
+
     calpha = c1a + (lePercentOf(c2a, (100 - c1a)));
 
     if(calpha == 0)
@@ -108,10 +107,10 @@ leColor leColorBlend_RGBA_8888(leColor c1, leColor c2)
                                   (c2 & RGBA_8888_BLUE_MASK) >> 8,
                                   c2a,
                                   calpha) << 8;
-    
+
     result &= ~(RGBA_8888_ALPHA_MASK);
     result |= (uint8_t)(lePercentOf(255, calpha));
-    
+
     return result;
 }
 

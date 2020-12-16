@@ -88,23 +88,20 @@ const gfxDisplayDriver gfxDriverInterface =
     .ioctl = GFX_CANVAS_IOCTL
 };
 
-uint32_t __attribute__ ((section(".region_nocache"), aligned (32))) canvasfb0[800 *480] = { 0 };
-uint32_t __attribute__ ((section(".region_nocache"), aligned (32))) canvasfb1[800 *480] = { 0 };
-uint32_t __attribute__ ((section(".region_nocache"), aligned (32))) canvasfb2[800 *480] = { 0 };
 
 static void gfxcObjectsInitialize(void)
 {
     unsigned int id;
 
     id = gfxcCreate();
-    gfxcSetPixelBuffer(id, 800, 480, GFX_COLOR_MODE_RGBA_8888,
-                       (void *) canvasfb0);
+    gfxcSetPixelBuffer(id, 480, 272, GFX_COLOR_MODE_RGBA_8888,
+                       NULL);
     id = gfxcCreate();
-    gfxcSetPixelBuffer(id, 800, 480, GFX_COLOR_MODE_RGBA_8888,
-                       (void *) canvasfb1);
+    gfxcSetPixelBuffer(id, 480, 272, GFX_COLOR_MODE_RGBA_8888,
+                       NULL);
     id = gfxcCreate();
-    gfxcSetPixelBuffer(id, 800, 480, GFX_COLOR_MODE_RGBA_8888,
-                       (void *) canvasfb2);
+    gfxcSetPixelBuffer(id, 480, 272, GFX_COLOR_MODE_RGBA_8888,
+                       NULL);
 }
 
 static void effectsTimerCallback ( uintptr_t context )
@@ -247,6 +244,34 @@ GFXC_RESULT _gfxcCanvasUpdate(unsigned int canvasID)
         setAlphaParm.base.id = canvas[canvasID].layer.id;
         setAlphaParm.value.v_uint = canvas[canvasID].layer.alpha;   
 
+        if (setPositionParm.x < 0)
+        {
+            //align offsets for 8bpp frames
+            if (gfxColorInfoTable[canvas[canvasID].pixelBuffer.mode].size == 1)
+                setPositionParm.x = -(abs(setPositionParm.x) & ~0x3);
+
+            setBaseAddressParm.value.v_uint += abs(setPositionParm.x) * 
+                    gfxColorInfoTable[canvas[canvasID].pixelBuffer.mode].size; 
+
+            setSizeParm.width += setPositionParm.x;
+            setPositionParm.x = 0;
+        }
+
+        if (setPositionParm.y < 0)
+        {
+            setBaseAddressParm.value.v_uint += abs(setPositionParm.y) * 
+                    setResParm.width * 
+                    gfxColorInfoTable[canvas[canvasID].pixelBuffer.mode].size;
+
+            setSizeParm.height += setPositionParm.y;
+            setPositionParm.y = 0;
+        }
+
+        if (setPositionParm.x + setSizeParm.width > displayWidth)
+            setSizeParm.width = displayWidth - setPositionParm.x;
+
+        if (setPositionParm.y + setSizeParm.height > displayHeight)
+            setSizeParm.height = displayHeight - setPositionParm.y;
 
         //Lock layer and apply layer properties
         gfxDispCtrlr->ioctl(GFX_IOCTL_SET_LAYER_LOCK, (gfxIOCTLArg_LayerValue *) &setBaseAddressParm);

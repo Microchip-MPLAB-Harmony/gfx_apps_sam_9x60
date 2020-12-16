@@ -50,18 +50,24 @@ extern "C" {
 // DOM-IGNORE-END
 
 
-//#include <toolchain_specifics.h>
+#include <toolchain_specifics.h>
 
-#define LE_COHERENT_ATTR                     
+#define LE_COHERENT_ATTR                     CACHE_ALIGN
 #define LE_COHERENT_MEMORY                   LE_COHERENT_ATTR
 
 
 #define LE_DEFAULT_COLOR_MODE                LE_COLOR_MODE_RGBA_8888
 #define LE_TOUCH_ORIENTATION                 0
+#define LE_RENDER_ORIENTATION                0
 #define LE_DRIVER_LAYER_MODE                 0
 #define LE_DYNAMIC_VTABLES                   1
 
 #define LE_ASSERT_ENABLE                     0
+
+// image decoder configuration
+#define LE_ENABLE_RAW_DECODER                1
+#define LE_ENABLE_JPEG_DECODER               1
+#define LE_ENABLE_PNG_DECODER                1
 
 #define LE_PREEMPTION_LEVEL                  0
 #define LE_STREAMING_ENABLED                 0

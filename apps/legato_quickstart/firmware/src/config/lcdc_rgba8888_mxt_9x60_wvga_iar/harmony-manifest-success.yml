@@ -4,9 +4,10 @@
 
 
 project: legato_quickstart
-creation_date: 2020-11-12T14:03:37.128-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
-operating_system: Windows 7
+creation_date: 2020-12-15T18:18:36.488-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+operating_system: Linux
 mhc_mode: Standalone            # [IDE|Standalone|Headless]
+mhc_version: v3.6.5
 mplabx_version: NA        # if MPLAB X plugin only
 plugin_version: NA        # if MPLAB X plugin only
 compiler: iar
@@ -16,6 +17,5 @@ modules:
     - {name: "csp", version: "v3.8.2"}
     - {name: "dev_packs", version: "v3.8.0"}
     - {name: "gfx", version: "v3.9.0"}
-    - {name: "mhc", version: "v3.6.1"}
-    - {name: "bsp", version: "v3.8.1"}
+    - {name: "bsp", version: "v3.8.2"}
 

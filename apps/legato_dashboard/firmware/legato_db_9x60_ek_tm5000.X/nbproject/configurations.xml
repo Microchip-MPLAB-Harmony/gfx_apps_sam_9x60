@@ -648,9 +648,9 @@
           <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/tasks.c</itemPath>
         </logicalFolder>
       </logicalFolder>
+      <itemPath>../src/app_scene1.c</itemPath>
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app.c</itemPath>
-      <itemPath>../src/app_scene1.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -658,26 +658,26 @@
       <logicalFolder name="f1"
                      displayName="lcdc_rgba8888_mxt_9x60_wqvga.mhc"
                      projectFiles="true">
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\BSP_SAM_9X60_Evaluation_Kit.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\drv_i2c.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\flexcom0.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\gfx_canvas.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\gfx_disp_pdatm5000_800x480.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\gfx_hal_le.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\gfx_legato.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\gfx_maxtouch_controller.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\HarmonyCore.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\lcdc.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\legato_gfx_pda_tm5000.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\le_gfx_lcdc.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\settings.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\sys_input.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\sys_time.yml</itemPath>
-        <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\lcdc_rgba8888_mxt_9x60_wqvga.mhc\tc0.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/drv_i2c.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_hal_le.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/settings.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/core.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/sys_input.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/lcdc.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/BSP_SAM_9X60_Evaluation_Kit.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/legato_gfx_pda_tm5000.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/project.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/le_gfx_lcdc.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_legato.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_disp_pdatm5000_800x480.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_maxtouch_controller.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_canvas.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/tc0.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/sys_time.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/flexcom0.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/HarmonyCore.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wqvga\harmony-manifest-success.yml</itemPath>
@@ -698,7 +698,7 @@
         <platformTool>jlink</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>2.50</languageToolchainVersion>
-        <platform>3</platform>
+        <platform>2</platform>
       </toolsSet>
       <packs>
         <pack name="SAM9X6_DFP" vendor="Microchip" version="1.4.45"/>

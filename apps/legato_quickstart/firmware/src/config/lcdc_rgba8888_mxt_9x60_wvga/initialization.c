@@ -263,6 +263,7 @@ static void SYSC_Disable( void )
 
 void SYS_Initialize ( void* data )
 {
+
 	SYSC_Disable( );
 
   
@@ -292,6 +293,8 @@ void SYS_Initialize ( void* data )
     DRV_LCDC_Initialize();
 
     GFX_CANVAS_Initialize();
+
+    DRV_GFX2D_Initialize();
 
 
     sysObj.drvMAXTOUCH = DRV_MAXTOUCH_Initialize(0, (SYS_MODULE_INIT *)&drvMAXTOUCHInitData);

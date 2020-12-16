@@ -5,9 +5,9 @@ frameworkPath: ../../..
 processor: SAM9X60
 projectName: legato_qs_9x60_ek_tm5000.IAR
 settings:
-  PackageFilter: aerospace;audio;bsp;bt;core;csp;gfx;aerospace;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;usb;
+  PackageFilter: gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;gfx;bsp;usb;gfx;csp;gfx_apps_pic32mz_da;gfx_apps_pic32mz_da;core;
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
-  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  CMSISPath: ./dev_packs/arm/CMSIS/5.7.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.4.40\atdf\SAM9X60.atdf
+  DFPPath: ./dev_packs/Microchip/SAM9X60_DFP/1.4.40/atdf/SAM9X60.atdf

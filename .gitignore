@@ -38,3 +38,9 @@
 /apps/legato_quickstart/firmware/legato_qs_mzda_intddr_sk_meb2_tm4301b.X/dist/
 /apps/legato_quickstart/firmware/legato_qs_mzda_extddr_sk_meb2_tm4301b.X/build/
 /apps/legato_quickstart/firmware/legato_qs_mzda_extddr_sk_meb2_tm4301b.X/dist/
+/apps/legato_benchmark/firmware/legato_bm_9x60_ek_tm4301b.X/build/
+/apps/legato_benchmark/firmware/legato_bm_9x60_ek_tm4301b.X/dist/
+/apps/legato_dashboard/firmware/legato_db_9x60_ek_tm5000.X/build/
+/apps/legato_dashboard/firmware/legato_db_9x60_ek_tm5000.X/dist/
+/apps/legato_quickstart/firmware/legato_qs_9x60_ek_tm5000.X/build/
+/apps/legato_quickstart/firmware/legato_qs_9x60_ek_tm5000.X/dist/
