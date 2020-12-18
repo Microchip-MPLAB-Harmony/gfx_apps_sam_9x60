@@ -29,13 +29,13 @@ New features added in this release are as follows:
 
 The current known issues are as follows:
 
-- None
+- For all IAR configurations, make sure LE_DYNAMIC_VTABLES is define to 1 to ensure build success
 
 ### Development Tools
 
 - [MPLAB® X IDE v5.45](https://www.microchip.com/mplab/mplab-x-ide)
 - MPLAB® X IDE plug-ins:
-  - MPLAB® Harmony Configurator (MHC) v3.6.2
+  - MPLAB® Harmony Configurator (MHC) v3.6.3
 - [MPLAB® XC32 C/C++ Compiler v2.50](https://www.microchip.com/mplab/compilers)
 
 ### Dependent Components
