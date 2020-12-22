@@ -103,6 +103,10 @@ typedef enum
 
 const char* DRIVER_NAME = "LCDC";
 
+FRAMEBUFFER_PIXEL_TYPE  __attribute__ ((section(".region_nocache"), aligned (32))) framebuffer_0[DISPLAY_WIDTH * DISPLAY_HEIGHT];
+FRAMEBUFFER_PIXEL_TYPE  __attribute__ ((section(".region_nocache"), aligned (32))) framebuffer_1[DISPLAY_WIDTH * DISPLAY_HEIGHT];
+FRAMEBUFFER_PIXEL_TYPE  __attribute__ ((section(".region_nocache"), aligned (32))) framebuffer_2[DISPLAY_WIDTH * DISPLAY_HEIGHT];
+
 
 typedef struct
 {
@@ -116,6 +120,7 @@ LCDC_DMA_DESC __attribute__ ((section(".region_nocache"), aligned (64))) channel
 LCDC_DMA_DESC __attribute__ ((section(".region_nocache"), aligned (64))) channelDesc2;
 
 static volatile DRV_STATE state;
+static gfxRect srcRect, destRect;
 static unsigned int vsyncCount = 0;
 static unsigned int activeLayer = 0;
 
@@ -285,6 +290,7 @@ gfxResult DRV_LCDC_Initialize()
     uint32_t      leftMargin;
     uint32_t      upperMargin;
     uint32_t      layerCount;
+    uint32_t      bufferCount;
     
     //Clear the descriptor and structures
     memset(drvLayer, 0, sizeof(drvLayer));
@@ -368,6 +374,9 @@ gfxResult DRV_LCDC_Initialize()
     LCDC_WaitForSyncInProgress();
     LCDC_SetPWMEnable(true);
 
+    drvLayer[0].baseaddr[0] = framebuffer_0;
+    drvLayer[1].baseaddr[0] = framebuffer_1;
+    drvLayer[2].baseaddr[0] = framebuffer_2;
     drvLayer[0].desc = &channelDesc0;
     drvLayer[1].desc = &channelDesc1;
     drvLayer[2].desc = &channelDesc2;
@@ -389,6 +398,11 @@ gfxResult DRV_LCDC_Initialize()
                                 0x01,
                                 (uint32_t) drvLayer[layerCount].desc);
         
+        //Clear frame buffer
+        for(bufferCount = 0; bufferCount < BUFFER_PER_LAYER; ++bufferCount)
+        {
+            memset(drvLayer[layerCount].baseaddr[bufferCount], 0, sizeof(FRAMEBUFFER_PIXEL_TYPE) * DISPLAY_WIDTH * DISPLAY_HEIGHT);
+        }
        
         LCDC_SetLayerClockGatingDisable(drvLayer[layerCount].hwLayerID, false);
         LCDC_SetWindowPosition(drvLayer[layerCount].hwLayerID, drvLayer[layerCount].startx, drvLayer[layerCount].starty);
@@ -481,9 +495,6 @@ gfxResult DRV_LCDC_BlitBuffer(int32_t x,
                              int32_t y,
                              gfxPixelBuffer* buf)
 {
-    void* srcPtr;
-    void* destPtr;
-    uint32_t row, rowSize;
 
     if (state != DRAW)
 	{
@@ -491,15 +502,17 @@ gfxResult DRV_LCDC_BlitBuffer(int32_t x,
 	}
 
 
-    rowSize = buf->size.width * gfxColorInfoTable[buf->mode].size;
+    srcRect.x = 0;
+    srcRect.y = 0;
+    srcRect.height = buf->size.height;
+    srcRect.width = buf->size.width;
 
-    for(row = 0; row < buf->size.height; row++)
-    {
-        srcPtr = gfxPixelBufferOffsetGet(buf, 0, row);
-        destPtr = gfxPixelBufferOffsetGet(&drvLayer[activeLayer].pixelBuffer[drvLayer[activeLayer].backBufferIdx], x, y + row);
+    destRect.x = x;
+    destRect.y = y;
+    destRect.height = buf->size.height;
+    destRect.width = buf->size.width;
 
-        memcpy(destPtr, srcPtr, rowSize);
-    }
+    gfxGPUInterface.blitBuffer(buf, &srcRect, &drvLayer[activeLayer].pixelBuffer[drvLayer[activeLayer].frontBufferIdx], &destRect);
 
     return GFX_SUCCESS;
 }

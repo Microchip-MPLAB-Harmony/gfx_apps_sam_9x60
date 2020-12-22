@@ -56,10 +56,9 @@
 #include "peripheral/aic/plib_aic.h"
 #include "gfx/driver/controller/lcdc/drv_gfx_lcdc.h"
 #include "peripheral/tc/plib_tc0.h"
-#include "peripheral/lcdc/plib_lcdc.h"
 #include "peripheral/flexcom/twi/plib_flexcom0_twi.h"
+#include "peripheral/lcdc/plib_lcdc.h"
 #include "driver/i2c/drv_i2c.h"
-#include "gfx/canvas/gfx_canvas_api.h"
 #include "system/time/sys_time.h"
 #include "system/input/sys_input.h"
 #include "gfx/driver/processor/gfx2d/drv_gfx2d.h"
@@ -68,7 +67,7 @@
 #include "system/cache/sys_cache.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
-#include "app_canvas.h"
+#include "app.h"
 
 
 

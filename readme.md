@@ -30,7 +30,7 @@ For more information on the tools, libraries and basic development with the MPLA
 | docs       | Contains files supporting documentation |
 
 
-Documentation is available for offline viewing.  It can be used only after cloning this repository onto a local machine. For online viewing, please use [github pages](https://microchip-mplab-harmony.github.io/gfx_apps_sam9x60) of this repository.
+Documentation is available for offline viewing.  It can be used only after cloning this repository onto a local machine. For online viewing, please use [github pages](https://microchip-mplab-harmony.github.io/gfx_apps_sam_9x60/) of this repository.
 
 ## Graphics application examples
 
@@ -44,10 +44,10 @@ The following applications are provided to demonstrate a subset of the capabilit
 
 ____
 
-[![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_pic32mz_da/blob/master/mplab_harmony_license.md)
-[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/gfx.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_pic32mz_da/releases/latest)
-[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/gfx.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_pic32mz_da/releases/latest)
-[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/gfx.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_pic32mz_da/graphs/commit-activity)
+[![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/blob/master/mplab_harmony_license.md)
+[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/gfx.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/releases/latest)
+[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/gfx.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/releases/latest)
+[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/gfx.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/graphs/commit-activity)
 [![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/gfx.svg)]()
 
 ____

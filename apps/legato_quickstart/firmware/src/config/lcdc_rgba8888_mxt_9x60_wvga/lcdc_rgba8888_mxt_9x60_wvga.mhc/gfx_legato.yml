@@ -17,7 +17,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: gfx_legato, value: gfxcVirtualDisplayDriver}
+        attributes: {id: gfx_legato, value: lcdcDisplayDriver}
 - type: Attachments
   children:
   - type: DirectDependency
@@ -28,11 +28,11 @@ children:
       - type: String
         attributes: {id: targetComponentID}
         children:
-        - {type: Value, value: gfx_canvas}
+        - {type: Value, value: le_gfx_lcdc}
       - type: String
         attributes: {id: targetAttachmentID}
         children:
-        - {type: Value, value: gfx_canvas}
+        - {type: Value, value: le_gfx_driver_lcdc}
   - type: DirectDependency
     attributes: {id: gpu_driver}
     children:

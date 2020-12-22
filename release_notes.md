@@ -6,7 +6,7 @@ nav_order: 99
 ![MPLAB® Harmony Graphics Suite](./docs/images/mhgs.png) Microchip MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family v3.9.0
+## MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family v3.9.1
 
 ### Development kit and demo application support
 
@@ -42,7 +42,7 @@ The current known issues are as follows:
 
 * [GFX v3.9.0](https://github.com/Microchip-MPLAB-Harmony/gfx/releases/tag/v3.9.0)
 * [BSP v3.8.2](https://github.com/Microchip-MPLAB-Harmony/bsp/releases/tag/v3.8.2)
-* [CSP v3.8.2 ](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.2)
+* [CSP v3.8.3 ](https://github.com/Microchip-MPLAB-Harmony/csp/releases/tag/v3.8.3)
 * [Core v3.8.1 ](https://github.com/Microchip-MPLAB-Harmony/core/releases/tag/v3.8.1)
 * [dev_packs v3.8.0 ](https://github.com/Microchip-MPLAB-Harmony/dev_packs/releases/tag/v3.8.0)
 * [Harmony 3 USB v3.7.0](https://github.com/Microchip-MPLAB-Harmony/usb/releases/tag/v3.7.0)

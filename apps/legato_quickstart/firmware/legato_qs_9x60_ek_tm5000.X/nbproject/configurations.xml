@@ -23,10 +23,6 @@
             <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/driver/driver_common.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="gfx" projectFiles="true">
-            <logicalFolder name="f3" displayName="canvas" projectFiles="true">
-              <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/gfx/canvas/gfx_canvas.h</itemPath>
-              <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/gfx/canvas/gfx_canvas_api.h</itemPath>
-            </logicalFolder>
             <logicalFolder name="f2" displayName="driver" projectFiles="true">
               <logicalFolder name="f2" displayName="gfx2d" projectFiles="true">
                 <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/gfx/driver/processor/gfx2d/drv_gfx2d.h</itemPath>
@@ -332,7 +328,7 @@
           <itemPath>../src/packs/SAM9X60_DFP/sam9x60.h</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <itemPath>../src/app_canvas.h</itemPath>
+      <itemPath>../src/app.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -365,10 +361,6 @@
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f2" displayName="gfx" projectFiles="true">
-            <logicalFolder name="f3" displayName="canvas" projectFiles="true">
-              <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/gfx/canvas/gfx_canvas.c</itemPath>
-              <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/gfx/canvas/gfx_canvas_api.c</itemPath>
-            </logicalFolder>
             <logicalFolder name="f2" displayName="driver" projectFiles="true">
               <logicalFolder name="f2" displayName="gfx2d" projectFiles="true">
                 <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/gfx/driver/processor/gfx2d/drv_gfx2d.c</itemPath>
@@ -662,7 +654,7 @@
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
-      <itemPath>../src/app_canvas.c</itemPath>
+      <itemPath>../src/app.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -670,28 +662,27 @@
       <logicalFolder name="f1"
                      displayName="lcdc_rgba8888_mxt_9x60_wvga.mhc"
                      projectFiles="true">
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/drv_i2c.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/gfx_hal_le.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/settings.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/core.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/sys_input.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/plib_gfx2d.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/lcdc.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/BSP_SAM_9X60_Evaluation_Kit.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/legato_gfx_pda_tm5000.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/project.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/le_gfx_lcdc.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/gfx_legato.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/gfx_disp_pdatm5000_800x480.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/gfx_maxtouch_controller.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/gfx_canvas.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/tc0.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/sys_time.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/le_gfx_gfx2d.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/flexcom0.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/core.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/drv_i2c.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/flexcom0.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/gfx_disp_pdatm5000_800x480.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/gfx_hal_le.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/gfx_legato.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/gfx_maxtouch_controller.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/GraphSettings.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/HarmonyCore.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/lcdc.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/legato_gfx_pda_tm5000.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/le_gfx_gfx2d.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/le_gfx_lcdc.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/plib_gfx2d.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/project.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/settings.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/sys_input.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/sys_time.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wvga/lcdc_rgba8888_mxt_9x60_wvga.mhc/tc0.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\lcdc_rgba8888_mxt_9x60_wvga\harmony-manifest-success.yml</itemPath>
@@ -711,7 +702,7 @@
         <platformTool>jlink</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>2.50</languageToolchainVersion>
-        <platform>2</platform>
+        <platform>3</platform>
       </toolsSet>
       <packs>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>

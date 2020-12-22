@@ -119,7 +119,7 @@ gfxResult DRV_LCDC_BlitBuffer(int32_t x, int32_t y, gfxPixelBuffer* buf);
 gfxDriverIOCTLResponse DRV_LCDC_IOCTL(gfxDriverIOCTLRequest req, void* arg);
 
 
-static const gfxDisplayDriver lcdcDisplayDriver =
+static const gfxDisplayDriver gfxDriverInterface =
 {
 	.update = DRV_LCDC_Update,
 	.blitBuffer = DRV_LCDC_BlitBuffer,

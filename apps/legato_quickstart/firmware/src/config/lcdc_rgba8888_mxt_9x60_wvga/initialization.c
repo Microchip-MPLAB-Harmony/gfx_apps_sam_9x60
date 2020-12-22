@@ -292,8 +292,6 @@ void SYS_Initialize ( void* data )
     sysObj.drvI2C0 = DRV_I2C_Initialize(DRV_I2C_INDEX_0, (SYS_MODULE_INIT *)&drvI2C0InitData);
     DRV_LCDC_Initialize();
 
-    GFX_CANVAS_Initialize();
-
     DRV_GFX2D_Initialize();
 
 
@@ -309,7 +307,7 @@ void SYS_Initialize ( void* data )
     Legato_Initialize();
 
 
-    APP_CANVAS_Initialize();
+    APP_Initialize();
 
 
 
