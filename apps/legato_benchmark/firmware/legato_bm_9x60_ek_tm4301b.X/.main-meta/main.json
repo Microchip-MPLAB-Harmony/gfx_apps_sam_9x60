@@ -4,7 +4,7 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.gfx_apps_sam_9x60_legato_benchmark_legato_bm_9x60_ek_tm4301b",
-		"version": "3.9.0",
+		"version": "3.9.1",
 		"displayName": "Legato Benchmark Example for SAM 9x60 Family",
 		"projectName": "legato_benchmark_9x60_ek_wqvga",
 		"shortDescription": "This application shows the frame update rates for various operations in the Legato Graphics Library, including string rendering, area fills and image decode and rendering. The benchmarks can be configured for different text sizes, number and size of discrete area fills and different image formats. The instantaneous and averaged frame update rates are shown at real-time on the demo.",
