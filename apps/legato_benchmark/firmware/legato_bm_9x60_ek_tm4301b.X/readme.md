@@ -34,7 +34,8 @@ Adding the **SAM 9x60 Evaluation Kit BSP** and **Legato Graphics w/ PDA TM4301b 
 Building the Application
 ------------------------
 
-The parent directory for this application is gfx/apps/legato\_benchmark. To build this application, use MPLAB X IDE to open the gfx/apps/legato\_benchmark/firmware/legato\_bm\_9x60\_ek\_tm4301b.X project file.
+The parent directory for this application is gfx/apps/legato\_benchmark. To build this application, use MPLAB X IDE to open the gfx/apps/legato\_benchmark/firmware/legato\_bm\_9x60\_ek\_tm4301b.X project file and press F11.
+A successful build will generate a harmony.bin file in dist\lcdc_rgba8888_mxt_9x60_wqvga\production in the project folder.
 
 The following table lists configuration properties:
 
@@ -48,15 +49,15 @@ The following table lists configuration properties:
 Configuring the Hardware
 ------------------------
 
-The final setup should be:
-
 Configure the hardware as follows:
 
 -   Connect the ribbon cable from the display to the J16 connector on the back of the SAM 9x60 Evaluation Kit board.
 
 ![](../../../../docs/html/sam_9x60_sk_display_conf1.png)
 
--   Power up the board by connecting the power adapter to power connector or a powered USB cable to the USB port on the SAM 9x60 Evaluation Kit board.
+-   Take an SD Card formatted with FAT32 file system, and copy the boot.bin binary file from this [location](../../../boot_image/boot.bin). Also copy the harmony.bin file you generated from the "Building the Application" section.
+
+-	Insert the SD card to J4 of the SAM 9X60 Evaluation kit and power up the board by connecting the power adapter to power connector or a powered USB cable to the USB port on the SAM 9x60 Evaluation Kit board.
 
 
 Running the Demonstration

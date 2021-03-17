@@ -12,23 +12,19 @@ children:
       - type: String
         attributes: {id: dest}
         children:
-        - {type: Value, value: /peripheral/flexcom/twi/}
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
+        - {type: Value, value: /peripheral/flexcom/twi/master/}
       - type: String
         attributes: {id: name}
         children:
-        - {type: Value, value: plib_flexcom_twi_master.h}
+        - {type: Value, value: plib_flexcom_twi_master_common.h}
       - type: String
         attributes: {id: project}
         children:
-        - {type: Value, value: config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/}
+        - {type: Value, value: config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/master/}
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: ../peripheral/flexcom_11268/templates/plib_flexcom_twi_master.h}
+        - {type: Value, value: ../peripheral/flexcom_11268/templates/plib_flexcom_twi_master_common.h}
       - type: String
         attributes: {id: type}
         children:
@@ -41,27 +37,19 @@ children:
       - type: String
         attributes: {id: dest}
         children:
-        - {type: Value, value: /peripheral/flexcom/twi/}
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
-      - type: Boolean
-        attributes: {id: markup}
-        children:
-        - {type: Value, value: 'true'}
+        - {type: Value, value: /peripheral/flexcom/twi/master/}
       - type: String
         attributes: {id: name}
         children:
-        - {type: Value, value: plib_flexcom0_twi.h}
+        - {type: Value, value: plib_flexcom0_twi_master.h}
       - type: String
         attributes: {id: project}
         children:
-        - {type: Value, value: config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/}
+        - {type: Value, value: config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/master/}
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: ../peripheral/flexcom_11268/templates/plib_flexcom_twi.h.ftl}
+        - {type: Value, value: ../peripheral/flexcom_11268/templates/plib_flexcom_twi_master.h.ftl}
       - type: String
         attributes: {id: type}
         children:
@@ -74,42 +62,49 @@ children:
       - type: String
         attributes: {id: dest}
         children:
-        - {type: Value, value: /peripheral/flexcom/twi/}
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
-      - type: Boolean
-        attributes: {id: markup}
-        children:
-        - {type: Value, value: 'true'}
+        - {type: Value, value: /peripheral/flexcom/twi/master/}
       - type: String
         attributes: {id: name}
         children:
-        - {type: Value, value: plib_flexcom0_twi.c}
+        - {type: Value, value: plib_flexcom0_twi_master.c}
       - type: String
         attributes: {id: project}
         children:
-        - {type: Value, value: config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/}
+        - {type: Value, value: config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/master/}
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: ../peripheral/flexcom_11268/templates/plib_flexcom_twi.c.ftl}
+        - {type: Value, value: ../peripheral/flexcom_11268/templates/plib_flexcom_twi_master.c.ftl}
   - type: KeyValueSet
     attributes: {id: FLEXCOM_MODE}
     children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: readOnly}
-        children:
-        - {type: Value, value: 'true'}
     - type: Values
       children:
       - type: Dynamic
         attributes: {id: flexcom0, value: '3'}
   - type: Integer
-    attributes: {id: FLEXCOM_SPI_CSR_SCBR_VALUE}
+    attributes: {id: FLEXCOM_SPI_CSR0_SCBR_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom0, value: '200'}
+  - type: Integer
+    attributes: {id: FLEXCOM_SPI_CSR1_SCBR_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom0, value: '200'}
+  - type: Integer
+    attributes: {id: FLEXCOM_SPI_CSR2_SCBR_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom0, value: '200'}
+  - type: Integer
+    attributes: {id: FLEXCOM_SPI_CSR3_SCBR_VALUE}
     children:
     - type: Values
       children:
@@ -127,10 +122,6 @@ children:
     children:
     - type: Attributes
       children:
-      - type: Boolean
-        attributes: {id: markup}
-        children:
-        - {type: Value, value: 'true'}
       - type: String
         attributes: {id: name}
         children:
@@ -148,10 +139,6 @@ children:
     children:
     - type: Attributes
       children:
-      - type: Boolean
-        attributes: {id: markup}
-        children:
-        - {type: Value, value: 'true'}
       - type: String
         attributes: {id: name}
         children:
@@ -171,15 +158,6 @@ children:
       children:
       - type: Dynamic
         attributes: {id: flexcom0, value: '200000000'}
-  - type: KeyValueSet
-    attributes: {id: FLEXCOM_TWI_CWGR_BRSRCCLK}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
   - type: Integer
     attributes: {id: FLEXCOM_TWI_CWGR_CHDIV}
     children:
@@ -207,9 +185,13 @@ children:
     - type: Attributes
       children:
       - type: Boolean
-        attributes: {id: visible}
+        attributes: {id: readOnly}
         children:
         - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom0, value: MASTER}
   - type: Integer
     attributes: {id: FLEX_USART_CLOCK_FREQ}
     children:
@@ -218,14 +200,19 @@ children:
       - type: Dynamic
         attributes: {id: flexcom0, value: '200000000'}
   - type: Integer
-    attributes: {id: I2C_CLOCK_SPEED}
+    attributes: {id: FLEX_USART_IRDA_FILTER_VAL}
     children:
-    - type: Attributes
+    - type: Values
       children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
+      - type: Dynamic
+        attributes: {id: flexcom0, value: '278'}
+  - type: Integer
+    attributes: {id: I2C_CLOCK_SPEED_HZ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom0, value: '400000'}
   - type: String
     attributes: {id: RECEIVE_DATA_REGISTER}
     children:
@@ -243,12 +230,10 @@ children:
   - type: Boolean
     attributes: {id: TWI_INTERRUPT_MODE}
     children:
-    - type: Attributes
+    - type: Values
       children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
+      - type: Dynamic
+        attributes: {id: flexcom0, value: 'true'}
 - type: Attachments
   children:
   - type: DirectCapability
@@ -264,23 +249,5 @@ children:
         attributes: {id: targetAttachmentID}
         children:
         - {type: Value, value: drv_i2c_I2C_dependency}
-  - type: DirectCapability
-    attributes: {id: FLEXCOM0_SPI}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'false'}
-  - type: DirectCapability
-    attributes: {id: FLEXCOM0_UART}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'false'}
 - type: ElementPosition
   attributes: {x: '93', y: '149', id: flexcom0}

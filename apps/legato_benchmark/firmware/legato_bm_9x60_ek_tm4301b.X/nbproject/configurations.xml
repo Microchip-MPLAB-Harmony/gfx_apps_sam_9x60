@@ -217,8 +217,10 @@
             </logicalFolder>
             <logicalFolder name="f6" displayName="flexcom" projectFiles="true">
               <logicalFolder name="f1" displayName="twi" projectFiles="true">
-                <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/plib_flexcom0_twi.h</itemPath>
-                <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/plib_flexcom_twi_master.h</itemPath>
+                <logicalFolder name="f1" displayName="master" projectFiles="true">
+                  <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/master/plib_flexcom0_twi_master.h</itemPath>
+                  <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/master/plib_flexcom_twi_master_common.h</itemPath>
+                </logicalFolder>
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="f8" displayName="gfx2d" projectFiles="true">
@@ -273,6 +275,7 @@
           <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/device.h</itemPath>
           <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/user.h</itemPath>
           <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/configuration.h</itemPath>
+          <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/interrupts.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -323,6 +326,72 @@
             <itemPath>../src/packs/SAM9X60_DFP/component/uhphs.h</itemPath>
             <itemPath>../src/packs/SAM9X60_DFP/component/wdt.h</itemPath>
             <itemPath>../src/packs/SAM9X60_DFP/component/xdmac.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/SAM9X60_DFP/instance/adc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/aes.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/aic.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/bsc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/can0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/can1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/classd.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/dbgu.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/emac0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/emac1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom10.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom11.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom12.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom2.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom3.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom4.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom5.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom6.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom7.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom8.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/flexcom9.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/gfx2d.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/gpbr.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/i2smcc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/isi.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/lcdc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/matrix.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/mpddrc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/otpc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/pioa.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/piob.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/pioc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/piod.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/pit.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/pit64b.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/pmc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/pmecc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/pmerrloc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/pwm.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/qspi.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/rstc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/rtt.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/sckc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/sdmmc0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/sdmmc1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/sdramc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/sfr.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/sha.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/shdwc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/smc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/ssc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/syscwp.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/tdes.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/trng.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/udphs.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/uhphs_ehci.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/uhphs_ohci.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/wdt.h</itemPath>
+            <itemPath>../src/packs/SAM9X60_DFP/instance/xdmac.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/SAM9X60_DFP/pio/sam9x60.h</itemPath>
@@ -614,7 +683,9 @@
             </logicalFolder>
             <logicalFolder name="f6" displayName="flexcom" projectFiles="true">
               <logicalFolder name="f1" displayName="twi" projectFiles="true">
-                <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/plib_flexcom0_twi.c</itemPath>
+                <logicalFolder name="f1" displayName="master" projectFiles="true">
+                  <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/peripheral/flexcom/twi/master/plib_flexcom0_twi_master.c</itemPath>
+                </logicalFolder>
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="f8" displayName="gfx2d" projectFiles="true">
@@ -671,27 +742,27 @@
       <logicalFolder name="f1"
                      displayName="lcdc_rgba8888_mxt_9x60_wqvga.mhc"
                      projectFiles="true">
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/drv_i2c.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_hal_le.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/settings.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/core.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/legato_gfx_pda_tm4301b.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/sys_input.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/plib_gfx2d.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/lcdc.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/BSP_SAM_9X60_Evaluation_Kit.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/core.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/drv_i2c.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/flexcom0.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_disp_pdatm4301b_480x272.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/project.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/le_gfx_lcdc.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_hal_le.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_legato.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/gfx_maxtouch_controller.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/tc0.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/sys_time.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/le_gfx_gfx2d.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/flexcom0.yml</itemPath>
-        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/GraphSettings.yml</itemPath>
         <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/HarmonyCore.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/lcdc.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/legato_gfx_pda_tm4301b.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/le_gfx_gfx2d.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/le_gfx_lcdc.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/plib_gfx2d.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/project.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/settings.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/sys_input.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/sys_time.yml</itemPath>
+        <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/lcdc_rgba8888_mxt_9x60_wqvga.mhc/tc0.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/lcdc_rgba8888_mxt_9x60_wqvga/harmony-manifest-success.yml</itemPath>
@@ -708,13 +779,13 @@
         <targetDevice>SAM9X60</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>jlink</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.50</languageToolchainVersion>
-        <platform>2</platform>
+        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAM9X6_DFP" vendor="Microchip" version="1.4.45"/>
+        <pack name="SAM9X6_DFP" vendor="Microchip" version="1.5.50"/>
       </packs>
       <ScriptingSettings>
         <ScriptingSetting key="boot.load_adr" value=""/>
@@ -781,7 +852,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/lcdc_rgba8888_mxt_9x60_wqvga;../src/packs/SAM9X60_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/lcdc_rgba8888_mxt_9x60_wqvga;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/SAM9X60_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -855,8 +926,7 @@
         <property key="no-startup-files" value="false"/>
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
-        <property key="preprocessor-macros"
-                  value=";ROM_LENGTH=-0x23f00000;ROM_ORIGIN=0x0x23f00000"/>
+        <property key="preprocessor-macros" value=""/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
@@ -878,7 +948,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/lcdc_rgba8888_mxt_9x60_wqvga;../src/packs/SAM9X60_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/lcdc_rgba8888_mxt_9x60_wqvga;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/SAM9X60_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -1429,6 +1499,11 @@
       </Simulator>
       <jlink>
         <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="boot.entry_adr" value=""/>
+        <property key="boot.load_adr" value=""/>
+        <property key="boot.path" value="${ProjectDir}\bootstrap"/>
+        <property key="boot.prj" value=""/>
+        <property key="boot.use" value="true"/>
         <property key="communication.autoselectspeed" value="true"/>
         <property key="communication.interface" value="4wire"/>
         <property key="communication.speed" value="4"/>
@@ -1451,7 +1526,9 @@
         <property key="programoptions.preserveprogramrange.end" value="0x4fffff"/>
         <property key="programoptions.preserveprogramrange.start" value="0x300000"/>
         <property key="programoptions.resetafterprogram" value="true"/>
+        <property key="script.has_reset" value="true"/>
         <property key="script.log_level" value="0"/>
+        <property key="script.reset_delay" value="0"/>
         <property key="script.show_output" value="false"/>
       </jlink>
     </conf>

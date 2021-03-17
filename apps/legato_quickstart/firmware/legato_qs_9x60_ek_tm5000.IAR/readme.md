@@ -31,7 +31,8 @@ Adding the **SAM 9x60 Evaluation Kit BSP** and **Legato Graphics w/ PDA TM5000 D
 Building the Application
 ------------------------
 
-The parent directory for this application is apps/legato\_quickstart. To build this application, use IAR EW for ARM to open the apps/legato\_quickstart/firmware/legato\_qs\_9x60\_ek\_tm5000.IAR project file.
+The parent directory for this application is apps/legato\_quickstart. To build this application, use IAR EW for ARM to open the apps/legato\_quickstart/firmware/legato\_qs\_9x60\_ek\_tm5000.IAR\legato_qs_9x60_ek_tm5000.IAR.eww project workspace and press F7 to build.
+A successful build will generate a harmony.bin in Release\Exe in the project folder. 
 
 The following table lists configuration properties:
 
@@ -44,15 +45,15 @@ The following table lists configuration properties:
 Configuring the Hardware
 ------------------------
 
-The final setup should be:
-
 Configure the hardware as follows:
 
--   Connect the ribbon cable from the display to the J16 connector on the back of the SAM 9x60 Evaluation Kit board.
+-   Connect the ribbon cable from the display to the J15 connector on the back of the SAM 9x60 Evaluation Kit board.
 
 ![](../../../../docs/html/sam_9x60_sk_display_conf1.png)
 
--   Power up the board by connecting the power adapter to power connector or a powered USB cable to the USB port on the SAM 9x60 Evaluation Kit board.
+-	Take an SD Card formatted with FAT32 file system, and copy the boot.bin binary file from this [location](../../../boot_image/boot.bin). Also copy the harmony.bin file you generated from the "Building the Application" section.
+   
+-	Insert the SD card to J4 of the SAM 9X60 Evaluation kit and power up the board by connecting the power adapter to power connector or a powered USB cable to the USB port on the SAM 9x60 Evaluation Kit board.
 
 
 Running the Demonstration

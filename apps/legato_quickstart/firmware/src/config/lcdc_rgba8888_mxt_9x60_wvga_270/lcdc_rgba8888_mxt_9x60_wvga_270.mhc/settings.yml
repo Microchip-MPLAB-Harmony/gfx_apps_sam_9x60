@@ -1,0 +1,14 @@
+configName: lcdc_rgba8888_mxt_9x60_wvga_270
+folderName: legato_qs_9x60_ek_tm5000_270
+format_version: v1.0
+frameworkPath: ..\..\..\..\harmony3_dev
+processor: SAM9X60
+projectName: legato_quickstart_9x60_ek_wvga_270
+settings:
+  PackageFilter: bsp;core;core_apps_sam_9x60;core_apps_sam_a5d2;crypto;csp;csp_apps_sam_9x60;csp_apps_sam_a5d2;gfx;gfx_apps_sam_9x60-3.8.1;net;quick_docs;usb
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  MERGE_STRATEGY: USER_RECENT
+  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.5.50\atdf\SAM9X60.atdf

@@ -4,15 +4,6 @@ attributes: {id: sys_time}
 children:
 - type: Symbols
   children:
-  - type: Combo
-    attributes: {id: SYS_TIME_OPERATING_MODE}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
   - type: String
     attributes: {id: SYS_TIME_PLIB}
     children:
@@ -27,6 +18,15 @@ children:
       children:
       - type: Dynamic
         attributes: {id: sys_time, value: tc0}
+  - type: Boolean
+    attributes: {id: SYS_TIME_USE_SYSTICK}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
 - type: Attachments
   children:
   - type: DirectDependency

@@ -17,12 +17,13 @@ User touch input on the display panel is received thru the PCAP capacitive touch
 -   24-bit color, multi-layer, WVGA (800x480) screen design
 -   Time system service, timer-counter peripheral library and driver 
 -   Graphics Acceleration using integrated display controller (LCDC)
+-   GFX2D GPU Driver Support
 -   I2C and touch controller driver 
 
 Creating the Project Graph
 --------------------------
 
-![](../../../../docs/html/legato_sam9x60_lcdc_no_gpu_wvga_pg.png)
+![](../../../../docs/html/legato_sam9x60_lcdc_gpu_wvga_pg.png)
 
 The Project Graph diagram shows the Harmony components that are included in this application. Lines between components are drawn to satisfy components that depend on a capability that another component provides.
 
@@ -31,7 +32,8 @@ Adding the **SAM 9x60 Evaluation Kit BSP** and **Legato Graphics w/ PDA TM5000 D
 Building the Application
 ------------------------
 
-The parent directory for this application is gfx/apps/legato\_quickstart. To build this application, use MPLAB X IDE to open the gfx/apps/legato\_quickstart/firmware/legato\_qs\_9x60\_ek\_tm5000.X project file.
+The parent directory for this application is gfx/apps/legato\_quickstart. To build this application, use MPLAB X IDE to open the gfx/apps/legato\_quickstart/firmware/legato\_qs\_9x60\_ek\_tm5000.X project file and press F11.
+A successful build will generate a harmony.bin file in dist\lcdc_rgba8888_mxt_9x60_wvga\production in the project folder.
 
 The following table lists configuration properties:
 
@@ -44,15 +46,15 @@ The following table lists configuration properties:
 Configuring the Hardware
 ------------------------
 
-The final setup should be:
-
 Configure the hardware as follows:
 
--   Connect the ribbon cable from the display to the J16 connector on the back of the SAM 9x60 Evaluation Kit board.
+-   Connect the ribbon cable from the display to the J15 connector on the back of the SAM 9x60 Evaluation Kit board.
 
 ![](../../../../docs/html/sam_9x60_sk_display_conf1.png)
 
--   Power up the board by connecting the power adapter to power connector or a powered USB cable to the USB port on the SAM 9x60 Evaluation Kit board.
+-	Take an SD Card formatted with FAT32 file system, and copy the boot.bin binary file from this [location](../../../boot_image/boot.bin). Also copy the harmony.bin file you generated from the "Building the Application" section.
+
+-   Insert the SD card to J4 of the SAM 9X60 Evaluation kit and power up the board by connecting the power adapter to power connector or a powered USB cable to the USB port on the SAM 9x60 Evaluation Kit board.
 
 
 Running the Demonstration
