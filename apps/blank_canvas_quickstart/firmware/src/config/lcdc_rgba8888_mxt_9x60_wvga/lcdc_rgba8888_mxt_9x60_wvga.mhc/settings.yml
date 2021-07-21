@@ -1,0 +1,14 @@
+configName: lcdc_rgba8888_mxt_9x60_wvga
+folderName: blank_cqs_9x60_ek_tm5000
+format_version: v1.0
+frameworkPath: ..\..\..\..\harmony3_dev
+processor: SAM9X60
+projectName: blank_cqs_9x60_ek_wvga
+settings:
+  PackageFilter: bsp;core;csp;gfx;quick_docs;touch;usb
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.5.50\atdf\SAM9X60.atdf

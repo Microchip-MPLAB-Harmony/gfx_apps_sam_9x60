@@ -1,9 +1,9 @@
 #include "gfx/legato/generated/screen/le_gen_screen_Screen0.h"
 
 // screen member widget declarations
-leWidget* root0;
-leWidget* root1;
-leWidget* root2;
+static leWidget* root0;
+static leWidget* root1;
+static leWidget* root2;
 
 leWidget* Screen0_default_Layer0_FillPanel;
 leImageWidget* Screen0_ImageWidget0;

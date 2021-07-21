@@ -6,7 +6,7 @@ nav_order: 99
 ![MPLAB® Harmony Graphics Suite](./docs/images/mhgs.png) Microchip MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family v3.9.2
+## MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family v3.9.3
 
 ### Development kit and demo application support
 
@@ -14,9 +14,20 @@ Following table provides number of peripheral library examples available for dif
 
 | Development Kits  | MPLABx applications |
 |:-----------------|:-------------------:|
-| SAM 9x60 Evaluation Kit | 5 |
+| SAM 9x60 Evaluation Kit | 9 |
 |
 
+
+## Release v3.9.3
+
+### New Features
+
+New features added in this release are as follows:
+
+- Added Blank Quickstart (Single-Buffered) WVGA configuration
+- Added Blank Quickstart (Double-Buffered) WVGA configuration
+- Added Blank Canvas Quickstart WVGA configuration
+- Added Legato Canvas Quickstart WVGA configuration
 
 ## Release v3.9.2
 
@@ -52,12 +63,12 @@ The current known issues are as follows:
 
 ### Development Tools
 
-- [MPLAB® X IDE v5.45 and above](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB® X IDE v5.50 and above](https://www.microchip.com/mplab/mplab-x-ide)
 - MPLAB® X IDE plug-ins:
-    - [MPLAB® Harmony Configurator (MHC) v3.6.3 and above](https://github.com/Microchip-MPLAB-Harmony/mplabx-plugin).
-- [MPLAB® XC32 C/C++ Compiler v2.50 and above](https://www.microchip.com/mplab/compilers)
+    - [MPLAB® Harmony Configurator (MHC) v3.6.4 and above](https://github.com/Microchip-MPLAB-Harmony/mplabx-plugin).
+- [MPLAB® XC32 C/C++ Compiler v3.01 and above](https://www.microchip.com/mplab/compilers)
 
 ### Dependent Components
 
-* [GFX v3.9.2](https://github.com/Microchip-MPLAB-Harmony/gfx/releases/tag/v3.9.2)
+* [GFX v3.9.4](https://github.com/Microchip-MPLAB-Harmony/gfx/releases/tag/v3.9.4)
 * [IAR Embedded WorkBench ARM v8.40.1](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)

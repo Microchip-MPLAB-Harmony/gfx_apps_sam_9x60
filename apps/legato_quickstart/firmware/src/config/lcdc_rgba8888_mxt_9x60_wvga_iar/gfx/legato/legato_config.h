@@ -60,15 +60,15 @@ extern "C" {
 #define LE_TOUCH_ORIENTATION                 0
 #define LE_RENDER_ORIENTATION                0
 #define LE_DRIVER_LAYER_MODE                 0
-// CUSTOM CODE - DO NOT MODIFY
 #define LE_DYNAMIC_VTABLES                   1
-// END CUSTOM CODE
+
 #define LE_ASSERT_ENABLE                     0
 
 // image decoder configuration
 #define LE_ENABLE_RAW_DECODER                1
 #define LE_ENABLE_JPEG_DECODER               1
 #define LE_ENABLE_PNG_DECODER                1
+#define LE_ENABLE_MONO_DECODER                1
 
 #define LE_PREEMPTION_LEVEL                  0
 #define LE_STREAMING_ENABLED                 0
@@ -160,6 +160,8 @@ extern "C" {
 #define LE_SCRATCH_BUFFER_PADDING          0
 #define LE_USE_ARC_SCAN_FILL               1
 #define LE_ARC_SMOOTH_EDGE                 LE_FALSE
+
+#define LE_MONOCHROME_ON                   1
 
 
 //DOM-IGNORE-BEGIN

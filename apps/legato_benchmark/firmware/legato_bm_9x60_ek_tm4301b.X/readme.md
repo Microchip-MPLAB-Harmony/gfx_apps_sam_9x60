@@ -34,7 +34,7 @@ Adding the **SAM 9x60 Evaluation Kit BSP** and **Legato Graphics w/ PDA TM4301b 
 Building the Application
 ------------------------
 
-The parent directory for this application is gfx/apps/legato\_benchmark. To build this application, use MPLAB X IDE to open the gfx/apps/legato\_benchmark/firmware/legato\_bm\_9x60\_ek\_tm4301b.X project file and press F11.
+The parent directory for this application is gfx/apps/legato\_benchmark. To build this application, use MPLAB X IDE to open the gfx/apps/legato\_benchmark/firmware/legato\_bm\_9x60\_ek\_tm4301b.X project folder and press F11.
 A successful build will generate a harmony.bin file in dist\lcdc_rgba8888_mxt_9x60_wqvga\production in the project folder.
 
 The following table lists configuration properties:

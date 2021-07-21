@@ -29,9 +29,39 @@ This application presents a vehicle dashboard User Interface (UI).
 ![](./../docs/html/legato_dashboard.png)
 
 
+* [Legato Canvas Quickstart](./legato_canvas_quickstart/readme.md)
+
+This application shows how to use Canvas with legato graphics library. 
+
+![](./../docs/html/legato_canvas_quickstart.png)
+
+
 * [Legato Benchmark](./legato_benchmark/readme.md)
 
 This demonstration is used to benchmark the draw performance of the Legato Graphics Library on the device.
 
 ![](./../docs/html/legato_benchmark.png)
+
+
+## Blank Library Examples
+
+* [Blank Quickstart](./blank_quickstart/readme.md)
+
+This application demonstrates a simple way to create a graphics application using a custom graphics library that directly uses the LCD controller driver.
+
+![](./../docs/html/blank_quickstart.png)
+
+
+* [Blank Quickstart with Double Buffering](./blank_quickstart_db/readme.md)
+
+This application demonstrates a simple way to create a graphics application using a custom graphics library that directly uses the LCD controller driver. Usage of double frame buffer is demonstrated.
+
+![](./../docs/html/blank_quickstart_db.png)
+
+
+* [Blank Canvas Quickstart](./blank_canvas_quickstart/readme.md)
+
+This simple application demonstrates how to use Canvas library to display a pixel buffer with a custom graphics library using the LCD controller driver.
+
+![](./../docs/html/blank_canvas_qs.png)
 

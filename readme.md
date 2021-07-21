@@ -34,16 +34,26 @@ For more information on the tools, libraries and basic development with the MPLA
 
 Documentation is available for offline viewing.  It can be used only after cloning this repository onto a local machine. For online viewing, please use [github pages](https://microchip-mplab-harmony.github.io/gfx_apps_sam_9x60/) of this repository.
 
+## Graphics application examples (Blank)
+
+The following applications are provided to demonstrate the capabilities of Harmony Graphics Suite to support third-party graphics library.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+|  apps |[blank_quickstart_db](./apps/blank_quickstart_db/readme.md) | "Blank" Graphics Library Quickstart Example using Double Buffering | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|     | [blank_quickstart](./apps/blank_quickstart/readme.md) | "Blank" Graphics Library Quickstart Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|     | [blank_canvas_quickstart](./apps/blank_canvas_quickstart/readme.md) | "Blank" Graphics Library and simple Canvas Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+
 ## Graphics application examples (Legato)
 
 The following applications are provided to demonstrate a subset of the capabilities of Harmony Graphics Suite.
 
 | Category | Item | Description | Release Type |
 | --- | --- | ---- |---- |
-|  apps | [legato_quickstart](./apps/legato_quickstart/readme.md) | Legato Graphics Library Quickstart Examples | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-|     | [legato_benchmark](./apps/legato_benchmark/readme.md) | Legato Graphics Library Performance Benchmarking Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|  apps | [legato_quickstart](./apps/legato_quickstart/readme.md) | Legato Graphics Library Quickstart Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 |     | [legato_dashboard](./apps/legato_dashboard/readme.md) | Legato Graphics Library and Canvas Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-
+|     | [legato_canvas_quickstart](./apps/legato_canvas_quickstart/readme.md) | Legato Graphics Library and simple Canvas Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|     | [legato_benchmark](./apps/legato_benchmark/readme.md) | Legato Graphics Library Performance Benchmarking Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 ____
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/blob/master/mplab_harmony_license.md)
