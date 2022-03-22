@@ -3,8 +3,8 @@
 	"category": "com.microchip.ide.project",
 	"content": {
 		"metaDataVersion": "1.1.0",
-		"name": "com.microchip.mcu32.mplabx.project.gfx_apps_sam_9x60_legato_quickstart_legato_cqs_9x60_ek_tm5000",
-		"version": "3.9.2",
+		"name": "com.microchip.mcu32.mplabx.project.gfx_apps_sam_9x60_legato_canvas_quickstart_legato_cqs_9x60_ek_tm5000",
+		"version": "3.10.0",
 		"displayName": "Legato Canvas Quickstart Example for SAM 9x60 Family",
 		"projectName": "legato_canvas_quickstart_sam9x60_ek_wvga",
 		"shortDescription": "This demonstration provides a touch-enabled starting point for the legato graphics library using graphics canvas.",

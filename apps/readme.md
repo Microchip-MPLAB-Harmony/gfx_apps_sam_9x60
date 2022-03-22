@@ -7,11 +7,13 @@ nav_order: 2
 family: SAM9X60
 market:
   - graphics
+  - camera
 ---
 
 # Example Applications
 
-The following applications are provided to demonstrate both basic and advanced Graphics capabilities of the SAM 9x60 Family.
+The following applications are provided to demonstrate both basic and advanced Graphics capabilities of the SAM 9x60 Family. 
+An OV5640 CMOS camera module example is provided to demonstrate the usage of the SAM9X60 Image Sensor Interface.
 
 ## Legato Library Examples 
 
@@ -64,4 +66,12 @@ This application demonstrates a simple way to create a graphics application usin
 This simple application demonstrates how to use Canvas library to display a pixel buffer with a custom graphics library using the LCD controller driver.
 
 ![](./../docs/html/blank_canvas_qs.png)
+
+
+## Camera Examples 
+* [ISI Camera](./isi_camera/readme.md)
+
+This application uses the OV5640 arducam camera module to demonstrate the usage of the SAM9X60-EK ISI interface.
+
+![](./../docs/html/ov5640_arducam.png)
 

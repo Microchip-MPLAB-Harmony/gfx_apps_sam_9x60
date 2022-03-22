@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>3</fileVersion>
     <configuration>
@@ -190,11 +190,11 @@
                 </option>
                 <option>
                     <name>GenLocaleTags</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>GenLocaleDisplayOnly</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>DSPExtension</name>
@@ -220,6 +220,7 @@
                 <debug>1</debug>
                 <option>
                     <name>CCDefines</name>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -259,19 +260,19 @@
                 </option>
                 <option>
                     <name>CCDiagSuppress</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagRemark</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagWarning</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagError</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CCObjPrefix</name>
@@ -337,7 +338,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CompilerMisraOverride</name>
@@ -348,8 +349,7 @@
                     <state>$PROJ_DIR$\..\src</state>
                     <state>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar</state>
                     <state>$PROJ_DIR$\..\src\packs\SAM9X60_DFP</state>
-                    <state>$PROJ_DIR$\..\src\packs\CMSIS\CMSIS\Core\Include</state>
-                    <state>$PROJ_DIR$\..\src\packs\CMSIS</state>
+                    <state>$PROJ_DIR$\.</state>
                     <state>$PROJ_DIR$/../src</state>
                     <state>$PROJ_DIR$/../src/config/lcdc_rgba8888_mxt_9x60_wvga_iar</state>
                     <state>$PROJ_DIR$/../src/packs/SAM9X60_DFP</state>
@@ -516,15 +516,15 @@
                 </option>
                 <option>
                     <name>AWarnOne</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange1</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>ADebug</name>
@@ -536,6 +536,7 @@
                 </option>
                 <option>
                     <name>ADefines</name>
+                    <state></state>
                 </option>
                 <option>
                     <name>AList</name>
@@ -627,6 +628,7 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
+                    <state></state>
                 </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
@@ -634,7 +636,7 @@
                 </option>
                 <option>
                     <name>AExtraOptionsV2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>AsmNoLiteralPool</name>
@@ -676,8 +678,8 @@
             <name>CUSTOM</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <extensions />
-                <cmdline />
+                <extensions></extensions>
+                <cmdline></cmdline>
                 <hasPrio>0</hasPrio>
             </data>
         </settings>
@@ -690,8 +692,8 @@
             <name>BUILDACTION</name>
             <archiveVersion>1</archiveVersion>
             <data>
-                <prebuild />
-                <postbuild />
+                <prebuild></prebuild>
+                <postbuild></postbuild>
             </data>
         </settings>
         <settings>
@@ -723,31 +725,31 @@
                 </option>
                 <option>
                     <name>IlinkKeepSymbols</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkDefines</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkConfigDefines</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkMapFile</name>
@@ -783,7 +785,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEnableRemarks</name>
@@ -791,19 +793,19 @@
                 </option>
                 <option>
                     <name>IlinkSuppressDiags</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsRem</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsWarn</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsErr</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkWarningsAreErrors</name>
@@ -815,7 +817,7 @@
                 </option>
                 <option>
                     <name>IlinkExtraOptions</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkLowLevelInterfaceSlave</name>
@@ -827,7 +829,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>
@@ -962,11 +964,11 @@
                 </option>
                 <option>
                     <name>IlinkStackControlFile</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkStackCallGraphFile</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CrcAlgorithm</name>
@@ -988,7 +990,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile_AltDefault</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEncInput</name>
@@ -1020,19 +1022,19 @@
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign2</name>
-                    <state />
+                    <state></state>
                 </option>
             </data>
         </settings>
@@ -1045,7 +1047,7 @@
                 <debug>1</debug>
                 <option>
                     <name>IarchiveInputs</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IarchiveOverride</name>
@@ -1257,11 +1259,11 @@
                 </option>
                 <option>
                     <name>GenLocaleTags</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>GenLocaleDisplayOnly</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>DSPExtension</name>
@@ -1327,19 +1329,19 @@
                 </option>
                 <option>
                     <name>CCDiagSuppress</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagRemark</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagWarning</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagError</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CCObjPrefix</name>
@@ -1368,7 +1370,7 @@
                 </option>
                 <option>
                     <name>IExtraOptions</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CCLangConformance</name>
@@ -1404,7 +1406,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CompilerMisraOverride</name>
@@ -1415,8 +1417,7 @@
                     <state>$PROJ_DIR$\..\src</state>
                     <state>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar</state>
                     <state>$PROJ_DIR$\..\src\packs\SAM9X60_DFP</state>
-                    <state>$PROJ_DIR$\..\src\packs\CMSIS\CMSIS\Core\Include</state>
-                    <state>$PROJ_DIR$\..\src\packs\CMSIS</state>
+                    <state>$PROJ_DIR$\.</state>
                     <state>$PROJ_DIR$/../src</state>
                     <state>$PROJ_DIR$/../src/config/lcdc_rgba8888_mxt_9x60_wvga_iar</state>
                     <state>$PROJ_DIR$/../src/packs/SAM9X60_DFP</state>
@@ -1583,15 +1584,15 @@
                 </option>
                 <option>
                     <name>AWarnOne</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange1</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>ADebug</name>
@@ -1603,6 +1604,7 @@
                 </option>
                 <option>
                     <name>ADefines</name>
+                    <state></state>
                 </option>
                 <option>
                     <name>AList</name>
@@ -1678,7 +1680,7 @@
                 </option>
                 <option>
                     <name>AOutputFile</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>ALimitErrorsCheck</name>
@@ -1694,6 +1696,7 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
+                    <state></state>
                 </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
@@ -1701,7 +1704,7 @@
                 </option>
                 <option>
                     <name>AExtraOptionsV2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>AsmNoLiteralPool</name>
@@ -1743,8 +1746,8 @@
             <name>CUSTOM</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <extensions />
-                <cmdline />
+                <extensions></extensions>
+                <cmdline></cmdline>
                 <hasPrio>0</hasPrio>
             </data>
         </settings>
@@ -1757,8 +1760,8 @@
             <name>BUILDACTION</name>
             <archiveVersion>1</archiveVersion>
             <data>
-                <prebuild />
-                <postbuild />
+                <prebuild></prebuild>
+                <postbuild></postbuild>
             </data>
         </settings>
         <settings>
@@ -1790,31 +1793,31 @@
                 </option>
                 <option>
                     <name>IlinkKeepSymbols</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkDefines</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkConfigDefines</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkMapFile</name>
@@ -1850,7 +1853,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEnableRemarks</name>
@@ -1858,19 +1861,19 @@
                 </option>
                 <option>
                     <name>IlinkSuppressDiags</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsRem</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsWarn</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsErr</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkWarningsAreErrors</name>
@@ -1882,7 +1885,7 @@
                 </option>
                 <option>
                     <name>IlinkExtraOptions</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkLowLevelInterfaceSlave</name>
@@ -1894,7 +1897,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>
@@ -2029,11 +2032,11 @@
                 </option>
                 <option>
                     <name>IlinkStackControlFile</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkStackCallGraphFile</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>CrcAlgorithm</name>
@@ -2055,7 +2058,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile_AltDefault</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEncInput</name>
@@ -2087,19 +2090,19 @@
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment2</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign2</name>
-                    <state />
+                    <state></state>
                 </option>
             </data>
         </settings>
@@ -2112,7 +2115,7 @@
                 <debug>0</debug>
                 <option>
                     <name>IarchiveInputs</name>
-                    <state />
+                    <state></state>
                 </option>
                 <option>
                     <name>IarchiveOverride</name>
@@ -2150,12 +2153,45 @@
                         </file>
                     </group>
                     <group>
+                        <name>driver</name>
+                        <group>
+                            <name>i2c</name>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\i2c\drv_i2c.h</name>
+                            </file>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\i2c\drv_i2c_definitions.h</name>
+                            </file>
+                        </group>
+                        <group>
+                            <name>input</name>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\input\drv_maxtouch.h</name>
+                            </file>
+                        </group>
+                        <file>
+                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\driver.h</name>
+                        </file>
+                        <file>
+                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\driver_common.h</name>
+                        </file>
+                    </group>
+                    <group>
                         <name>gfx</name>
                         <group>
+                            <name>driver</name>
+                            <group>
+                                <name>lcdc</name>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\driver\controller\lcdc\drv_gfx_lcdc.h</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\driver\gfx_driver.h</name>
+                                </file>
+                            </group>
+                        </group>
+                        <group>
                             <name>legato</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\legato.h</name>
-                            </file>
                             <group>
                                 <name>common</name>
                                 <file>
@@ -2217,19 +2253,28 @@
                                 </file>
                             </group>
                             <group>
-                                <name>image</name>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_image.h</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_palette.h</name>
-                                </file>
+                                <name>generated</name>
                                 <group>
-                                    <name>raw</name>
+                                    <name>screen</name>
                                     <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\raw\legato_imagedecoder_raw.h</name>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\screen\le_gen_screen_Screen0.h</name>
                                     </file>
                                 </group>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_assets.h</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_harmony.h</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_init.h</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_scheme.h</name>
+                                </file>
+                            </group>
+                            <group>
+                                <name>image</name>
                                 <group>
                                     <name>jpeg</name>
                                     <file>
@@ -2237,6 +2282,12 @@
                                     </file>
                                     <file>
                                         <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\jpeg\legato_imagedecoder_jpeg_common.h</name>
+                                    </file>
+                                </group>
+                                <group>
+                                    <name>mono</name>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\mono\legato_imagedecoder_mono.h</name>
                                     </file>
                                 </group>
                                 <group>
@@ -2249,13 +2300,19 @@
                                     </file>
                                 </group>
                                 <group>
-                                    <name>mono</name>
+                                    <name>raw</name>
                                     <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\mono\legato_imagedecoder_mono.h</name>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\raw\legato_imagedecoder_raw.h</name>
                                     </file>
                                 </group>
                                 <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_image.h</name>
+                                </file>
+                                <file>
                                     <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_image_utils.h</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_palette.h</name>
                                 </file>
                             </group>
                             <group>
@@ -2273,10 +2330,10 @@
                             <group>
                                 <name>renderer</name>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\renderer\legato_renderer.h</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\renderer\legato_gpu.h</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\renderer\legato_gpu.h</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\renderer\legato_renderer.h</name>
                                 </file>
                             </group>
                             <group>
@@ -2297,23 +2354,14 @@
                                     <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_stringtable.h</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_tablestring.h</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_stringutils.h</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_stringutils.h</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_tablestring.h</name>
                                 </file>
                             </group>
                             <group>
                                 <name>widget</name>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_editwidget.h</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget.h</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget_skin_classic_common.h</name>
-                                </file>
                                 <group>
                                     <name>arc</name>
                                     <file>
@@ -2497,80 +2545,38 @@
                                         <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\window\legato_widget_window.h</name>
                                     </file>
                                 </group>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_editwidget.h</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget.h</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget_skin_classic_common.h</name>
+                                </file>
                             </group>
-                            <group>
-                                <name>generated</name>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_assets.h</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_harmony.h</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_init.h</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_scheme.h</name>
-                                </file>
-                                <group>
-                                    <name>screen</name>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\screen\le_gen_screen_Screen0.h</name>
-                                    </file>
-                                </group>
-                            </group>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\legato.h</name>
+                            </file>
                             <file>
                                 <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\legato_config.h</name>
                             </file>
                         </group>
-                        <group>
-                            <name>driver</name>
-                            <group>
-                                <name>lcdc</name>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\driver\gfx_driver.h</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\driver\controller\lcdc\drv_gfx_lcdc.h</name>
-                                </file>
-                            </group>
-                        </group>
                     </group>
-                    <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\device_cache.h</name>
-                    </file>
-                    <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\toolchain_specifics.h</name>
-                    </file>
-                    <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\definitions.h</name>
-                    </file>
-                    <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\interrupts.h</name>
-                    </file>
+                    <group>
+                        <name>osal</name>
+                        <file>
+                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\osal\osal.h</name>
+                        </file>
+                        <file>
+                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\osal\osal_definitions.h</name>
+                        </file>
+                        <file>
+                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\osal\osal_impl_basic.h</name>
+                        </file>
+                    </group>
                     <group>
                         <name>peripheral</name>
-                        <group>
-                            <name>mmu</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\mmu\plib_mmu.h</name>
-                            </file>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\mmu\cp15.h</name>
-                            </file>
-                        </group>
-                        <group>
-                            <name>clk</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\clk\plib_clk.h</name>
-                            </file>
-                        </group>
-                        <group>
-                            <name>pio</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\pio\plib_pio.h</name>
-                            </file>
-                        </group>
                         <group>
                             <name>aic</name>
                             <file>
@@ -2578,12 +2584,9 @@
                             </file>
                         </group>
                         <group>
-                            <name>tc</name>
+                            <name>clk</name>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\tc\plib_tc0.h</name>
-                            </file>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\tc\plib_tc_common.h</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\clk\plib_clk.h</name>
                             </file>
                         </group>
                         <group>
@@ -2607,43 +2610,43 @@
                                 <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\lcdc\plib_lcdc.h</name>
                             </file>
                         </group>
-                    </group>
-                    <group>
-                        <name>driver</name>
                         <group>
-                            <name>i2c</name>
+                            <name>mmu</name>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\i2c\drv_i2c.h</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\mmu\cp15.h</name>
                             </file>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\i2c\drv_i2c_definitions.h</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\mmu\plib_mmu.h</name>
                             </file>
                         </group>
                         <group>
-                            <name>input</name>
+                            <name>pio</name>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\input\drv_maxtouch.h</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\pio\plib_pio.h</name>
                             </file>
                         </group>
-                        <file>
-                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\driver.h</name>
-                        </file>
-                        <file>
-                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\driver_common.h</name>
-                        </file>
+                        <group>
+                            <name>tc</name>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\tc\plib_tc0.h</name>
+                            </file>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\tc\plib_tc_common.h</name>
+                            </file>
+                        </group>
                     </group>
                     <group>
                         <name>system</name>
                         <group>
-                            <name>time</name>
+                            <name>cache</name>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\time\sys_time.h</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\cache\sys_cache.h</name>
                             </file>
+                        </group>
+                        <group>
+                            <name>debug</name>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\time\sys_time_definitions.h</name>
-                            </file>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\time\src\sys_time_local.h</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\debug\sys_debug.h</name>
                             </file>
                         </group>
                         <group>
@@ -2667,15 +2670,6 @@
                                 <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\input\sys_input_touch.h</name>
                             </file>
                         </group>
-                        <file>
-                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\system.h</name>
-                        </file>
-                        <file>
-                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\system_common.h</name>
-                        </file>
-                        <file>
-                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\system_module.h</name>
-                        </file>
                         <group>
                             <name>int</name>
                             <file>
@@ -2686,38 +2680,47 @@
                             </file>
                         </group>
                         <group>
-                            <name>cache</name>
+                            <name>time</name>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\cache\sys_cache.h</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\time\sys_time.h</name>
+                            </file>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\time\sys_time_definitions.h</name>
+                            </file>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\time\src\sys_time_local.h</name>
                             </file>
                         </group>
-                        <group>
-                            <name>debug</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\debug\sys_debug.h</name>
-                            </file>
-                        </group>
+                        <file>
+                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\system.h</name>
+                        </file>
+                        <file>
+                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\system_common.h</name>
+                        </file>
+                        <file>
+                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\system_module.h</name>
+                        </file>
                     </group>
+                    <file>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\configuration.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\definitions.h</name>
+                    </file>
                     <file>
                         <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\device.h</name>
                     </file>
-                    <group>
-                        <name>osal</name>
-                        <file>
-                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\osal\osal.h</name>
-                        </file>
-                        <file>
-                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\osal\osal_definitions.h</name>
-                        </file>
-                        <file>
-                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\osal\osal_impl_basic.h</name>
-                        </file>
-                    </group>
                     <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\user.h</name>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\device_cache.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\configuration.h</name>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\interrupts.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\toolchain_specifics.h</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\user.h</name>
                     </file>
                 </group>
             </group>
@@ -3058,19 +3061,25 @@
                             <name>$PROJ_DIR$\..\src\packs\SAM9X60_DFP\instance\xdmac.h</name>
                         </file>
                     </group>
-                    <file>
-                        <name>$PROJ_DIR$\..\src\packs\SAM9X60_DFP\sam9x60.h</name>
-                    </file>
                     <group>
                         <name>pio</name>
                         <file>
                             <name>$PROJ_DIR$\..\src\packs\SAM9X60_DFP\pio\sam9x60.h</name>
                         </file>
                     </group>
+                    <file>
+                        <name>$PROJ_DIR$\..\src\packs\SAM9X60_DFP\sam9x60.h</name>
+                    </file>
                 </group>
             </group>
             <file>
                 <name>$PROJ_DIR$\..\src\app.h</name>
+            </file>
+        </group>
+        <group>
+            <name>Linker File</name>
+            <file>
+                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\ddram.icf</name>
             </file>
         </group>
         <group>
@@ -3086,7 +3095,37 @@
                         </file>
                     </group>
                     <group>
+                        <name>driver</name>
+                        <group>
+                            <name>i2c</name>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\i2c\src\drv_i2c.c</name>
+                            </file>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\i2c\src\drv_i2c_local.h</name>
+                            </file>
+                        </group>
+                        <group>
+                            <name>input</name>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\input\drv_maxtouch.c</name>
+                            </file>
+                        </group>
+                    </group>
+                    <group>
                         <name>gfx</name>
+                        <group>
+                            <name>driver</name>
+                            <group>
+                                <name>lcdc</name>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\driver\controller\lcdc\drv_gfx_lcdc.c</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\driver\gfx_driver.c</name>
+                                </file>
+                            </group>
+                        </group>
                         <group>
                             <name>legato</name>
                             <group>
@@ -3168,13 +3207,76 @@
                                 </file>
                             </group>
                             <group>
+                                <name>generated</name>
+                                <group>
+                                    <name>font</name>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\font\le_gen_fonts.c</name>
+                                    </file>
+                                </group>
+                                <group>
+                                    <name>image</name>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\image\le_gen_images.c</name>
+                                    </file>
+                                </group>
+                                <group>
+                                    <name>screen</name>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\screen\le_gen_screen_Screen0.c</name>
+                                    </file>
+                                </group>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_globalpalette.c</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_harmony.c</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_init.c</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_scheme.c</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_stringtable.c</name>
+                                </file>
+                            </group>
+                            <group>
                                 <name>image</name>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_image.c</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_palette.c</name>
-                                </file>
+                                <group>
+                                    <name>jpeg</name>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\jpeg\jidctint.c</name>
+                                    </file>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\jpeg\legato_imagedecoder_jpeg.c</name>
+                                    </file>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\jpeg\legato_imagedecoder_jpeg_common.c</name>
+                                    </file>
+                                </group>
+                                <group>
+                                    <name>mono</name>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\mono\legato_imagedecoder_mono.c</name>
+                                    </file>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\mono\legato_imagedecoder_mono_read_internal.c</name>
+                                    </file>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\mono\legato_imagedecoder_mono_read_stream.c</name>
+                                    </file>
+                                </group>
+                                <group>
+                                    <name>png</name>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\png\legato_imagedecoder_png.c</name>
+                                    </file>
+                                    <file>
+                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\png\lodepng.c</name>
+                                    </file>
+                                </group>
                                 <group>
                                     <name>raw</name>
                                     <file>
@@ -3223,41 +3325,14 @@
                                         <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\raw\legato_imagedecoder_raw_write.c</name>
                                     </file>
                                 </group>
-                                <group>
-                                    <name>jpeg</name>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\jpeg\legato_imagedecoder_jpeg.c</name>
-                                    </file>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\jpeg\legato_imagedecoder_jpeg_common.c</name>
-                                    </file>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\jpeg\jidctint.c</name>
-                                    </file>
-                                </group>
-                                <group>
-                                    <name>png</name>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\png\legato_imagedecoder_png.c</name>
-                                    </file>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\png\lodepng.c</name>
-                                    </file>
-                                </group>
-                                <group>
-                                    <name>mono</name>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\mono\legato_imagedecoder_mono.c</name>
-                                    </file>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\mono\legato_imagedecoder_mono_read_internal.c</name>
-                                    </file>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\mono\legato_imagedecoder_mono_read_stream.c</name>
-                                    </file>
-                                </group>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_image.c</name>
+                                </file>
                                 <file>
                                     <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_image_utils.c</name>
+                                </file>
+                                <file>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\image\legato_palette.c</name>
                                 </file>
                             </group>
                             <group>
@@ -3287,10 +3362,10 @@
                                     <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\renderer\legato_draw_rect.c</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\renderer\legato_renderer.c</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\renderer\legato_gpu.c</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\renderer\legato_gpu.c</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\renderer\legato_renderer.c</name>
                                 </file>
                             </group>
                             <group>
@@ -3314,26 +3389,14 @@
                                     <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_stringtable.c</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_tablestring.c</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_stringutils.c</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_stringutils.c</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\string\legato_tablestring.c</name>
                                 </file>
                             </group>
                             <group>
                                 <name>widget</name>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_editwidget.c</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget.c</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget_skin_classic.c</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget_skin_classic_common.c</name>
-                                </file>
                                 <group>
                                     <name>arc</name>
                                     <file>
@@ -3607,89 +3670,23 @@
                                         <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\window\legato_widget_window_skin_classic.c</name>
                                     </file>
                                 </group>
-                            </group>
-                            <group>
-                                <name>generated</name>
-                                <group>
-                                    <name>font</name>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\font\le_gen_fonts.c</name>
-                                    </file>
-                                </group>
-                                <group>
-                                    <name>image</name>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\image\le_gen_images.c</name>
-                                    </file>
-                                </group>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_globalpalette.c</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_editwidget.c</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_harmony.c</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget.c</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_init.c</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget_skin_classic.c</name>
                                 </file>
                                 <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_scheme.c</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\le_gen_stringtable.c</name>
-                                </file>
-                                <group>
-                                    <name>screen</name>
-                                    <file>
-                                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\generated\screen\le_gen_screen_Screen0.c</name>
-                                    </file>
-                                </group>
-                            </group>
-                        </group>
-                        <group>
-                            <name>driver</name>
-                            <group>
-                                <name>lcdc</name>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\driver\gfx_driver.c</name>
-                                </file>
-                                <file>
-                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\driver\controller\lcdc\drv_gfx_lcdc.c</name>
+                                    <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\gfx\legato\widget\legato_widget_skin_classic_common.c</name>
                                 </file>
                             </group>
                         </group>
-                    </group>
-                    <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\initialization.c</name>
-                    </file>
-                    <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\interrupts.c</name>
-                    </file>
-                    <group>
-                        <name>stdio</name>
-                        <file>
-                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\stdio\iar_monitor.c</name>
-                        </file>
                     </group>
                     <group>
                         <name>peripheral</name>
-                        <group>
-                            <name>mmu</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\mmu\plib_mmu.c</name>
-                            </file>
-                        </group>
-                        <group>
-                            <name>clk</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\clk\plib_clk.c</name>
-                            </file>
-                        </group>
-                        <group>
-                            <name>pio</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\pio\plib_pio.c</name>
-                            </file>
-                        </group>
                         <group>
                             <name>aic</name>
                             <file>
@@ -3697,9 +3694,9 @@
                             </file>
                         </group>
                         <group>
-                            <name>tc</name>
+                            <name>clk</name>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\tc\plib_tc0.c</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\clk\plib_clk.c</name>
                             </file>
                         </group>
                         <group>
@@ -3720,37 +3717,37 @@
                                 <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\lcdc\plib_lcdc.c</name>
                             </file>
                         </group>
+                        <group>
+                            <name>mmu</name>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\mmu\plib_mmu.c</name>
+                            </file>
+                        </group>
+                        <group>
+                            <name>pio</name>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\pio\plib_pio.c</name>
+                            </file>
+                        </group>
+                        <group>
+                            <name>tc</name>
+                            <file>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\peripheral\tc\plib_tc0.c</name>
+                            </file>
+                        </group>
                     </group>
-                    <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\cstartup.s</name>
-                    </file>
-                    <file>
-                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\vectortrap.s</name>
-                    </file>
                     <group>
-                        <name>driver</name>
-                        <group>
-                            <name>i2c</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\i2c\src\drv_i2c.c</name>
-                            </file>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\i2c\src\drv_i2c_local.h</name>
-                            </file>
-                        </group>
-                        <group>
-                            <name>input</name>
-                            <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\driver\input\drv_maxtouch.c</name>
-                            </file>
-                        </group>
+                        <name>stdio</name>
+                        <file>
+                            <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\stdio\iar_monitor.c</name>
+                        </file>
                     </group>
                     <group>
                         <name>system</name>
                         <group>
-                            <name>time</name>
+                            <name>cache</name>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\time\src\sys_time.c</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\cache\sys_cache.c</name>
                             </file>
                         </group>
                         <group>
@@ -3769,29 +3766,35 @@
                             </file>
                         </group>
                         <group>
-                            <name>cache</name>
+                            <name>time</name>
                             <file>
-                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\cache\sys_cache.c</name>
+                                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\system\time\src\sys_time.c</name>
                             </file>
                         </group>
                     </group>
                     <file>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\cstartup.s</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\initialization.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\interrupts.c</name>
+                    </file>
+                    <file>
                         <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\tasks.c</name>
+                    </file>
+                    <file>
+                        <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\vectortrap.s</name>
                     </file>
                 </group>
             </group>
             <file>
-                <name>$PROJ_DIR$\..\src\main.c</name>
-            </file>
-            <file>
                 <name>$PROJ_DIR$\..\src\app.c</name>
             </file>
-        </group>
-        <group>
-            <name>Linker File</name>
             <file>
-                <name>$PROJ_DIR$\..\src\config\lcdc_rgba8888_mxt_9x60_wvga_iar\ddram.icf</name>
+                <name>$PROJ_DIR$\..\src\main.c</name>
             </file>
         </group>
     </group>
-    </project>
+</project>

@@ -3,10 +3,10 @@
 	"category": "com.microchip.ide.project",
 	"content": {
 		"metaDataVersion": "1.1.0",
-		"name": "com.microchip.mcu32.mplabx.project.gfx_apps_sam_9x60_legato_quickstart_blank_qs_9x60_ek_tm5000",
-		"version": "3.9.2",
-		"displayName": "Blank Quickstart Example for SAM 9x60 Family",
-		"projectName": "blank_quickstart_sam9x60_ek_wvga",
+		"name": "com.microchip.mcu32.mplabx.project.gfx_apps_sam_9x60_blank_canvas_quickstart_blank_qs_9x60_ek_tm5000",
+		"version": "3.10.0",
+		"displayName": "Blank Canvas Quickstart Example for SAM 9x60 Family",
+		"projectName": "blank_canvas_quickstart_sam9x60_ek_wvga",
 		"shortDescription": "This demonstration provides a touch-enabled starting point for no graphics library.",
 		"ide": {
 			"name": "MPLABX",

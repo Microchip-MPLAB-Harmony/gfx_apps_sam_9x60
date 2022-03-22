@@ -1,0 +1,79 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.gfx_apps_sam_9x60_isi_cam_sam9x60_ek",
+		"version": "3.10.0",
+		"displayName": "ISI Camera Example for SAM 9x60 Family",
+		"projectName": "isi_cam_sam9x60_ek",
+		"shortDescription": "This demonstration provides a start point for using the ISI Camera Interface on the SAM 9x60.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.45.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.50.0"
+			}
+		],
+		"dfp": {
+			"name": "SAM9X6_DFP",
+			"semverRange": "^1.4.45"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.2"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "SAM9X60",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "SAM9X60-EK Evaluation Kit"
+			],
+			[
+				"Harmony", "Middleware", "Image Sensing", "ISI_CAMERA"
+			],
+			[
+				"Harmony", "Middleware", "Image Sensing", "ISI_CAMERA"
+			],
+			[
+				"Harmony", "Image Sensing"
+			]
+		],
+		"peripherals": [
+            "ISI",
+            "USB",
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"Middleware",
+			"Image",
+			"Image Sensor",
+			"USB",
+            "Touch",
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

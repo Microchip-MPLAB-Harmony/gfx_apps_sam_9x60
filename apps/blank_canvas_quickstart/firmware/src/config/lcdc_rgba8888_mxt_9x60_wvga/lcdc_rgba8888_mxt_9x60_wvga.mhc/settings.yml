@@ -5,10 +5,10 @@ frameworkPath: ..\..\..\..\harmony3_dev
 processor: SAM9X60
 projectName: blank_cqs_9x60_ek_wvga
 settings:
-  PackageFilter: bsp;core;csp;gfx;quick_docs;touch;usb
+  PackageFilter: bsp;core;core_apps_sam_9x60;core_apps_sam_a5d2;crypto;csp;csp_apps_sam_9x60;csp_apps_sam_a5d2;dev_packs;gfx;gfx_apps_sam_9x60;harmony-services;net;quick_docs;touch;usb;usb_apps_device
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'
-  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.5.50\atdf\SAM9X60.atdf
+  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.6.61\atdf\SAM9X60.atdf

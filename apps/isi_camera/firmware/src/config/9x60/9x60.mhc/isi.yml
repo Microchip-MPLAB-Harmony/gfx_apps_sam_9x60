@@ -1,0 +1,113 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: isi}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: FrameSkip}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '8'}
+  - type: KeyValueSet
+    attributes: {id: InputColorMode}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Integer
+    attributes: {id: InputHSize}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '640'}
+  - type: Integer
+    attributes: {id: InputVSize}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '480'}
+  - type: Integer
+    attributes: {id: PrevHSize}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '320'}
+  - type: Integer
+    attributes: {id: PrevVSize}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '240'}
+  - type: Integer
+    attributes: {id: YUVC0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '149'}
+  - type: Integer
+    attributes: {id: YUVC1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '255'}
+  - type: Integer
+    attributes: {id: YUVC2}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '104'}
+  - type: Integer
+    attributes: {id: YUVC3}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '50'}
+  - type: Integer
+    attributes: {id: YUVC4}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '204'}
+  - type: Boolean
+    attributes: {id: YUVCboff}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: YUVCroff}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: YUVYoff}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: YUVtoRGB}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+- type: ElementPosition
+  attributes: {x: '579', y: '20', id: isi}

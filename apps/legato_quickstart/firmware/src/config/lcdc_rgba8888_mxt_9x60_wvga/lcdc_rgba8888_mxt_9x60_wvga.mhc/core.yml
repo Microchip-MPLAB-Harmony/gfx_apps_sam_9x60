@@ -721,6 +721,13 @@ children:
       - type: Dynamic
         attributes: {id: legato_gfx_pda_tm5000, value: ''}
   - type: String
+    attributes: {id: PIN_151_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: GPIO}
+  - type: String
     attributes: {id: PIN_152_FUNCTION_TYPE}
     children:
     - type: Values
@@ -734,6 +741,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_155_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: SWITCH_AL}
   - type: String
     attributes: {id: PIN_161_FUNCTION_TYPE}
     children:
@@ -1084,6 +1098,48 @@ children:
       children:
       - type: Dynamic
         attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_32_LAT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: ''}
+  - type: String
+    attributes: {id: PIN_32_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: LED_AH}
+  - type: String
+    attributes: {id: PIN_49_LAT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: ''}
+  - type: String
+    attributes: {id: PIN_49_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: LED_AH}
+  - type: String
+    attributes: {id: PIN_4_LAT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: ''}
+  - type: String
+    attributes: {id: PIN_4_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: LED_AH}
   - type: Hex
     attributes: {id: PIOA_ABCDSR1_VALUE}
     children:
@@ -1126,6 +1182,20 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '3'}
+  - type: Hex
+    attributes: {id: PIOB_ABCDSR1_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOB_ABCDSR2_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
   - type: Boolean
     attributes: {id: PIOB_CLOCK_ENABLE}
     children:
@@ -1154,6 +1224,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '14336'}
+  - type: Hex
+    attributes: {id: PIOB_PDR_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
   - type: Hex
     attributes: {id: PIOB_SODR_VALUE}
     children:
@@ -1217,6 +1294,20 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOD_ABCDSR1_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOD_ABCDSR2_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
   - type: Boolean
     attributes: {id: PIOD_CLOCK_ENABLE}
     children:
@@ -1240,6 +1331,13 @@ children:
         attributes: {id: core, value: '0'}
   - type: Hex
     attributes: {id: PIOD_OER_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOD_PDR_VALUE}
     children:
     - type: Values
       children:

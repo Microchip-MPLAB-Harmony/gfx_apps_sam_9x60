@@ -13,13 +13,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DC5BC24F4E456275D06B4271EDAF4E0E
-- generatedChecksum: 6900E8DDAFC751DF998F821F78097AF4
+- generatedChecksum: ED816E35CAABE8F59CD45BC1E685D4E4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/driver/lcdc
   name: drv_gfx_lcdc.c
   physicalPath: gfx/driver/controller/lcdc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6900E8DDAFC751DF998F821F78097AF4
+  userChecksum: ED816E35CAABE8F59CD45BC1E685D4E4
 - generatedChecksum: 13F062B063A4F4AE0B19CE872943995B
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/driver/i2c
   name: drv_i2c.c
@@ -34,13 +34,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 37780F17759DED907A0F36E28BFB3136
-- generatedChecksum: D60987ADDBC55D814DF1F8934395B71C
+- generatedChecksum: BFD65DAAC369B1DA6D3BEE61A83CA064
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/driver/input
   name: drv_maxtouch.c
   physicalPath: driver/input
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D60987ADDBC55D814DF1F8934395B71C
+  userChecksum: BFD65DAAC369B1DA6D3BEE61A83CA064
 - generatedChecksum: 395CB5E473B76326871D60F6D31F648D
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/driver/lcdc
   name: gfx_driver.c
@@ -55,13 +55,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 51D19E2818A4282EE571C71E4EF288FB
-- generatedChecksum: 907A33F257AE662290BF5B7396B24470
+- generatedChecksum: 733918BEAFD16E35B7638362B0D5B6AA
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 907A33F257AE662290BF5B7396B24470
+  userChecksum: 733918BEAFD16E35B7638362B0D5B6AA
 - generatedChecksum: 5DA8C1836B6C09C09219726CD70B86D1
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar
   name: interrupts.c
@@ -111,20 +111,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4A0B00DF20738414078086EB7AEFCC30
-- generatedChecksum: 32EBD856F12242543C6B4DEFC8FA744F
+- generatedChecksum: A9D214DCCB96EA19038F4F5C8E1C4E9A
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/generated
   name: le_gen_scheme.c
   physicalPath: gfx/legato/generated
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 32EBD856F12242543C6B4DEFC8FA744F
-- generatedChecksum: 4239F6B8BA3A341195243F29937F3D96
+  userChecksum: A9D214DCCB96EA19038F4F5C8E1C4E9A
+- generatedChecksum: 6B6056BF1ED29187AB38706770C797FD
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/generated/screen
   name: le_gen_screen_Screen0.c
   physicalPath: gfx/legato/generated/screen
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4239F6B8BA3A341195243F29937F3D96
+  userChecksum: 6B6056BF1ED29187AB38706770C797FD
 - generatedChecksum: D88360FA6CEFC101A0B0E30C87503787
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/generated
   name: le_gen_stringtable.c
@@ -146,13 +146,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 7FB91D04503DFDEF7E004C7A0EF79B7D
-- generatedChecksum: D5267278C45E6C26787A4F43711E0BCD
+- generatedChecksum: C3CBC085CC342A3DF1452B48A0DC70EE
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/common
   name: legato_color_blend.c
   physicalPath: gfx/legato/common
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D5267278C45E6C26787A4F43711E0BCD
+  userChecksum: C3CBC085CC342A3DF1452B48A0DC70EE
 - generatedChecksum: 74840DE2605F41AFD0AECDDBDE96219E
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/common
   name: legato_color_convert.c
@@ -174,13 +174,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 5E9BA6B6BE8679E6B74CD26D3C79755B
-- generatedChecksum: B6BF53F2B8B168438C7789379356FCAE
+- generatedChecksum: 92D104B9C001F36FD5B5D4FB1C171B38
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/renderer
   name: legato_draw.c
   physicalPath: gfx/legato/renderer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B6BF53F2B8B168438C7789379356FCAE
+  userChecksum: 92D104B9C001F36FD5B5D4FB1C171B38
 - generatedChecksum: B47C2B94656F56D52E89DC68EB5F382A
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/renderer
   name: legato_draw_arc.c
@@ -244,20 +244,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 0229A4CF2EC1D9A2EDC422F27A4F31B5
-- generatedChecksum: E0DB819796B4B5F4227D20621206AF44
+- generatedChecksum: BEAE49ADD38336EAF594CC0F390A7856
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/font
   name: legato_font.c
   physicalPath: gfx/legato/font
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E0DB819796B4B5F4227D20621206AF44
-- generatedChecksum: 2BBF9EFDBC1B2CCFD8F836296F1CADEF
+  userChecksum: BEAE49ADD38336EAF594CC0F390A7856
+- generatedChecksum: 7F8901D4B7517E1F420F03A759BEFBF2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/renderer
   name: legato_gpu.c
   physicalPath: gfx/legato/renderer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 2BBF9EFDBC1B2CCFD8F836296F1CADEF
+  userChecksum: 7F8901D4B7517E1F420F03A759BEFBF2
 - generatedChecksum: AD1126687188EBF0194B8D83099D80DC
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/image
   name: legato_image.c
@@ -307,20 +307,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: CD7828DFD63AF711B3B4ADA1917E7603
-- generatedChecksum: 127378083089331A2F62CBD5B1111763
+- generatedChecksum: F6D6D1C4A4158DBA8BBC42128DBA2C6E
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/image/png
   name: legato_imagedecoder_png.c
   physicalPath: gfx/legato/image/png
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 127378083089331A2F62CBD5B1111763
-- generatedChecksum: F9C070A89A95EC4C2DCF100C72937633
+  userChecksum: F6D6D1C4A4158DBA8BBC42128DBA2C6E
+- generatedChecksum: CD2F1A0E75259F3A7AF0A7ECE12C7166
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/image/raw
   name: legato_imagedecoder_raw.c
   physicalPath: gfx/legato/image/raw
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F9C070A89A95EC4C2DCF100C72937633
+  userChecksum: CD2F1A0E75259F3A7AF0A7ECE12C7166
 - generatedChecksum: 743343860061C49F5E8F7D7A5CC307F4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/image/raw
   name: legato_imagedecoder_raw_blend.c
@@ -482,13 +482,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: EA7FB6E29DA7227B1B48FBD66056D7EC
-- generatedChecksum: 0F005C34F38BCA09E2D4F067C5A39FD1
+- generatedChecksum: A005C685D8B57DDAA9D06C5F5B1A16CA
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/font
   name: legato_rasterfont_stream.c
   physicalPath: gfx/legato/font
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0F005C34F38BCA09E2D4F067C5A39FD1
+  userChecksum: A005C685D8B57DDAA9D06C5F5B1A16CA
 - generatedChecksum: CEA5EBCAD80F2905A5E6ACDE2AD4F8FE
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/common
   name: legato_rect.c
@@ -496,27 +496,27 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: CEA5EBCAD80F2905A5E6ACDE2AD4F8FE
-- generatedChecksum: AAD40235137F4975F38347A98DF7B9B4
+- generatedChecksum: C442E314CAF64600A9AE475B67E24D54
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/datastructure
   name: legato_rectarray.c
   physicalPath: gfx/legato/datastructure
   security: NON_SECURE
   type: SOURCE
-  userChecksum: AAD40235137F4975F38347A98DF7B9B4
-- generatedChecksum: 1859B09F325740BEC2E28D8500A38D1F
+  userChecksum: C442E314CAF64600A9AE475B67E24D54
+- generatedChecksum: ED2F53BC685E598B299CFA1C7F35A04F
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/renderer
   name: legato_renderer.c
   physicalPath: gfx/legato/renderer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1859B09F325740BEC2E28D8500A38D1F
-- generatedChecksum: D07EFFF78D360EA5B81D3BC952835EF4
+  userChecksum: ED2F53BC685E598B299CFA1C7F35A04F
+- generatedChecksum: 1B1C675C15913551534158E8049B7FA4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/core
   name: legato_scheme.c
   physicalPath: gfx/legato/core
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D07EFFF78D360EA5B81D3BC952835EF4
+  userChecksum: 1B1C675C15913551534158E8049B7FA4
 - generatedChecksum: 398916FF694667DF840878D2640D40A4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/core
   name: legato_state.c
@@ -531,27 +531,27 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: AE30F16F736295344A9CFE4DA0D5328A
-- generatedChecksum: 08E8E1B99B41C9226B9081065AF1DB58
+- generatedChecksum: DC6DCED86711F7CCEC61E1C0D33F5211
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_string.c
   physicalPath: gfx/legato/string
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 08E8E1B99B41C9226B9081065AF1DB58
-- generatedChecksum: 56971255CFEC12B89CF325D1853C47AB
+  userChecksum: DC6DCED86711F7CCEC61E1C0D33F5211
+- generatedChecksum: 81BCB683F1A4C58F8DB0B6503D8DD079
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_string_renderer.c
   physicalPath: gfx/legato/string
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 56971255CFEC12B89CF325D1853C47AB
-- generatedChecksum: 47B82889C85ED3825DC2BA4B19D159F8
+  userChecksum: 81BCB683F1A4C58F8DB0B6503D8DD079
+- generatedChecksum: 9ED6E8895EC3C6AC754BC7A75E336A67
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_string_renderer_stream.c
   physicalPath: gfx/legato/string
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 47B82889C85ED3825DC2BA4B19D159F8
+  userChecksum: 9ED6E8895EC3C6AC754BC7A75E336A67
 - generatedChecksum: 40C1D751635A0126FCB40529C5885A18
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_stringtable.c
@@ -559,13 +559,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 40C1D751635A0126FCB40529C5885A18
-- generatedChecksum: 060CC7A3D51063736F9A9A95A4A98ABC
+- generatedChecksum: E999F4BBF2EC3070BAA6A5F0C34BA0CB
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_stringutils.c
   physicalPath: gfx/legato/string
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 060CC7A3D51063736F9A9A95A4A98ABC
+  userChecksum: E999F4BBF2EC3070BAA6A5F0C34BA0CB
 - generatedChecksum: DAFA9F0BA6E7FC81E93F21287B9FDC84
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_tablestring.c
@@ -573,13 +573,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DAFA9F0BA6E7FC81E93F21287B9FDC84
-- generatedChecksum: 251CE72162CB7CA77E528C3847C7CF43
+- generatedChecksum: 5F4A9EA9E8D1372E6A8361FC51AE39A3
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/common
   name: legato_utils.c
   physicalPath: gfx/legato/common
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 251CE72162CB7CA77E528C3847C7CF43
+  userChecksum: 5F4A9EA9E8D1372E6A8361FC51AE39A3
 - generatedChecksum: 6BC00715A0308BBE0D8175B42D706DA5
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/memory
   name: legato_variableheap.c
@@ -608,48 +608,48 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4A8EA23A24BAACBCD06692ADCF93A515
-- generatedChecksum: 5CDBB2A4D53122292E2917D4AF76284D
+- generatedChecksum: AE34B177F4E7EB04684F7D0E0B379F69
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/bargraph
   name: legato_widget_bar_graph.c
   physicalPath: gfx/legato/widget/bargraph
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 5CDBB2A4D53122292E2917D4AF76284D
-- generatedChecksum: 35A82F1532D19DDBB4B76D96FFC8DDCB
+  userChecksum: AE34B177F4E7EB04684F7D0E0B379F69
+- generatedChecksum: 9A7155FA191158080AD1FAF53DB6C184
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/bargraph
   name: legato_widget_bar_graph_skin_classic.c
   physicalPath: gfx/legato/widget/bargraph
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 35A82F1532D19DDBB4B76D96FFC8DDCB
-- generatedChecksum: 2588FE0821E01A66BAD8A200B9110DBF
+  userChecksum: 9A7155FA191158080AD1FAF53DB6C184
+- generatedChecksum: 6744A7D1D2C703D631F9675947B3196C
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/button
   name: legato_widget_button.c
   physicalPath: gfx/legato/widget/button
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 2588FE0821E01A66BAD8A200B9110DBF
-- generatedChecksum: 58BF4DE5BFF7A5D28A1B7D86ED134E18
+  userChecksum: 6744A7D1D2C703D631F9675947B3196C
+- generatedChecksum: 322766CA865B73FA85D74418432D2185
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/button
   name: legato_widget_button_skin_classic.c
   physicalPath: gfx/legato/widget/button
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 58BF4DE5BFF7A5D28A1B7D86ED134E18
-- generatedChecksum: 7CC35E7D48AFA938CC23E0DA45B1C7D3
+  userChecksum: 322766CA865B73FA85D74418432D2185
+- generatedChecksum: DFC4FB00CFBDA5906AF28B883DD14241
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/checkbox
   name: legato_widget_checkbox.c
   physicalPath: gfx/legato/widget/checkbox
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7CC35E7D48AFA938CC23E0DA45B1C7D3
-- generatedChecksum: 84AE0954F00574B77315F2865EEC51C3
+  userChecksum: DFC4FB00CFBDA5906AF28B883DD14241
+- generatedChecksum: D410E83C0CC7AD4193DE9C607562B554
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/checkbox
   name: legato_widget_checkbox_skin_classic.c
   physicalPath: gfx/legato/widget/checkbox
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 84AE0954F00574B77315F2865EEC51C3
+  userChecksum: D410E83C0CC7AD4193DE9C607562B554
 - generatedChecksum: 6D890C3F3916113CBE31D33DD094E0C0
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/circle
   name: legato_widget_circle.c
@@ -671,13 +671,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 2B6A35585841BD8E7B81A189BA11625B
-- generatedChecksum: 48F3A5A5500694D32C42816FEF7FA167
+- generatedChecksum: 7D5BE2286D37B6FBA3BE72B051BE68C6
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/circulargauge
   name: legato_widget_circular_gauge_skin_classic.c
   physicalPath: gfx/legato/widget/circulargauge
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 48F3A5A5500694D32C42816FEF7FA167
+  userChecksum: 7D5BE2286D37B6FBA3BE72B051BE68C6
 - generatedChecksum: A03261F3798C79E80DE9FA68D5C42A15
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/circularslider
   name: legato_widget_circular_slider.c
@@ -727,13 +727,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: D0B1280D641F0C841CD875281E249CF6
-- generatedChecksum: B4F2B6C7D3862E4C323D79E4D7518734
+- generatedChecksum: 9D50F34BCD954329EEA56BC8ACF466F0
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/groupbox
   name: legato_widget_groupbox_skin_classic.c
   physicalPath: gfx/legato/widget/groupbox
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B4F2B6C7D3862E4C323D79E4D7518734
+  userChecksum: 9D50F34BCD954329EEA56BC8ACF466F0
 - generatedChecksum: ABAC13672F9F8AE01B8BD3701057E569
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/image
   name: legato_widget_image.c
@@ -790,13 +790,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 59CA977AFD703D93FADBBFC309001323
-- generatedChecksum: DC3530C7E6E6815724E4CFE97745F524
+- generatedChecksum: AC1A6A5384E0740AFEB95AAFC4829E39
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/keypad
   name: legato_widget_keypad.c
   physicalPath: gfx/legato/widget/keypad
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DC3530C7E6E6815724E4CFE97745F524
+  userChecksum: AC1A6A5384E0740AFEB95AAFC4829E39
 - generatedChecksum: 573D18116E2334CA40841D00E2491251
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/keypad
   name: legato_widget_keypad_skin_classic.c
@@ -804,20 +804,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 573D18116E2334CA40841D00E2491251
-- generatedChecksum: 914E5ACC60FA876D5521F4475CB36024
+- generatedChecksum: 528D1A3F572273DE54FC6CCA1E2F9999
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/label
   name: legato_widget_label.c
   physicalPath: gfx/legato/widget/label
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 914E5ACC60FA876D5521F4475CB36024
-- generatedChecksum: CF1C5372BCB070A603069C83B201F78B
+  userChecksum: 528D1A3F572273DE54FC6CCA1E2F9999
+- generatedChecksum: D15F27ECADEF479851404E9A0246AC34
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/label
   name: legato_widget_label_skin_classic.c
   physicalPath: gfx/legato/widget/label
   security: NON_SECURE
   type: SOURCE
-  userChecksum: CF1C5372BCB070A603069C83B201F78B
+  userChecksum: D15F27ECADEF479851404E9A0246AC34
 - generatedChecksum: 8CFA9ED260540C1FD8BE5136F99E8FF4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/line
   name: legato_widget_line.c
@@ -832,13 +832,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: B4DD083B4F07635CEDD52103DFA1D097
-- generatedChecksum: 72A6E76F5E520FED648A44E449B3B371
+- generatedChecksum: 223364A23965A5729B1EAFB4C31057A0
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/linegraph
   name: legato_widget_line_graph_skin_classic.c
   physicalPath: gfx/legato/widget/linegraph
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 72A6E76F5E520FED648A44E449B3B371
+  userChecksum: 223364A23965A5729B1EAFB4C31057A0
 - generatedChecksum: DA5CF6C9C72D3A934BE3C147C0072E61
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/line
   name: legato_widget_line_skin_classic.c
@@ -853,13 +853,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 3DA738FB39BB49B06E8FC370D309A00E
-- generatedChecksum: 3512FE734F3E16603B18C9148BFDDBD4
+- generatedChecksum: 23151E67F4E4C870B6BFA41AB9FCCEBB
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/list
   name: legato_widget_list_skin_classic.c
   physicalPath: gfx/legato/widget/list
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 3512FE734F3E16603B18C9148BFDDBD4
+  userChecksum: 23151E67F4E4C870B6BFA41AB9FCCEBB
 - generatedChecksum: ECE3936F4FD58C8FA9DA20C26280EA88
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/listwheel
   name: legato_widget_listwheel.c
@@ -867,27 +867,27 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: ECE3936F4FD58C8FA9DA20C26280EA88
-- generatedChecksum: D96216D2E0C59E796E925D9CC376DCDC
+- generatedChecksum: 7130ADBBE5F8CEAD079F0C5FEB07562A
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/listwheel
   name: legato_widget_listwheel_skin_classic.c
   physicalPath: gfx/legato/widget/listwheel
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D96216D2E0C59E796E925D9CC376DCDC
-- generatedChecksum: 490BEADFF405F33559B5F4C0EE5BF4EE
+  userChecksum: 7130ADBBE5F8CEAD079F0C5FEB07562A
+- generatedChecksum: EAE51C58F7DD09B7D4354C91EF914D94
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/piechart
   name: legato_widget_pie_chart.c
   physicalPath: gfx/legato/widget/piechart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 490BEADFF405F33559B5F4C0EE5BF4EE
-- generatedChecksum: A57FBB41B2253E3A033A94FB36A7BBFF
+  userChecksum: EAE51C58F7DD09B7D4354C91EF914D94
+- generatedChecksum: 0610A1DF573AD7AF05D717CAE42A151F
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/piechart
   name: legato_widget_pie_chart_skin_classic.c
   physicalPath: gfx/legato/widget/piechart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A57FBB41B2253E3A033A94FB36A7BBFF
+  userChecksum: 0610A1DF573AD7AF05D717CAE42A151F
 - generatedChecksum: 1B8CBA57FD5ADBD62F10A06F48A939E1
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/progressbar
   name: legato_widget_progressbar.c
@@ -916,20 +916,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 0DAAB0013266070071BFBF96367CDC11
-- generatedChecksum: 1C784862C50ED1C8F14EE68ACAECC2B5
+- generatedChecksum: 6FDDA332CF47C85D8004C77E74CB5900
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/radiobutton
   name: legato_widget_radiobutton.c
   physicalPath: gfx/legato/widget/radiobutton
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1C784862C50ED1C8F14EE68ACAECC2B5
-- generatedChecksum: 5DEFF07BB2BD5B251C150F7B82B5CEFA
+  userChecksum: 6FDDA332CF47C85D8004C77E74CB5900
+- generatedChecksum: 679EFE7E049BB87636321D4A2CF52595
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/radiobutton
   name: legato_widget_radiobutton_skin_classic.c
   physicalPath: gfx/legato/widget/radiobutton
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 5DEFF07BB2BD5B251C150F7B82B5CEFA
+  userChecksum: 679EFE7E049BB87636321D4A2CF52595
 - generatedChecksum: 5A0E271B112E916C48C38DC54658CA80
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/rectangle
   name: legato_widget_rectangle.c
@@ -944,13 +944,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 30FD49D363373A55B0F466ACC46E2E28
-- generatedChecksum: DC446141D9EFFC613301599B284D958C
+- generatedChecksum: 4AC4BD9161F601BA51153D7B065B8B9E
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/scrollbar
   name: legato_widget_scrollbar.c
   physicalPath: gfx/legato/widget/scrollbar
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DC446141D9EFFC613301599B284D958C
+  userChecksum: 4AC4BD9161F601BA51153D7B065B8B9E
 - generatedChecksum: F8F62A07AA9A333C5B8A9D676F95DD0B
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/scrollbar
   name: legato_widget_scrollbar_skin_classic.c
@@ -986,20 +986,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: D7D66FE009CD8F87DFD88453B1555E14
-- generatedChecksum: FFDA857BF0C6C921FECCF599E759748E
+- generatedChecksum: 0E4A2C0625814DE52DE6B77D0AC96054
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/textfield
   name: legato_widget_textfield.c
   physicalPath: gfx/legato/widget/textfield
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FFDA857BF0C6C921FECCF599E759748E
-- generatedChecksum: 934DE5D72F79754ADD5DF00B9FC7CB4D
+  userChecksum: 0E4A2C0625814DE52DE6B77D0AC96054
+- generatedChecksum: 864F8FDD74EC136865F75E06E98A4A2B
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/textfield
   name: legato_widget_textfield_skin_classic.c
   physicalPath: gfx/legato/widget/textfield
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 934DE5D72F79754ADD5DF00B9FC7CB4D
+  userChecksum: 864F8FDD74EC136865F75E06E98A4A2B
 - generatedChecksum: 72FA4D40E37244D4F6E80D3DCE054119
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/touchtest
   name: legato_widget_touchtest.c
@@ -1021,20 +1021,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: BD6B229F0B6AEB6DC11EE89F1C94CA02
-- generatedChecksum: 10543C226B948C51688A4B554B0A50A9
+- generatedChecksum: 139F6836AE8F0A4D98C4CDEBD788E7A0
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/widget/window
   name: legato_widget_window_skin_classic.c
   physicalPath: gfx/legato/widget/window
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 10543C226B948C51688A4B554B0A50A9
-- generatedChecksum: 483F4DAA35ED044F90A401FAB9E4E26C
+  userChecksum: 139F6836AE8F0A4D98C4CDEBD788E7A0
+- generatedChecksum: 25727ABF94BA08F947AF82B5F692D0E4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/image/png
   name: lodepng.c
   physicalPath: gfx/legato/image/png
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 483F4DAA35ED044F90A401FAB9E4E26C
+  userChecksum: 25727ABF94BA08F947AF82B5F692D0E4
 - generatedChecksum: 05D2595DE4789D177533BF449A0A8FF1
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/peripheral/aic
   name: plib_aic.c
@@ -1056,13 +1056,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: B85912DD43BAF50072018467B307D89F
-- generatedChecksum: 0A88B11D1A306433BC913B79650CF362
+- generatedChecksum: 371A17DA03D5D09F3C6BE60DD8D92765
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/peripheral/lcdc
   name: plib_lcdc.c
   physicalPath: peripheral/lcdc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0A88B11D1A306433BC913B79650CF362
+  userChecksum: 371A17DA03D5D09F3C6BE60DD8D92765
 - generatedChecksum: 99A28DC2A2D39E2B47E46E62E0C710D6
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/peripheral/mmu
   name: plib_mmu.c
@@ -1133,62 +1133,62 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 3F3C3FD87A8D184EF6F731CE16F5C012
-- generatedChecksum: 2F522AC6FA1986CFD4550226FFA6CE44
+- generatedChecksum: DC2F09AC4CECBA7C02A80F07E94F4A98
   logicalPath: packs/SAM9X60_DFP/component
   name: adc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2F522AC6FA1986CFD4550226FFA6CE44
-- generatedChecksum: 42E69ACD08FCC9F4D1CA2E9C4F032741
+  userChecksum: DC2F09AC4CECBA7C02A80F07E94F4A98
+- generatedChecksum: 287FEABDCA9ABC8C42379F71E4A507BD
   logicalPath: packs/SAM9X60_DFP/instance
   name: adc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 42E69ACD08FCC9F4D1CA2E9C4F032741
-- generatedChecksum: 874DD61B804C849203CA0F3A19CFE5C6
+  userChecksum: 287FEABDCA9ABC8C42379F71E4A507BD
+- generatedChecksum: 9D0DEE1D8E1B462361901ECE3F2C79AC
   logicalPath: packs/SAM9X60_DFP/component
   name: aes.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 874DD61B804C849203CA0F3A19CFE5C6
-- generatedChecksum: 9337DE7FF66932233FA334EC65C28072
+  userChecksum: 9D0DEE1D8E1B462361901ECE3F2C79AC
+- generatedChecksum: 69554E398D4C6D50CA4DB8C31EA8D811
   logicalPath: packs/SAM9X60_DFP/instance
   name: aes.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 9337DE7FF66932233FA334EC65C28072
-- generatedChecksum: 51C3874AA0BE196D08EB2397ADCB3EDC
+  userChecksum: 69554E398D4C6D50CA4DB8C31EA8D811
+- generatedChecksum: 053E09C9F153CA125C16896E84AC43B1
   logicalPath: packs/SAM9X60_DFP/component
   name: aic.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 51C3874AA0BE196D08EB2397ADCB3EDC
-- generatedChecksum: 00F080C46590C5D2EA4D964070834814
+  userChecksum: 053E09C9F153CA125C16896E84AC43B1
+- generatedChecksum: 388ADEECE8E39902ADC497F6298AE24D
   logicalPath: packs/SAM9X60_DFP/instance
   name: aic.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 00F080C46590C5D2EA4D964070834814
-- generatedChecksum: 41FB4F4513B8CB161A4C3CC6B6FEC8D7
+  userChecksum: 388ADEECE8E39902ADC497F6298AE24D
+- generatedChecksum: 2AEBC347C9F4BAB7E81ED95CCCE78942
   logicalPath: packs/SAM9X60_DFP/component
   name: bsc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 41FB4F4513B8CB161A4C3CC6B6FEC8D7
-- generatedChecksum: 2F0A711F434FABCE31307C16FB61F5DF
+  userChecksum: 2AEBC347C9F4BAB7E81ED95CCCE78942
+- generatedChecksum: 4308759099FE0C429FB5D6F240406F48
   logicalPath: packs/SAM9X60_DFP/instance
   name: bsc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2F0A711F434FABCE31307C16FB61F5DF
+  userChecksum: 4308759099FE0C429FB5D6F240406F48
 - generatedChecksum: 4EEAFF100FC60947B7F2513E46729276
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/bsp
   name: bsp.h
@@ -1196,48 +1196,48 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 4EEAFF100FC60947B7F2513E46729276
-- generatedChecksum: F82AA50A8E4BB7A193055828A91D2AD4
+- generatedChecksum: 35D160AC277DAB6D08C485C6E49FED5F
   logicalPath: packs/SAM9X60_DFP/component
   name: can.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: F82AA50A8E4BB7A193055828A91D2AD4
-- generatedChecksum: BAB32936D5D3C7EA1DA03060C241FD5B
+  userChecksum: 35D160AC277DAB6D08C485C6E49FED5F
+- generatedChecksum: 326870B551F6EDECFD114E884D721A93
   logicalPath: packs/SAM9X60_DFP/instance
   name: can0.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: BAB32936D5D3C7EA1DA03060C241FD5B
-- generatedChecksum: 65191FF9F4A50F31864EA22EDA982446
+  userChecksum: 326870B551F6EDECFD114E884D721A93
+- generatedChecksum: F2DEA80F20C4F7EED5285448673B13A8
   logicalPath: packs/SAM9X60_DFP/instance
   name: can1.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 65191FF9F4A50F31864EA22EDA982446
-- generatedChecksum: 453928992B11FB568102CADA630D4364
+  userChecksum: F2DEA80F20C4F7EED5285448673B13A8
+- generatedChecksum: 59EF2B4A9F48F67C937C5ED07F00A12E
   logicalPath: packs/SAM9X60_DFP/component
   name: classd.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 453928992B11FB568102CADA630D4364
-- generatedChecksum: 0047EB94550663A5D6FB0DA32910FE89
+  userChecksum: 59EF2B4A9F48F67C937C5ED07F00A12E
+- generatedChecksum: 4F7F6528785108C34F8D52C9602EC610
   logicalPath: packs/SAM9X60_DFP/instance
   name: classd.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0047EB94550663A5D6FB0DA32910FE89
-- generatedChecksum: 043CFDB2562A2FDAB6DCDF1DCC1C3E52
+  userChecksum: 4F7F6528785108C34F8D52C9602EC610
+- generatedChecksum: F6DA4C88C3C2DA5AD26D4B86482E3315
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar
   name: configuration.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 043CFDB2562A2FDAB6DCDF1DCC1C3E52
+  userChecksum: F6DA4C88C3C2DA5AD26D4B86482E3315
 - generatedChecksum: 8B35997040E0D61B0C62411FF7C4E9C1
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/peripheral/mmu
   name: cp15.h
@@ -1245,20 +1245,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 8B35997040E0D61B0C62411FF7C4E9C1
-- generatedChecksum: CB3278C38AE7E878BD02B72E3949CC30
+- generatedChecksum: 1E90332AEE76C2D5767A16B8E1688EA6
   logicalPath: packs/SAM9X60_DFP/component
   name: dbgu.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: CB3278C38AE7E878BD02B72E3949CC30
-- generatedChecksum: 910F5E5DDD78D07A75D6F07EB60B54F3
+  userChecksum: 1E90332AEE76C2D5767A16B8E1688EA6
+- generatedChecksum: A7012CE03E8E8C3E7FED3EE93A5A39DD
   logicalPath: packs/SAM9X60_DFP/instance
   name: dbgu.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 910F5E5DDD78D07A75D6F07EB60B54F3
+  userChecksum: A7012CE03E8E8C3E7FED3EE93A5A39DD
 - generatedChecksum: 8254A927C8D03C49A8FC9D01394EAF92
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar
   name: definitions.h
@@ -1315,146 +1315,146 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 260EF469FECCFEF9418D6268909EE2F8
-- generatedChecksum: 96E55AC4B3153F31385A2A7066E9CCBB
+- generatedChecksum: 55DEF340431083D61464C14598CD9389
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/driver/input
   name: drv_maxtouch.h
   physicalPath: driver/input
   security: NON_SECURE
   type: HEADER
-  userChecksum: 96E55AC4B3153F31385A2A7066E9CCBB
-- generatedChecksum: F5707A93C951A316BB54AC5B291C296E
+  userChecksum: 55DEF340431083D61464C14598CD9389
+- generatedChecksum: 30582CE6D98B45016D4AFE555A2DFAC6
   logicalPath: packs/SAM9X60_DFP/component
   name: emac.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: F5707A93C951A316BB54AC5B291C296E
-- generatedChecksum: BAEE605935A0DCE87129F837FADDC52A
+  userChecksum: 30582CE6D98B45016D4AFE555A2DFAC6
+- generatedChecksum: 70F1D04F20AA36794C7DEAC1CDDFD769
   logicalPath: packs/SAM9X60_DFP/instance
   name: emac0.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: BAEE605935A0DCE87129F837FADDC52A
-- generatedChecksum: 1732A3A6DCE4E159584044F547F10053
+  userChecksum: 70F1D04F20AA36794C7DEAC1CDDFD769
+- generatedChecksum: D27EEE5A8B645AC9009C938F33D98783
   logicalPath: packs/SAM9X60_DFP/instance
   name: emac1.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 1732A3A6DCE4E159584044F547F10053
-- generatedChecksum: EDD3C54DA541029AD1F82CF35F41113D
+  userChecksum: D27EEE5A8B645AC9009C938F33D98783
+- generatedChecksum: CD7C4FC33862BC4B416C1BA4E2A82F36
   logicalPath: packs/SAM9X60_DFP/component
   name: flexcom.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: EDD3C54DA541029AD1F82CF35F41113D
-- generatedChecksum: B8A02DB7BF2ABF5E75EAD210E368D29E
+  userChecksum: CD7C4FC33862BC4B416C1BA4E2A82F36
+- generatedChecksum: C05E2786ED5B6B59D63ED0502C164CBC
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom0.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: B8A02DB7BF2ABF5E75EAD210E368D29E
-- generatedChecksum: B4274B029B9A97CD2168549F5BC2D41C
+  userChecksum: C05E2786ED5B6B59D63ED0502C164CBC
+- generatedChecksum: 8CCCA23902408F7AA5EFA74514C3844B
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom1.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: B4274B029B9A97CD2168549F5BC2D41C
-- generatedChecksum: B66207702B554CA98B7282BBC12FF816
+  userChecksum: 8CCCA23902408F7AA5EFA74514C3844B
+- generatedChecksum: 1A45F42B78ACC2F20DF6AF62C139B2BF
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom10.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: B66207702B554CA98B7282BBC12FF816
-- generatedChecksum: 0218F375783351741F9B977B4074A721
+  userChecksum: 1A45F42B78ACC2F20DF6AF62C139B2BF
+- generatedChecksum: 3A311BBA12E224F284109273C0E980D0
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom11.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0218F375783351741F9B977B4074A721
-- generatedChecksum: 753489095C678F5742BC8DCFF48C46B1
+  userChecksum: 3A311BBA12E224F284109273C0E980D0
+- generatedChecksum: 83ED4F09CA36365743722B28CC486C66
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom12.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 753489095C678F5742BC8DCFF48C46B1
-- generatedChecksum: EB839237133432D24AEFAEFAB209C5BD
+  userChecksum: 83ED4F09CA36365743722B28CC486C66
+- generatedChecksum: 940069EE25C97D2858CCA025373FD862
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom2.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: EB839237133432D24AEFAEFAB209C5BD
-- generatedChecksum: 22453710D0DC12A387054437E0500C15
+  userChecksum: 940069EE25C97D2858CCA025373FD862
+- generatedChecksum: 6CA2A3F96DB574231F2DA40CED5AC364
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom3.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 22453710D0DC12A387054437E0500C15
-- generatedChecksum: A8A8E092F18C2C4B550A6DB0EF6EF635
+  userChecksum: 6CA2A3F96DB574231F2DA40CED5AC364
+- generatedChecksum: 914AC46C39A8D028DB408094BF74EFCD
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom4.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: A8A8E092F18C2C4B550A6DB0EF6EF635
-- generatedChecksum: CFF99EEB9E1CA7990A71CCD3F420D104
+  userChecksum: 914AC46C39A8D028DB408094BF74EFCD
+- generatedChecksum: 71B22898FE20C2122FAA49947EAB1D9E
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom5.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: CFF99EEB9E1CA7990A71CCD3F420D104
-- generatedChecksum: D259F3C5B34023BF98E6C43BC4D698FA
+  userChecksum: 71B22898FE20C2122FAA49947EAB1D9E
+- generatedChecksum: CF2D63D950F56FA98F51F272C03E8AD0
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom6.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: D259F3C5B34023BF98E6C43BC4D698FA
-- generatedChecksum: 9A813018BB4FBCA8A998248D55A49FA6
+  userChecksum: CF2D63D950F56FA98F51F272C03E8AD0
+- generatedChecksum: 846D1329DE74CBC4F3533631B9346B48
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom7.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 9A813018BB4FBCA8A998248D55A49FA6
-- generatedChecksum: 9E59AFCF7E267CA392CF89EC93346848
+  userChecksum: 846D1329DE74CBC4F3533631B9346B48
+- generatedChecksum: 440538B20C75DF9BC6126C0D9E9D6469
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom8.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 9E59AFCF7E267CA392CF89EC93346848
-- generatedChecksum: 44A0A3DCFCD778A37D31EE696BE4B618
+  userChecksum: 440538B20C75DF9BC6126C0D9E9D6469
+- generatedChecksum: 7308CCD944102574B0D826980E76862E
   logicalPath: packs/SAM9X60_DFP/instance
   name: flexcom9.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 44A0A3DCFCD778A37D31EE696BE4B618
-- generatedChecksum: 25D8B3DFF0D2E0AF5AA1088E2B9E9AA4
+  userChecksum: 7308CCD944102574B0D826980E76862E
+- generatedChecksum: 16661BED4FC72E6A7D7FA528ADA192C3
   logicalPath: packs/SAM9X60_DFP/component
   name: gfx2d.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 25D8B3DFF0D2E0AF5AA1088E2B9E9AA4
-- generatedChecksum: 45559F95AC9DAB07C779C4858498E179
+  userChecksum: 16661BED4FC72E6A7D7FA528ADA192C3
+- generatedChecksum: 588C30A0B9844564A0E997E988D7F44D
   logicalPath: packs/SAM9X60_DFP/instance
   name: gfx2d.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 45559F95AC9DAB07C779C4858498E179
+  userChecksum: 588C30A0B9844564A0E997E988D7F44D
 - generatedChecksum: 7978B66868F74E0E2A1207E5699C5203
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/driver/lcdc
   name: gfx_driver.h
@@ -1462,34 +1462,34 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 7978B66868F74E0E2A1207E5699C5203
-- generatedChecksum: 91DAC31DB744BCF3DE0A19BCC8D0664B
+- generatedChecksum: DFDA4773A4EC3F76AAF7DAD85A172EDC
   logicalPath: packs/SAM9X60_DFP/component
   name: gpbr.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 91DAC31DB744BCF3DE0A19BCC8D0664B
-- generatedChecksum: 4C0891FB1772059CEB7D01D87A8DAE5F
+  userChecksum: DFDA4773A4EC3F76AAF7DAD85A172EDC
+- generatedChecksum: 22E6AC9DBE5BCA6F982B3705F6C8183E
   logicalPath: packs/SAM9X60_DFP/instance
   name: gpbr.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 4C0891FB1772059CEB7D01D87A8DAE5F
-- generatedChecksum: EC59C2D977B0F44082061F5F07BA9993
+  userChecksum: 22E6AC9DBE5BCA6F982B3705F6C8183E
+- generatedChecksum: FD5CFE90D8AE0B5247E25A26B11D53EE
   logicalPath: packs/SAM9X60_DFP/component
   name: i2smcc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: EC59C2D977B0F44082061F5F07BA9993
-- generatedChecksum: 2B1AC9C05E7B3D747C2B1025DA21B06B
+  userChecksum: FD5CFE90D8AE0B5247E25A26B11D53EE
+- generatedChecksum: B7B746799223B44E64C516F85AC1F7E8
   logicalPath: packs/SAM9X60_DFP/instance
   name: i2smcc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2B1AC9C05E7B3D747C2B1025DA21B06B
+  userChecksum: B7B746799223B44E64C516F85AC1F7E8
 - generatedChecksum: 4CF4A86296482D5331331BA301C20BB2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar
   name: interrupts.h
@@ -1497,34 +1497,34 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 4CF4A86296482D5331331BA301C20BB2
-- generatedChecksum: 95AF7516B84D726665B4007DA209C400
+- generatedChecksum: EC08A70F7447C108ED523211DC47813C
   logicalPath: packs/SAM9X60_DFP/component
   name: isi.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 95AF7516B84D726665B4007DA209C400
-- generatedChecksum: 82C4A7CA4F1E31851109B9FDDBB27342
+  userChecksum: EC08A70F7447C108ED523211DC47813C
+- generatedChecksum: 6340C6CEC23D3A10132F27EACA1EFDFC
   logicalPath: packs/SAM9X60_DFP/instance
   name: isi.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 82C4A7CA4F1E31851109B9FDDBB27342
-- generatedChecksum: 8BD743A4D5FBB0811806452B187D45A1
+  userChecksum: 6340C6CEC23D3A10132F27EACA1EFDFC
+- generatedChecksum: 91FF83D8EB2169FE986723F402E5D688
   logicalPath: packs/SAM9X60_DFP/component
   name: lcdc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 8BD743A4D5FBB0811806452B187D45A1
-- generatedChecksum: 6A2C04F8C1FDF398C4D4036ADE066FCE
+  userChecksum: 91FF83D8EB2169FE986723F402E5D688
+- generatedChecksum: AE4D8F397537C76B2DE118C7F6B7202C
   logicalPath: packs/SAM9X60_DFP/instance
   name: lcdc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6A2C04F8C1FDF398C4D4036ADE066FCE
+  userChecksum: AE4D8F397537C76B2DE118C7F6B7202C
 - generatedChecksum: 49DFC7037332B9E9D1F5C82F84784897
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/generated
   name: le_gen_assets.h
@@ -1532,13 +1532,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 49DFC7037332B9E9D1F5C82F84784897
-- generatedChecksum: 042D3F04407D0A343BB7CACD25439A9C
+- generatedChecksum: E681EF2A0211E67CEF4AC53D35061D3B
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/generated
   name: le_gen_harmony.h
   physicalPath: gfx/legato/generated
   security: NON_SECURE
   type: HEADER
-  userChecksum: 042D3F04407D0A343BB7CACD25439A9C
+  userChecksum: E681EF2A0211E67CEF4AC53D35061D3B
 - generatedChecksum: A0EF378E7CEC7393625CFDDC465529F4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/generated
   name: le_gen_init.h
@@ -1574,13 +1574,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 6A358135828719657F3A57D2FD2BBF8A
-- generatedChecksum: E5639B5733F9A8A058424F37917E3FA0
+- generatedChecksum: 3F7072B8F1132303C128758DAA6C45D0
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/common
   name: legato_color.h
   physicalPath: gfx/legato/common
   security: NON_SECURE
   type: HEADER
-  userChecksum: E5639B5733F9A8A058424F37917E3FA0
+  userChecksum: 3F7072B8F1132303C128758DAA6C45D0
 - generatedChecksum: 13553FC080D7DB70E8038CABB05F2B87
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/common
   name: legato_common.h
@@ -1588,13 +1588,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 13553FC080D7DB70E8038CABB05F2B87
-- generatedChecksum: C9D98CAF7D798DF45D979371E8AC9FEB
+- generatedChecksum: EE19DB8300C179F0BA9F81EB20A3762B
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato
   name: legato_config.h
   physicalPath: gfx/legato
   security: NON_SECURE
   type: HEADER
-  userChecksum: C9D98CAF7D798DF45D979371E8AC9FEB
+  userChecksum: EE19DB8300C179F0BA9F81EB20A3762B
 - generatedChecksum: 30A2B9F9E41BB023C20363CE7E0256A4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_dynamicstring.h
@@ -1637,13 +1637,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 295D1BDE726B062609ECDD25D6FE5C01
-- generatedChecksum: 9640B4174E120D811ACF200434A0DC17
+- generatedChecksum: ED29685F1C12B6677C32C7E734A33787
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/font
   name: legato_font.h
   physicalPath: gfx/legato/font
   security: NON_SECURE
   type: HEADER
-  userChecksum: 9640B4174E120D811ACF200434A0DC17
+  userChecksum: ED29685F1C12B6677C32C7E734A33787
 - generatedChecksum: 223FBC4FC8651E3CCF8D58D95CBE73EF
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/renderer
   name: legato_gpu.h
@@ -1651,13 +1651,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 223FBC4FC8651E3CCF8D58D95CBE73EF
-- generatedChecksum: 4883DAA559AD3AD7F4DB03285440E1A7
+- generatedChecksum: 546D4686ACC2B0D4D3ED005F22D6BFAC
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/image
   name: legato_image.h
   physicalPath: gfx/legato/image
   security: NON_SECURE
   type: HEADER
-  userChecksum: 4883DAA559AD3AD7F4DB03285440E1A7
+  userChecksum: 546D4686ACC2B0D4D3ED005F22D6BFAC
 - generatedChecksum: 20F5C4A58F413B7AD3ECF05A45A69861
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/image
   name: legato_image_utils.h
@@ -1756,13 +1756,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 7578127311E17F9429A0B685EC9EEC97
-- generatedChecksum: F96F7917094EBDD9921EA20737D7FC3B
+- generatedChecksum: BC5C0C5CD91410DFA9AC67E61BC0E979
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/datastructure
   name: legato_rectarray.h
   physicalPath: gfx/legato/datastructure
   security: NON_SECURE
   type: HEADER
-  userChecksum: F96F7917094EBDD9921EA20737D7FC3B
+  userChecksum: BC5C0C5CD91410DFA9AC67E61BC0E979
 - generatedChecksum: 822155984303B5FD15335E8707044FEE
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/renderer
   name: legato_renderer.h
@@ -1770,13 +1770,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 822155984303B5FD15335E8707044FEE
-- generatedChecksum: 5FCB3049984A9867B372F0F9303FAF08
+- generatedChecksum: 252D7B0721A81B8C98C8098371E6DF2E
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/core
   name: legato_scheme.h
   physicalPath: gfx/legato/core
   security: NON_SECURE
   type: HEADER
-  userChecksum: 5FCB3049984A9867B372F0F9303FAF08
+  userChecksum: 252D7B0721A81B8C98C8098371E6DF2E
 - generatedChecksum: 27E2986E39A7E7CEF850B1023C0B3EB4
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/core
   name: legato_state.h
@@ -1798,13 +1798,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 6AEF5FC0FC2CD30713AC5F8947101B2D
-- generatedChecksum: 820FD03AC923CFD43C2506C70B19F783
+- generatedChecksum: 136B0B9BD6D246336E8F9D85FD16A7E1
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_string_renderer.h
   physicalPath: gfx/legato/string
   security: NON_SECURE
   type: HEADER
-  userChecksum: 820FD03AC923CFD43C2506C70B19F783
+  userChecksum: 136B0B9BD6D246336E8F9D85FD16A7E1
 - generatedChecksum: BD15246AF6C9A8FFF816F29D2C3DCDDC
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_stringtable.h
@@ -1812,27 +1812,27 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: BD15246AF6C9A8FFF816F29D2C3DCDDC
-- generatedChecksum: 6729534E5E4135F693D358A4D3FE72B8
+- generatedChecksum: D9BB8CC71544DC99DFF3EA845A5FE02B
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_stringutils.h
   physicalPath: gfx/legato/string
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6729534E5E4135F693D358A4D3FE72B8
-- generatedChecksum: AD73789EC166A514CEB5D3A58A9A3897
+  userChecksum: D9BB8CC71544DC99DFF3EA845A5FE02B
+- generatedChecksum: 632585D52CDA1571E9C713B2288ADAC2
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/string
   name: legato_tablestring.h
   physicalPath: gfx/legato/string
   security: NON_SECURE
   type: HEADER
-  userChecksum: AD73789EC166A514CEB5D3A58A9A3897
-- generatedChecksum: D3234BFBF6F6A81B7C1C71B35E8DEB74
+  userChecksum: 632585D52CDA1571E9C713B2288ADAC2
+- generatedChecksum: 1A6A01C9E19B76792AF13C3EB5093049
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/common
   name: legato_utils.h
   physicalPath: gfx/legato/common
   security: NON_SECURE
   type: HEADER
-  userChecksum: D3234BFBF6F6A81B7C1C71B35E8DEB74
+  userChecksum: 1A6A01C9E19B76792AF13C3EB5093049
 - generatedChecksum: 17E34C88F31AE0B00F5EBBDD4CC4D8F0
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/gfx/legato/memory
   name: legato_variableheap.h
@@ -2071,34 +2071,34 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 288C8B8C00AA685CA12FE4166B2306B9
-- generatedChecksum: 4673C2DF8F7FD37422133A8D8EF0A6C8
+- generatedChecksum: 9EC4E3077343DBB5CF0602B7D65E1307
   logicalPath: packs/SAM9X60_DFP/component
   name: matrix.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 4673C2DF8F7FD37422133A8D8EF0A6C8
-- generatedChecksum: 7AA9051783227280F26C44CA65B41201
+  userChecksum: 9EC4E3077343DBB5CF0602B7D65E1307
+- generatedChecksum: BE18651F1FF75D0A7C55BFC255B71B44
   logicalPath: packs/SAM9X60_DFP/instance
   name: matrix.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 7AA9051783227280F26C44CA65B41201
-- generatedChecksum: F63A54D1DC967907C995E12A919FEF90
+  userChecksum: BE18651F1FF75D0A7C55BFC255B71B44
+- generatedChecksum: 51AD8D0A1F9254064FD0FF89B546E616
   logicalPath: packs/SAM9X60_DFP/component
   name: mpddrc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: F63A54D1DC967907C995E12A919FEF90
-- generatedChecksum: 06AAA48960D400E55227827C86AA420D
+  userChecksum: 51AD8D0A1F9254064FD0FF89B546E616
+- generatedChecksum: FBC3384AFB157A8422D7616C60FE66B7
   logicalPath: packs/SAM9X60_DFP/instance
   name: mpddrc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 06AAA48960D400E55227827C86AA420D
+  userChecksum: FBC3384AFB157A8422D7616C60FE66B7
 - generatedChecksum: F0AD88762263B7CB89B02AB4F5876059
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/osal
   name: osal.h
@@ -2120,83 +2120,83 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: B040122CCA94A0636810D6F15F13B751
-- generatedChecksum: 093E09646F00CADAECD1441A13EB6ECA
+- generatedChecksum: DA997A5946A614D36742B9102E5AB054
   logicalPath: packs/SAM9X60_DFP/component
   name: otpc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 093E09646F00CADAECD1441A13EB6ECA
-- generatedChecksum: 3CA1167A7867F93FB356A8893ACCBA23
+  userChecksum: DA997A5946A614D36742B9102E5AB054
+- generatedChecksum: 9F51B1151DE8B338DFEB4AC5FE8693AA
   logicalPath: packs/SAM9X60_DFP/instance
   name: otpc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 3CA1167A7867F93FB356A8893ACCBA23
-- generatedChecksum: 1E86EA6B12BF20C88E9D8E5A1999D287
+  userChecksum: 9F51B1151DE8B338DFEB4AC5FE8693AA
+- generatedChecksum: F3EA99C664972D1546E6EC24F93C56CD
   logicalPath: packs/SAM9X60_DFP/component
   name: pio.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 1E86EA6B12BF20C88E9D8E5A1999D287
-- generatedChecksum: F8F979165F0BCE8A0DD807A7C11B243E
+  userChecksum: F3EA99C664972D1546E6EC24F93C56CD
+- generatedChecksum: 1DB1CEA4263F9F202122A41C21D437DD
   logicalPath: packs/SAM9X60_DFP/instance
   name: pioa.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: F8F979165F0BCE8A0DD807A7C11B243E
-- generatedChecksum: B3F9243D9004A1C2AA71F31F92BFA849
+  userChecksum: 1DB1CEA4263F9F202122A41C21D437DD
+- generatedChecksum: 6772EBC9F65614A9CE2D2159AD7CA965
   logicalPath: packs/SAM9X60_DFP/instance
   name: piob.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: B3F9243D9004A1C2AA71F31F92BFA849
-- generatedChecksum: 274D6B0789551F863B008570A8780FC6
+  userChecksum: 6772EBC9F65614A9CE2D2159AD7CA965
+- generatedChecksum: DD157FFF3D7A4EC35DB7403385AE4CC1
   logicalPath: packs/SAM9X60_DFP/instance
   name: pioc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 274D6B0789551F863B008570A8780FC6
-- generatedChecksum: F492E007FA4538FAD110B778F6E7FD47
+  userChecksum: DD157FFF3D7A4EC35DB7403385AE4CC1
+- generatedChecksum: 5D70502546871D91873042FD98528072
   logicalPath: packs/SAM9X60_DFP/instance
   name: piod.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: F492E007FA4538FAD110B778F6E7FD47
-- generatedChecksum: CFE1E3C3AA65771E8650AA716000BDF9
+  userChecksum: 5D70502546871D91873042FD98528072
+- generatedChecksum: 664911910033EA742F3C1886DEAF05B6
   logicalPath: packs/SAM9X60_DFP/component
   name: pit.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: CFE1E3C3AA65771E8650AA716000BDF9
-- generatedChecksum: 6AF9D4C3F8917D9C5CB1F45004714B58
+  userChecksum: 664911910033EA742F3C1886DEAF05B6
+- generatedChecksum: 27DBDC86D794C6B0F423CA2E0005AE0D
   logicalPath: packs/SAM9X60_DFP/instance
   name: pit.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6AF9D4C3F8917D9C5CB1F45004714B58
-- generatedChecksum: 5FD3B451F8D4C719C3B90D43EBC1E21A
+  userChecksum: 27DBDC86D794C6B0F423CA2E0005AE0D
+- generatedChecksum: 548FC20310771BD35C3BDDE9813DDE98
   logicalPath: packs/SAM9X60_DFP/component
   name: pit64b.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 5FD3B451F8D4C719C3B90D43EBC1E21A
-- generatedChecksum: 8E08021B56BB49F3C4B22091B19B3621
+  userChecksum: 548FC20310771BD35C3BDDE9813DDE98
+- generatedChecksum: 2B22346E302BBA0ECA0D2144223E62AD
   logicalPath: packs/SAM9X60_DFP/instance
   name: pit64b.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 8E08021B56BB49F3C4B22091B19B3621
+  userChecksum: 2B22346E302BBA0ECA0D2144223E62AD
 - generatedChecksum: 9C00DC189B706ECF854F34A404F89118
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/peripheral/aic
   name: plib_aic.h
@@ -2225,13 +2225,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 85F9436319477D4FFBD6950F66EDB68D
-- generatedChecksum: 24D0BA1ED4D9DA69A8B4F8E8CB6C94E8
+- generatedChecksum: EFD18863481FE517317A7A8C039B7C81
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/peripheral/lcdc
   name: plib_lcdc.h
   physicalPath: peripheral/lcdc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 24D0BA1ED4D9DA69A8B4F8E8CB6C94E8
+  userChecksum: EFD18863481FE517317A7A8C039B7C81
 - generatedChecksum: 53692CB5F4391E126593D39BD431C323
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/peripheral/mmu
   name: plib_mmu.h
@@ -2260,251 +2260,251 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: A2F276372C68B8EE16FB32AE5DF1BE37
-- generatedChecksum: 9E4CC8ED145457396CC03BACC4A50144
+- generatedChecksum: DC615BFC601B8577D065FF99140BD8D7
   logicalPath: packs/SAM9X60_DFP/component
   name: pmc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 9E4CC8ED145457396CC03BACC4A50144
-- generatedChecksum: 8EFA577776538DC4EF7F0435ABDBE006
+  userChecksum: DC615BFC601B8577D065FF99140BD8D7
+- generatedChecksum: 120BF6E2FE55C464EBCA3501A895FDA7
   logicalPath: packs/SAM9X60_DFP/instance
   name: pmc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 8EFA577776538DC4EF7F0435ABDBE006
-- generatedChecksum: 2F17C1087C00BE84D1C2ACB6AE5209F1
+  userChecksum: 120BF6E2FE55C464EBCA3501A895FDA7
+- generatedChecksum: B2B09FD8C6E938519DAE7083BCFC4187
   logicalPath: packs/SAM9X60_DFP/component
   name: pmecc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2F17C1087C00BE84D1C2ACB6AE5209F1
-- generatedChecksum: 066716413F3F1E08C4A0F498C102B487
+  userChecksum: B2B09FD8C6E938519DAE7083BCFC4187
+- generatedChecksum: 158789EB531C17BF4F419249125D13C9
   logicalPath: packs/SAM9X60_DFP/instance
   name: pmecc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 066716413F3F1E08C4A0F498C102B487
-- generatedChecksum: DA0EF344B60AA541B2CB07EAE9B90E1F
+  userChecksum: 158789EB531C17BF4F419249125D13C9
+- generatedChecksum: B4C2265A77A6531A20D44A6BBD1101B9
   logicalPath: packs/SAM9X60_DFP/component
   name: pmerrloc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: DA0EF344B60AA541B2CB07EAE9B90E1F
-- generatedChecksum: FDD1754B991E76442560D2B7CB55FDD4
+  userChecksum: B4C2265A77A6531A20D44A6BBD1101B9
+- generatedChecksum: 3C1F9E4F079BAD2EC9D26098F74D0598
   logicalPath: packs/SAM9X60_DFP/instance
   name: pmerrloc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: FDD1754B991E76442560D2B7CB55FDD4
-- generatedChecksum: 6763CDC1D9856EBA641DC5E4205AA67D
+  userChecksum: 3C1F9E4F079BAD2EC9D26098F74D0598
+- generatedChecksum: F796250C799432089DC1345E68FE2636
   logicalPath: packs/SAM9X60_DFP/component
   name: pwm.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6763CDC1D9856EBA641DC5E4205AA67D
-- generatedChecksum: C2600AD25B6911EAC9CF17DE0E849A02
+  userChecksum: F796250C799432089DC1345E68FE2636
+- generatedChecksum: 38ED84F4D945DECB906964078EEDBAE4
   logicalPath: packs/SAM9X60_DFP/instance
   name: pwm.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: C2600AD25B6911EAC9CF17DE0E849A02
-- generatedChecksum: 71086786FA78350C7CC84F99B5BFDE2F
+  userChecksum: 38ED84F4D945DECB906964078EEDBAE4
+- generatedChecksum: 34F3410955041A8C44A3775EEAB64533
   logicalPath: packs/SAM9X60_DFP/component
   name: qspi.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 71086786FA78350C7CC84F99B5BFDE2F
-- generatedChecksum: 2B2C2FDDDCA338186E8058B8C0D82962
+  userChecksum: 34F3410955041A8C44A3775EEAB64533
+- generatedChecksum: E62AB980AE4FA6448506ACD49F9F85A0
   logicalPath: packs/SAM9X60_DFP/instance
   name: qspi.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2B2C2FDDDCA338186E8058B8C0D82962
-- generatedChecksum: 27AF211D4A5801C7477C4F8FF3850DDF
+  userChecksum: E62AB980AE4FA6448506ACD49F9F85A0
+- generatedChecksum: 41357F65E2C33C02CCBCCA86F79B3C04
   logicalPath: packs/SAM9X60_DFP/component
   name: rstc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 27AF211D4A5801C7477C4F8FF3850DDF
-- generatedChecksum: 70A749AA4EC834F3C678D190198E3EB9
+  userChecksum: 41357F65E2C33C02CCBCCA86F79B3C04
+- generatedChecksum: F7A6AD3A1C962290CC446B0D9F8BDF74
   logicalPath: packs/SAM9X60_DFP/instance
   name: rstc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 70A749AA4EC834F3C678D190198E3EB9
-- generatedChecksum: 3008A952B3D70322230831FC8D6D795D
+  userChecksum: F7A6AD3A1C962290CC446B0D9F8BDF74
+- generatedChecksum: CC5F9FA5ABD6B2BA21486CE8B0260D35
   logicalPath: packs/SAM9X60_DFP/component
   name: rtc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 3008A952B3D70322230831FC8D6D795D
-- generatedChecksum: D359044C0DBDA9F5C765F2A33ED809D5
+  userChecksum: CC5F9FA5ABD6B2BA21486CE8B0260D35
+- generatedChecksum: 837491D78C69B5D68301A98B3B7821BB
   logicalPath: packs/SAM9X60_DFP/instance
   name: rtc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: D359044C0DBDA9F5C765F2A33ED809D5
-- generatedChecksum: 874CAB1094C218A155D064A4730F29FD
+  userChecksum: 837491D78C69B5D68301A98B3B7821BB
+- generatedChecksum: 58F55808F43A19C8FA84B4997525DCBF
   logicalPath: packs/SAM9X60_DFP/component
   name: rtt.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 874CAB1094C218A155D064A4730F29FD
-- generatedChecksum: B64F29790CA4A259B0A5094E7A58AFD5
+  userChecksum: 58F55808F43A19C8FA84B4997525DCBF
+- generatedChecksum: B2331B61424A09B0190B30AAD0126DF6
   logicalPath: packs/SAM9X60_DFP/instance
   name: rtt.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: B64F29790CA4A259B0A5094E7A58AFD5
-- generatedChecksum: A2113EB132621420E5936FBD3B16FDC0
+  userChecksum: B2331B61424A09B0190B30AAD0126DF6
+- generatedChecksum: 8141C44A352530257A8A825F27F4055C
   logicalPath: packs/SAM9X60_DFP
   name: sam9x60.h
   physicalPath: ../../packs/SAM9X60_DFP
   security: NON_SECURE
   type: HEADER
-  userChecksum: A2113EB132621420E5936FBD3B16FDC0
-- generatedChecksum: F4ED4E342A23652E4C7BAEE25DA428EB
+  userChecksum: 8141C44A352530257A8A825F27F4055C
+- generatedChecksum: ABF849C7D7009A793FCF3453515A6729
   logicalPath: packs/SAM9X60_DFP/pio
   name: sam9x60.h
   physicalPath: ../../packs/SAM9X60_DFP/pio
   security: NON_SECURE
   type: HEADER
-  userChecksum: F4ED4E342A23652E4C7BAEE25DA428EB
-- generatedChecksum: 545D7120FAEFA70EC42BFA969CB65ECA
+  userChecksum: ABF849C7D7009A793FCF3453515A6729
+- generatedChecksum: FB46B95DC4BBCF917114FBF5C4FE077F
   logicalPath: packs/SAM9X60_DFP/component
   name: sckc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 545D7120FAEFA70EC42BFA969CB65ECA
-- generatedChecksum: BFC445A540A8ADEB6B8EE18A255C264F
+  userChecksum: FB46B95DC4BBCF917114FBF5C4FE077F
+- generatedChecksum: 4D5719A84F9A94E960BC415DD14D6160
   logicalPath: packs/SAM9X60_DFP/instance
   name: sckc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: BFC445A540A8ADEB6B8EE18A255C264F
-- generatedChecksum: 864BD41468B4359015EFFA91DEBDE19B
+  userChecksum: 4D5719A84F9A94E960BC415DD14D6160
+- generatedChecksum: BBCEB6E795E1711F2144949D33AEF39B
   logicalPath: packs/SAM9X60_DFP/component
   name: sdmmc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 864BD41468B4359015EFFA91DEBDE19B
-- generatedChecksum: 91B25125036830C746F34172F88D680E
+  userChecksum: BBCEB6E795E1711F2144949D33AEF39B
+- generatedChecksum: 969B0CA9D47A3529620B732046FB01CD
   logicalPath: packs/SAM9X60_DFP/instance
   name: sdmmc0.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 91B25125036830C746F34172F88D680E
-- generatedChecksum: 336810466FAE4EBDDBEA384A52E4A248
+  userChecksum: 969B0CA9D47A3529620B732046FB01CD
+- generatedChecksum: 500E31B927C75BE8C5C628A05C86CC9B
   logicalPath: packs/SAM9X60_DFP/instance
   name: sdmmc1.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 336810466FAE4EBDDBEA384A52E4A248
-- generatedChecksum: E836D88CE047A67B153A6B98E7AE8406
+  userChecksum: 500E31B927C75BE8C5C628A05C86CC9B
+- generatedChecksum: EB022EABCC80C87E54C1A1DB2F9B31B4
   logicalPath: packs/SAM9X60_DFP/component
   name: sdramc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: E836D88CE047A67B153A6B98E7AE8406
-- generatedChecksum: 6032255274C1A8ADD13C58E081485624
+  userChecksum: EB022EABCC80C87E54C1A1DB2F9B31B4
+- generatedChecksum: E2A9FF6B8B02FD8EA4624D2892403E0D
   logicalPath: packs/SAM9X60_DFP/instance
   name: sdramc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6032255274C1A8ADD13C58E081485624
-- generatedChecksum: 74FEEF7F53873E346D1EB732F171C8D9
+  userChecksum: E2A9FF6B8B02FD8EA4624D2892403E0D
+- generatedChecksum: 0BBCC05DE8FFF86894D967F59A18C244
   logicalPath: packs/SAM9X60_DFP/component
   name: sfr.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 74FEEF7F53873E346D1EB732F171C8D9
-- generatedChecksum: 6448AE1B3A8A7ACA790A564D7B70E058
+  userChecksum: 0BBCC05DE8FFF86894D967F59A18C244
+- generatedChecksum: D958427A98F47BD89597ACEF64863A8E
   logicalPath: packs/SAM9X60_DFP/instance
   name: sfr.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6448AE1B3A8A7ACA790A564D7B70E058
-- generatedChecksum: 860D413EBAB55272F3EDF785E2034F1D
+  userChecksum: D958427A98F47BD89597ACEF64863A8E
+- generatedChecksum: CFCC3D016FF899AB21615181856A3FAA
   logicalPath: packs/SAM9X60_DFP/component
   name: sha.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 860D413EBAB55272F3EDF785E2034F1D
-- generatedChecksum: F8528111910972FD020B8C0DCEB671D4
+  userChecksum: CFCC3D016FF899AB21615181856A3FAA
+- generatedChecksum: BEB864C06787AB7EBF6BB08E9AB84CDA
   logicalPath: packs/SAM9X60_DFP/instance
   name: sha.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: F8528111910972FD020B8C0DCEB671D4
-- generatedChecksum: DD3FBA87CCFF8CED561AF805BE82E16E
+  userChecksum: BEB864C06787AB7EBF6BB08E9AB84CDA
+- generatedChecksum: E66DD0B5EC62831086A0A04C513EA22D
   logicalPath: packs/SAM9X60_DFP/component
   name: shdwc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: DD3FBA87CCFF8CED561AF805BE82E16E
-- generatedChecksum: 27B00E1CC7703A1962FE4D29F971B9B4
+  userChecksum: E66DD0B5EC62831086A0A04C513EA22D
+- generatedChecksum: 301B6E35A89F572C8C7BF62C4D4092D0
   logicalPath: packs/SAM9X60_DFP/instance
   name: shdwc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 27B00E1CC7703A1962FE4D29F971B9B4
-- generatedChecksum: 115F557E16AE95F375AEF60D40A1EC0D
+  userChecksum: 301B6E35A89F572C8C7BF62C4D4092D0
+- generatedChecksum: F80606CB8FBF8A2027DCC38B78710B77
   logicalPath: packs/SAM9X60_DFP/component
   name: smc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 115F557E16AE95F375AEF60D40A1EC0D
-- generatedChecksum: F16FE3C91FFBD6C7B033CA19A4BEF403
+  userChecksum: F80606CB8FBF8A2027DCC38B78710B77
+- generatedChecksum: 816B50FE150B7EFF0F0ABB37461B6C06
   logicalPath: packs/SAM9X60_DFP/instance
   name: smc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: F16FE3C91FFBD6C7B033CA19A4BEF403
-- generatedChecksum: C1CF76684E6A7C75E4141C1AF1F24D32
+  userChecksum: 816B50FE150B7EFF0F0ABB37461B6C06
+- generatedChecksum: C53F18C4B6FBE285F3B3D9BC133F0F37
   logicalPath: packs/SAM9X60_DFP/component
   name: ssc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: C1CF76684E6A7C75E4141C1AF1F24D32
-- generatedChecksum: F311AE6F65C327D2015701B3229E16DD
+  userChecksum: C53F18C4B6FBE285F3B3D9BC133F0F37
+- generatedChecksum: 62F09764499CF4D251473AC5FE38FE00
   logicalPath: packs/SAM9X60_DFP/instance
   name: ssc.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: F311AE6F65C327D2015701B3229E16DD
+  userChecksum: 62F09764499CF4D251473AC5FE38FE00
 - generatedChecksum: AFAAF7D896D57569CA4CF73BB3339481
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/system/cache
   name: sys_cache.h
@@ -2596,20 +2596,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 62F39464265EC34979649F761FB4FE57
-- generatedChecksum: DFAD752755A163D9C0795D9A44AFD5AB
+- generatedChecksum: 72F6C39EF2EF97A1D663E9562C1482DD
   logicalPath: packs/SAM9X60_DFP/component
   name: syscwp.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: DFAD752755A163D9C0795D9A44AFD5AB
-- generatedChecksum: 8D587EB268295CBC34D4AD3586266140
+  userChecksum: 72F6C39EF2EF97A1D663E9562C1482DD
+- generatedChecksum: 4D745B1ED8472D7289BF07997CC5CA98
   logicalPath: packs/SAM9X60_DFP/instance
   name: syscwp.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 8D587EB268295CBC34D4AD3586266140
+  userChecksum: 4D745B1ED8472D7289BF07997CC5CA98
 - generatedChecksum: BE95B4F134C5C929787B9DA6FDBF3501
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar/system
   name: system.h
@@ -2631,132 +2631,132 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 1C75A8A6B60598A2FD0D533F57839B72
-- generatedChecksum: F234ACFF85BAAF545CE0F1ACC274D7A9
+- generatedChecksum: A69ACF55773D4BD3774427AC0904353E
   logicalPath: packs/SAM9X60_DFP/component
   name: tc.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: F234ACFF85BAAF545CE0F1ACC274D7A9
-- generatedChecksum: C25B747558BF4A3A8298E8B37D261E01
+  userChecksum: A69ACF55773D4BD3774427AC0904353E
+- generatedChecksum: D077F5B2A94805E3686D158A76EAB314
   logicalPath: packs/SAM9X60_DFP/instance
   name: tc0.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: C25B747558BF4A3A8298E8B37D261E01
-- generatedChecksum: C3BA1A1824AF4ADBAF686C2B54AD405C
+  userChecksum: D077F5B2A94805E3686D158A76EAB314
+- generatedChecksum: 914AFC478C0F1ECB3C1BD564256D07A7
   logicalPath: packs/SAM9X60_DFP/instance
   name: tc1.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: C3BA1A1824AF4ADBAF686C2B54AD405C
-- generatedChecksum: E717514C5361D77543EA9819A695B14E
+  userChecksum: 914AFC478C0F1ECB3C1BD564256D07A7
+- generatedChecksum: 914764D323116BB70EE1CC400B9AFF42
   logicalPath: packs/SAM9X60_DFP/component
   name: tdes.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: E717514C5361D77543EA9819A695B14E
-- generatedChecksum: 0F5CD20BAE27B3FD81C7550790329EAF
+  userChecksum: 914764D323116BB70EE1CC400B9AFF42
+- generatedChecksum: 593BAB7B62EF8BC56F8EDCAA50D9FC0E
   logicalPath: packs/SAM9X60_DFP/instance
   name: tdes.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0F5CD20BAE27B3FD81C7550790329EAF
-- generatedChecksum: E2494E9678C2E6E720CF160F3EA41A0B
+  userChecksum: 593BAB7B62EF8BC56F8EDCAA50D9FC0E
+- generatedChecksum: A5C3ED22A7CA2724988B8D1E8D84673C
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar
   name: toolchain_specifics.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: E2494E9678C2E6E720CF160F3EA41A0B
-- generatedChecksum: 7A683385F7EC433F1AB0DA23E8D5EFA4
+  userChecksum: A5C3ED22A7CA2724988B8D1E8D84673C
+- generatedChecksum: 59856A3FDDDDC7C73B146666321A1B7E
   logicalPath: packs/SAM9X60_DFP/component
   name: trng.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 7A683385F7EC433F1AB0DA23E8D5EFA4
-- generatedChecksum: 37916B2AB96D473C57B3149D9E8DFA82
+  userChecksum: 59856A3FDDDDC7C73B146666321A1B7E
+- generatedChecksum: 2511AA291A17BBE6C6C6729734FBB52E
   logicalPath: packs/SAM9X60_DFP/instance
   name: trng.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 37916B2AB96D473C57B3149D9E8DFA82
-- generatedChecksum: B4A0DA68C0B1F84CEC2DB6FE5D936C21
+  userChecksum: 2511AA291A17BBE6C6C6729734FBB52E
+- generatedChecksum: 1D031A11CF03974F97380C75DC403B31
   logicalPath: packs/SAM9X60_DFP/component
   name: udphs.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: B4A0DA68C0B1F84CEC2DB6FE5D936C21
-- generatedChecksum: 180A18089A73FA615565B312C1F99E4B
+  userChecksum: 1D031A11CF03974F97380C75DC403B31
+- generatedChecksum: 472D251ECBACF78702949E4BD41F22C4
   logicalPath: packs/SAM9X60_DFP/instance
   name: udphs.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 180A18089A73FA615565B312C1F99E4B
-- generatedChecksum: CD0C41AFDD60E29BA2E658093B53C5E4
+  userChecksum: 472D251ECBACF78702949E4BD41F22C4
+- generatedChecksum: 71409B3CD437DEC07E572431870D8159
   logicalPath: packs/SAM9X60_DFP/component
   name: uhpfs.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: CD0C41AFDD60E29BA2E658093B53C5E4
-- generatedChecksum: 6DA95EE7409D5011DEF2E55C47B57B27
+  userChecksum: 71409B3CD437DEC07E572431870D8159
+- generatedChecksum: D24A491388038EB3D15AE192D8836A5E
   logicalPath: packs/SAM9X60_DFP/component
   name: uhphs.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6DA95EE7409D5011DEF2E55C47B57B27
-- generatedChecksum: B2AAC7980CC433FBC0D54EEF19DA23A4
+  userChecksum: D24A491388038EB3D15AE192D8836A5E
+- generatedChecksum: 47A9AF06CD2DCDA8D4C2327CA022930F
   logicalPath: packs/SAM9X60_DFP/instance
   name: uhphs_ehci.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: B2AAC7980CC433FBC0D54EEF19DA23A4
-- generatedChecksum: AF2B30CCF4F00DF2B81F25BE36FBF09C
+  userChecksum: 47A9AF06CD2DCDA8D4C2327CA022930F
+- generatedChecksum: E61A4A3E7C40B19369E676A26BED6471
   logicalPath: packs/SAM9X60_DFP/instance
   name: uhphs_ohci.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: AF2B30CCF4F00DF2B81F25BE36FBF09C
-- generatedChecksum: 20B2C9042538B9773C9A64781979E709
+  userChecksum: E61A4A3E7C40B19369E676A26BED6471
+- generatedChecksum: 5CECEC4E2081010711401DF73ABE98BD
   logicalPath: packs/SAM9X60_DFP/component
   name: wdt.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 20B2C9042538B9773C9A64781979E709
-- generatedChecksum: 9D818C76AE2BB7D15D9C313DB42F5CF1
+  userChecksum: 5CECEC4E2081010711401DF73ABE98BD
+- generatedChecksum: F068C8ECF714E162807524576AC5CDFD
   logicalPath: packs/SAM9X60_DFP/instance
   name: wdt.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 9D818C76AE2BB7D15D9C313DB42F5CF1
-- generatedChecksum: 384A99524E95F795902DA6012DBEDFAE
+  userChecksum: F068C8ECF714E162807524576AC5CDFD
+- generatedChecksum: 00A2BA8137BE22613495D3E672772D26
   logicalPath: packs/SAM9X60_DFP/component
   name: xdmac.h
   physicalPath: ../../packs/SAM9X60_DFP/component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 384A99524E95F795902DA6012DBEDFAE
-- generatedChecksum: 987D05A0A8AD4842D17EFC631C15DADD
+  userChecksum: 00A2BA8137BE22613495D3E672772D26
+- generatedChecksum: FAB44CAC19742824B262510A2BB1DEDD
   logicalPath: packs/SAM9X60_DFP/instance
   name: xdmac.h
   physicalPath: ../../packs/SAM9X60_DFP/instance
   security: NON_SECURE
   type: HEADER
-  userChecksum: 987D05A0A8AD4842D17EFC631C15DADD
+  userChecksum: FAB44CAC19742824B262510A2BB1DEDD
 - generatedChecksum: F11D09F43A7E56F64F3E705359312548
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga_iar
   name: ddram.icf

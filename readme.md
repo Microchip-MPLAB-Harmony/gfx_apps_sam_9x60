@@ -54,6 +54,15 @@ The following applications are provided to demonstrate a subset of the capabilit
 |     | [legato_dashboard](./apps/legato_dashboard/readme.md) | Legato Graphics Library and Canvas Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 |     | [legato_canvas_quickstart](./apps/legato_canvas_quickstart/readme.md) | Legato Graphics Library and simple Canvas Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 |     | [legato_benchmark](./apps/legato_benchmark/readme.md) | Legato Graphics Library Performance Benchmarking Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+
+## Camera application examples (ISI)
+
+The following application is provided to demonstrate the usage of the SAM9X60-EK ISI interface.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+|  apps |[isi_camera](./apps/isi_camera/readme.md) | Image Sensor Interface Example using OV5640 module | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+
 ____
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/blob/master/mplab_harmony_license.md)

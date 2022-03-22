@@ -155,6 +155,8 @@ leResult screenShow_Screen1(void)
 
 void screenUpdate_Screen1(void)
 {
+    root0->fn->setSize(root0, root0->parent->rect.width, root0->parent->rect.height);
+
     Screen1_OnUpdate(); // raise event
 }
 

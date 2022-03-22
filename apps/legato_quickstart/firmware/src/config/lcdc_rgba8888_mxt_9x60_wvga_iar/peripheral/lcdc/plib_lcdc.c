@@ -352,6 +352,58 @@ void LCDC_WaitForDISPSignal( void )
     while (!(LCDC_REGS->LCDC_LCDSR & LCDC_LCDSR_DISPSTS_Msk));
 }
 
+void LCDC_SetSytemBusDMABurstEnable(LCDC_LAYER_ID layer, bool enable)
+{
+    switch(layer)
+    {
+        case LCDC_LAYER_BASE:
+            LCDC_REGS->LCDC_BASECFG0 = (LCDC_REGS->LCDC_BASECFG0 & ~LCDC_BASECFG0_DLBO_Msk) | 
+                                        LCDC_BASECFG0_DLBO(enable == true);
+          break;
+        case LCDC_LAYER_OVR1:
+            LCDC_REGS->LCDC_OVR1CFG0 = (LCDC_REGS->LCDC_OVR1CFG0 & ~LCDC_OVR1CFG0_DLBO_Msk) | 
+                                        LCDC_OVR1CFG0_DLBO(enable == true);
+          break;
+        case LCDC_LAYER_OVR2:
+            LCDC_REGS->LCDC_OVR2CFG0 = (LCDC_REGS->LCDC_OVR2CFG0 & ~LCDC_OVR2CFG0_DLBO_Msk) | 
+                                        LCDC_OVR2CFG0_DLBO(enable == true);
+            break;
+        case LCDC_LAYER_HEO:
+            LCDC_REGS->LCDC_HEOCFG0 = (LCDC_REGS->LCDC_HEOCFG0 & ~LCDC_HEOCFG0_DLBO_Msk) | 
+                                       LCDC_HEOCFG0_DLBO(enable == true);
+            break;            
+        case LCDC_LAYER_PP:
+        default:
+          break;
+    }    
+}
+
+void LCDC_SetSytemBusDMABurstLength(LCDC_LAYER_ID layer, LCDC_BUS_BURST_LENGTH value)
+{
+    switch(layer)
+    {
+        case LCDC_LAYER_BASE:
+            LCDC_REGS->LCDC_BASECFG0 = (LCDC_REGS->LCDC_BASECFG0 & ~LCDC_BASECFG0_BLEN_Msk) | 
+                                        LCDC_BASECFG0_BLEN(value);
+          break;
+        case LCDC_LAYER_OVR1:
+            LCDC_REGS->LCDC_OVR1CFG0 = (LCDC_REGS->LCDC_OVR1CFG0 & ~LCDC_OVR1CFG0_BLEN_Msk) | 
+                                        LCDC_OVR1CFG0_BLEN(value);
+          break;
+        case LCDC_LAYER_OVR2:
+            LCDC_REGS->LCDC_OVR2CFG0 = (LCDC_REGS->LCDC_OVR2CFG0 & ~LCDC_OVR2CFG0_BLEN_Msk) | 
+                                        LCDC_OVR2CFG0_BLEN(value);
+            break;
+        case LCDC_LAYER_HEO:
+            LCDC_REGS->LCDC_HEOCFG0 = (LCDC_REGS->LCDC_HEOCFG0 & ~LCDC_HEOCFG0_BLEN_Msk) | 
+                                       LCDC_HEOCFG0_BLEN(value);
+            break;            
+        case LCDC_LAYER_PP:
+        default:
+          break;
+    }    
+}
+
 void LCDC_SetRGBModeInput(LCDC_LAYER_ID layer, LCDC_INPUT_COLOR_MODE mode)
 {
     switch(layer)

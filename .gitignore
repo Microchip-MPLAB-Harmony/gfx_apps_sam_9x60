@@ -1,6 +1,5 @@
 *.log
 *.o
-*.elf
 *.map
 *.d
 **/nbproject/private
@@ -44,3 +43,11 @@
 /apps/legato_dashboard/firmware/legato_db_9x60_ek_tm5000.X/dist/
 /apps/legato_quickstart/firmware/legato_qs_9x60_ek_tm5000.X/build/
 /apps/legato_quickstart/firmware/legato_qs_9x60_ek_tm5000.X/dist/
+/apps/legato_camera/firmware/legato_cam_9x60_ek_cpro.X/build/
+/apps/legato_camera/firmware/legato_cam_9x60_ek_cpro.X/dist/
+/apps/legato_quickstart/firmware/legato_qs_9x60_ek_cpro.X/build/
+/apps/legato_quickstart/firmware/legato_qs_9x60_ek_cpro.X/dist/
+/apps/legato_camera/firmware/isi_cam_sam9x60_ek.X/dist/
+/apps/legato_camera/firmware/isi_cam_sam9x60_ek.X/build/
+/apps/isi_camera/firmware/isi_cam_sam9x60_ek.X/build/
+/apps/isi_camera/firmware/isi_cam_sam9x60_ek.X/dist/

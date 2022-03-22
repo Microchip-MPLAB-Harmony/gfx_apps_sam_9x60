@@ -44,17 +44,19 @@ const
 #endif
 leLabelWidgetVTable labelWidgetVTable;
 
-void _leLabelWidget_GetTextRect(const leLabelWidget* lbl,
-                                leRect* textRect,
-								leRect* drawRect);
+void _leLabelWidget_GetTextRects(const leLabelWidget* lbl,
+                                 leRect* boundingRect,
+                                 leRect* kerningRect);
 
 static void invalidateContents(const leLabelWidget* lbl)
 {
-    leRect textRect, drawRect;
+    leRect boundingRect, kerningRect;
     
-    _leLabelWidget_GetTextRect(lbl, &textRect, &drawRect);
-    
-    lbl->fn->_damageArea(lbl, &drawRect);
+    _leLabelWidget_GetTextRects(lbl, &boundingRect, &kerningRect);
+
+    leUtils_RectToScreenSpace((leWidget*)lbl, &boundingRect);
+
+    lbl->fn->_damageArea(lbl, &boundingRect);
 }
 
 static void stringPreinvalidate(const leString* str,
@@ -160,13 +162,13 @@ static leResult setString(leLabelWidget* _this,
 
     if(_this->string != NULL)
     {   
-    _this->string->fn->setPreInvalidateCallback((leString*)_this->string,
-                                                (leString_InvalidateCallback)stringPreinvalidate,
-                                                _this);
+        _this->string->fn->setPreInvalidateCallback((leString*)_this->string,
+                                                    (leString_InvalidateCallback)stringPreinvalidate,
+                                                    _this);
 
-    _this->string->fn->setInvalidateCallback((leString*)_this->string,
-                                             (leString_InvalidateCallback)stringInvalidate,
-                                             _this);
+        _this->string->fn->setInvalidateCallback((leString*)_this->string,
+                                                 (leString_InvalidateCallback)stringInvalidate,
+                                                 _this);
 	}
 
     invalidateContents(_this);

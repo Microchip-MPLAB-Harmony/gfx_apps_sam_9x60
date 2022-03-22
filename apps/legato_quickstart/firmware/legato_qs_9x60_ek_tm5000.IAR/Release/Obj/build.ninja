@@ -1,0 +1,200 @@
+#Generating source browse information for project legato_qs_9x60_ek_tm5000.IAR
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build bsp.pbi : index bsp.xcl
+build drv_i2c.pbi : index drv_i2c.xcl
+build drv_maxtouch.pbi : index drv_maxtouch.xcl
+build drv_gfx_lcdc.pbi : index drv_gfx_lcdc.xcl
+build gfx_driver.pbi : index gfx_driver.xcl
+build legato_color.pbi : index legato_color.xcl
+build legato_color_blend.pbi : index legato_color_blend.xcl
+build legato_color_convert.pbi : index legato_color_convert.xcl
+build legato_color_lerp.pbi : index legato_color_lerp.xcl
+build legato_color_value.pbi : index legato_color_value.xcl
+build legato_error.pbi : index legato_error.xcl
+build legato_math.pbi : index legato_math.xcl
+build legato_pixelbuffer.pbi : index legato_pixelbuffer.xcl
+build legato_rect.pbi : index legato_rect.xcl
+build legato_utils.pbi : index legato_utils.xcl
+build legato_event.pbi : index legato_event.xcl
+build legato_input.pbi : index legato_input.xcl
+build legato_scheme.pbi : index legato_scheme.xcl
+build legato_state.pbi : index legato_state.xcl
+build legato_stream.pbi : index legato_stream.xcl
+build legato_array.pbi : index legato_array.xcl
+build legato_list.pbi : index legato_list.xcl
+build legato_rectarray.pbi : index legato_rectarray.xcl
+build legato_font.pbi : index legato_font.xcl
+build legato_rasterfont_liberationmono1.pbi : index legato_rasterfont_liberationmono1.xcl
+build legato_rasterfont_liberationmono8.pbi : index legato_rasterfont_liberationmono8.xcl
+build legato_rasterfont_stream.pbi : index legato_rasterfont_stream.xcl
+build le_gen_fonts.pbi : index le_gen_fonts.xcl
+build le_gen_images.pbi : index le_gen_images.xcl
+build le_gen_screen_Screen0.pbi : index le_gen_screen_Screen0.xcl
+build le_gen_globalpalette.pbi : index le_gen_globalpalette.xcl
+build le_gen_harmony.pbi : index le_gen_harmony.xcl
+build le_gen_init.pbi : index le_gen_init.xcl
+build le_gen_scheme.pbi : index le_gen_scheme.xcl
+build le_gen_stringtable.pbi : index le_gen_stringtable.xcl
+build jidctint.pbi : index jidctint.xcl
+build legato_imagedecoder_jpeg.pbi : index legato_imagedecoder_jpeg.xcl
+build legato_imagedecoder_jpeg_common.pbi : index legato_imagedecoder_jpeg_common.xcl
+build legato_imagedecoder_mono.pbi : index legato_imagedecoder_mono.xcl
+build legato_imagedecoder_mono_read_internal.pbi : index legato_imagedecoder_mono_read_internal.xcl
+build legato_imagedecoder_mono_read_stream.pbi : index legato_imagedecoder_mono_read_stream.xcl
+build legato_imagedecoder_png.pbi : index legato_imagedecoder_png.xcl
+build lodepng.pbi : index lodepng.xcl
+build legato_imagedecoder_raw.pbi : index legato_imagedecoder_raw.xcl
+build legato_imagedecoder_raw_blend.pbi : index legato_imagedecoder_raw_blend.xcl
+build legato_imagedecoder_raw_convert.pbi : index legato_imagedecoder_raw_convert.xcl
+build legato_imagedecoder_raw_mask.pbi : index legato_imagedecoder_raw_mask.xcl
+build legato_imagedecoder_raw_palette_internal.pbi : index legato_imagedecoder_raw_palette_internal.xcl
+build legato_imagedecoder_raw_palette_stream.pbi : index legato_imagedecoder_raw_palette_stream.xcl
+build legato_imagedecoder_raw_read_internal.pbi : index legato_imagedecoder_raw_read_internal.xcl
+build legato_imagedecoder_raw_read_stream_color.pbi : index legato_imagedecoder_raw_read_stream_color.xcl
+build legato_imagedecoder_raw_read_stream_index.pbi : index legato_imagedecoder_raw_read_stream_index.xcl
+build legato_imagedecoder_raw_read_stream_rlecolor.pbi : index legato_imagedecoder_raw_read_stream_rlecolor.xcl
+build legato_imagedecoder_raw_read_stream_rleindex.pbi : index legato_imagedecoder_raw_read_stream_rleindex.xcl
+build legato_imagedecoder_raw_rotate.pbi : index legato_imagedecoder_raw_rotate.xcl
+build legato_imagedecoder_raw_scale.pbi : index legato_imagedecoder_raw_scale.xcl
+build legato_imagedecoder_raw_setup.pbi : index legato_imagedecoder_raw_setup.xcl
+build legato_imagedecoder_raw_write.pbi : index legato_imagedecoder_raw_write.xcl
+build legato_image.pbi : index legato_image.xcl
+build legato_image_utils.pbi : index legato_image_utils.xcl
+build legato_palette.pbi : index legato_palette.xcl
+build legato_fixedheap.pbi : index legato_fixedheap.xcl
+build legato_memory.pbi : index legato_memory.xcl
+build legato_variableheap.pbi : index legato_variableheap.xcl
+build legato_draw.pbi : index legato_draw.xcl
+build legato_draw_arc.pbi : index legato_draw_arc.xcl
+build legato_draw_line.pbi : index legato_draw_line.xcl
+build legato_draw_rect.pbi : index legato_draw_rect.xcl
+build legato_gpu.pbi : index legato_gpu.xcl
+build legato_renderer.pbi : index legato_renderer.xcl
+build legato_dynamicstring.pbi : index legato_dynamicstring.xcl
+build legato_fixedstring.pbi : index legato_fixedstring.xcl
+build legato_string.pbi : index legato_string.xcl
+build legato_string_renderer.pbi : index legato_string_renderer.xcl
+build legato_string_renderer_stream.pbi : index legato_string_renderer_stream.xcl
+build legato_stringtable.pbi : index legato_stringtable.xcl
+build legato_stringutils.pbi : index legato_stringutils.xcl
+build legato_tablestring.pbi : index legato_tablestring.xcl
+build legato_widget_arc.pbi : index legato_widget_arc.xcl
+build legato_widget_arc_skin_classic.pbi : index legato_widget_arc_skin_classic.xcl
+build legato_widget_bar_graph.pbi : index legato_widget_bar_graph.xcl
+build legato_widget_bar_graph_skin_classic.pbi : index legato_widget_bar_graph_skin_classic.xcl
+build legato_widget_button.pbi : index legato_widget_button.xcl
+build legato_widget_button_skin_classic.pbi : index legato_widget_button_skin_classic.xcl
+build legato_widget_checkbox.pbi : index legato_widget_checkbox.xcl
+build legato_widget_checkbox_skin_classic.pbi : index legato_widget_checkbox_skin_classic.xcl
+build legato_widget_circle.pbi : index legato_widget_circle.xcl
+build legato_widget_circle_skin_classic.pbi : index legato_widget_circle_skin_classic.xcl
+build legato_widget_circular_gauge.pbi : index legato_widget_circular_gauge.xcl
+build legato_widget_circular_gauge_skin_classic.pbi : index legato_widget_circular_gauge_skin_classic.xcl
+build legato_widget_circular_slider.pbi : index legato_widget_circular_slider.xcl
+build legato_widget_circular_slider_skin_classic.pbi : index legato_widget_circular_slider_skin_classic.xcl
+build legato_widget_drawsurface.pbi : index legato_widget_drawsurface.xcl
+build legato_widget_drawsurface_skin_classic.pbi : index legato_widget_drawsurface_skin_classic.xcl
+build legato_widget_gradient.pbi : index legato_widget_gradient.xcl
+build legato_widget_gradient_skin_classic.pbi : index legato_widget_gradient_skin_classic.xcl
+build legato_widget_groupbox.pbi : index legato_widget_groupbox.xcl
+build legato_widget_groupbox_skin_classic.pbi : index legato_widget_groupbox_skin_classic.xcl
+build legato_widget_image.pbi : index legato_widget_image.xcl
+build legato_widget_image_skin_classic.pbi : index legato_widget_image_skin_classic.xcl
+build legato_widget_imagerotate.pbi : index legato_widget_imagerotate.xcl
+build legato_widget_imagerotate_skin_classic.pbi : index legato_widget_imagerotate_skin_classic.xcl
+build legato_widget_imagescale.pbi : index legato_widget_imagescale.xcl
+build legato_widget_imagescale_skin_classic.pbi : index legato_widget_imagescale_skin_classic.xcl
+build legato_widget_imagesequence.pbi : index legato_widget_imagesequence.xcl
+build legato_widget_imagesequence_skin_classic.pbi : index legato_widget_imagesequence_skin_classic.xcl
+build legato_widget_keypad.pbi : index legato_widget_keypad.xcl
+build legato_widget_keypad_skin_classic.pbi : index legato_widget_keypad_skin_classic.xcl
+build legato_widget_label.pbi : index legato_widget_label.xcl
+build legato_widget_label_skin_classic.pbi : index legato_widget_label_skin_classic.xcl
+build legato_widget_line.pbi : index legato_widget_line.xcl
+build legato_widget_line_skin_classic.pbi : index legato_widget_line_skin_classic.xcl
+build legato_widget_line_graph.pbi : index legato_widget_line_graph.xcl
+build legato_widget_line_graph_skin_classic.pbi : index legato_widget_line_graph_skin_classic.xcl
+build legato_widget_list.pbi : index legato_widget_list.xcl
+build legato_widget_list_skin_classic.pbi : index legato_widget_list_skin_classic.xcl
+build legato_widget_listwheel.pbi : index legato_widget_listwheel.xcl
+build legato_widget_listwheel_skin_classic.pbi : index legato_widget_listwheel_skin_classic.xcl
+build legato_widget_pie_chart.pbi : index legato_widget_pie_chart.xcl
+build legato_widget_pie_chart_skin_classic.pbi : index legato_widget_pie_chart_skin_classic.xcl
+build legato_widget_progressbar.pbi : index legato_widget_progressbar.xcl
+build legato_widget_progressbar_skin_classic.pbi : index legato_widget_progressbar_skin_classic.xcl
+build legato_widget_radial_menu.pbi : index legato_widget_radial_menu.xcl
+build legato_widget_radial_menu_skin_classic.pbi : index legato_widget_radial_menu_skin_classic.xcl
+build legato_radiobutton_group.pbi : index legato_radiobutton_group.xcl
+build legato_widget_radiobutton.pbi : index legato_widget_radiobutton.xcl
+build legato_widget_radiobutton_skin_classic.pbi : index legato_widget_radiobutton_skin_classic.xcl
+build legato_widget_rectangle.pbi : index legato_widget_rectangle.xcl
+build legato_widget_rectangle_skin_classic.pbi : index legato_widget_rectangle_skin_classic.xcl
+build legato_widget_scrollbar.pbi : index legato_widget_scrollbar.xcl
+build legato_widget_scrollbar_skin_classic.pbi : index legato_widget_scrollbar_skin_classic.xcl
+build legato_widget_slider.pbi : index legato_widget_slider.xcl
+build legato_widget_slider_skin_classic.pbi : index legato_widget_slider_skin_classic.xcl
+build legato_widget_textfield.pbi : index legato_widget_textfield.xcl
+build legato_widget_textfield_skin_classic.pbi : index legato_widget_textfield_skin_classic.xcl
+build legato_widget_touchtest.pbi : index legato_widget_touchtest.xcl
+build legato_widget_touchtest_skin_classic.pbi : index legato_widget_touchtest_skin_classic.xcl
+build legato_widget_window.pbi : index legato_widget_window.xcl
+build legato_widget_window_skin_classic.pbi : index legato_widget_window_skin_classic.xcl
+build legato_editwidget.pbi : index legato_editwidget.xcl
+build legato_widget.pbi : index legato_widget.xcl
+build legato_widget_skin_classic.pbi : index legato_widget_skin_classic.xcl
+build legato_widget_skin_classic_common.pbi : index legato_widget_skin_classic_common.xcl
+build plib_aic.pbi : index plib_aic.xcl
+build plib_clk.pbi : index plib_clk.xcl
+build plib_flexcom0_twi_master.pbi : index plib_flexcom0_twi_master.xcl
+build plib_lcdc.pbi : index plib_lcdc.xcl
+build plib_mmu.pbi : index plib_mmu.xcl
+build plib_pio.pbi : index plib_pio.xcl
+build plib_tc0.pbi : index plib_tc0.xcl
+build iar_monitor.pbi : index iar_monitor.xcl
+build sys_cache.pbi : index sys_cache.xcl
+build sys_input.pbi : index sys_input.xcl
+build sys_input_listener.pbi : index sys_input_listener.xcl
+build sys_int.pbi : index sys_int.xcl
+build sys_time.pbi : index sys_time.xcl
+build initialization.pbi : index initialization.xcl
+build interrupts.pbi : index interrupts.xcl
+build tasks.pbi : index tasks.xcl
+build app.pbi : index app.xcl
+build main.pbi : index main.xcl
+build legato_qs_9x60_ek_tm5000.IAR_part0.pbi : link bsp.pbi drv_i2c.pbi drv_maxtouch.pbi drv_gfx_lcdc.pbi gfx_driver.pbi legato_color.pbi legato_color_blend.pbi legato_color_convert.pbi legato_color_lerp.pbi legato_color_value.pbi legato_error.pbi legato_math.pbi legato_pixelbuffer.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part1.pbi : link legato_rect.pbi legato_utils.pbi legato_event.pbi legato_input.pbi legato_scheme.pbi legato_state.pbi legato_stream.pbi legato_array.pbi legato_list.pbi legato_rectarray.pbi legato_font.pbi legato_rasterfont_liberationmono1.pbi legato_rasterfont_liberationmono8.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part2.pbi : link legato_rasterfont_stream.pbi le_gen_fonts.pbi le_gen_images.pbi le_gen_screen_Screen0.pbi le_gen_globalpalette.pbi le_gen_harmony.pbi le_gen_init.pbi le_gen_scheme.pbi le_gen_stringtable.pbi jidctint.pbi legato_imagedecoder_jpeg.pbi legato_imagedecoder_jpeg_common.pbi legato_imagedecoder_mono.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part3.pbi : link legato_imagedecoder_mono_read_internal.pbi legato_imagedecoder_mono_read_stream.pbi legato_imagedecoder_png.pbi lodepng.pbi legato_imagedecoder_raw.pbi legato_imagedecoder_raw_blend.pbi legato_imagedecoder_raw_convert.pbi legato_imagedecoder_raw_mask.pbi legato_imagedecoder_raw_palette_internal.pbi legato_imagedecoder_raw_palette_stream.pbi legato_imagedecoder_raw_read_internal.pbi legato_imagedecoder_raw_read_stream_color.pbi legato_imagedecoder_raw_read_stream_index.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part4.pbi : link legato_imagedecoder_raw_read_stream_rlecolor.pbi legato_imagedecoder_raw_read_stream_rleindex.pbi legato_imagedecoder_raw_rotate.pbi legato_imagedecoder_raw_scale.pbi legato_imagedecoder_raw_setup.pbi legato_imagedecoder_raw_write.pbi legato_image.pbi legato_image_utils.pbi legato_palette.pbi legato_fixedheap.pbi legato_memory.pbi legato_variableheap.pbi legato_draw.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part5.pbi : link legato_draw_arc.pbi legato_draw_line.pbi legato_draw_rect.pbi legato_gpu.pbi legato_renderer.pbi legato_dynamicstring.pbi legato_fixedstring.pbi legato_string.pbi legato_string_renderer.pbi legato_string_renderer_stream.pbi legato_stringtable.pbi legato_stringutils.pbi legato_tablestring.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part6.pbi : link legato_widget_arc.pbi legato_widget_arc_skin_classic.pbi legato_widget_bar_graph.pbi legato_widget_bar_graph_skin_classic.pbi legato_widget_button.pbi legato_widget_button_skin_classic.pbi legato_widget_checkbox.pbi legato_widget_checkbox_skin_classic.pbi legato_widget_circle.pbi legato_widget_circle_skin_classic.pbi legato_widget_circular_gauge.pbi legato_widget_circular_gauge_skin_classic.pbi legato_widget_circular_slider.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part7.pbi : link legato_widget_circular_slider_skin_classic.pbi legato_widget_drawsurface.pbi legato_widget_drawsurface_skin_classic.pbi legato_widget_gradient.pbi legato_widget_gradient_skin_classic.pbi legato_widget_groupbox.pbi legato_widget_groupbox_skin_classic.pbi legato_widget_image.pbi legato_widget_image_skin_classic.pbi legato_widget_imagerotate.pbi legato_widget_imagerotate_skin_classic.pbi legato_widget_imagescale.pbi legato_widget_imagescale_skin_classic.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part8.pbi : link legato_widget_imagesequence.pbi legato_widget_imagesequence_skin_classic.pbi legato_widget_keypad.pbi legato_widget_keypad_skin_classic.pbi legato_widget_label.pbi legato_widget_label_skin_classic.pbi legato_widget_line.pbi legato_widget_line_skin_classic.pbi legato_widget_line_graph.pbi legato_widget_line_graph_skin_classic.pbi legato_widget_list.pbi legato_widget_list_skin_classic.pbi legato_widget_listwheel.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part9.pbi : link legato_widget_listwheel_skin_classic.pbi legato_widget_pie_chart.pbi legato_widget_pie_chart_skin_classic.pbi legato_widget_progressbar.pbi legato_widget_progressbar_skin_classic.pbi legato_widget_radial_menu.pbi legato_widget_radial_menu_skin_classic.pbi legato_radiobutton_group.pbi legato_widget_radiobutton.pbi legato_widget_radiobutton_skin_classic.pbi legato_widget_rectangle.pbi legato_widget_rectangle_skin_classic.pbi legato_widget_scrollbar.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part10.pbi : link legato_widget_scrollbar_skin_classic.pbi legato_widget_slider.pbi legato_widget_slider_skin_classic.pbi legato_widget_textfield.pbi legato_widget_textfield_skin_classic.pbi legato_widget_touchtest.pbi legato_widget_touchtest_skin_classic.pbi legato_widget_window.pbi legato_widget_window_skin_classic.pbi legato_editwidget.pbi legato_widget.pbi legato_widget_skin_classic.pbi legato_widget_skin_classic_common.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part11.pbi : link plib_aic.pbi plib_clk.pbi plib_flexcom0_twi_master.pbi plib_lcdc.pbi plib_mmu.pbi plib_pio.pbi plib_tc0.pbi iar_monitor.pbi sys_cache.pbi sys_input.pbi sys_input_listener.pbi sys_int.pbi sys_time.pbi
+build legato_qs_9x60_ek_tm5000.IAR_part12.pbi : link initialization.pbi interrupts.pbi tasks.pbi app.pbi main.pbi
+build legato_qs_9x60_ek_tm5000.IAR.pbd : link legato_qs_9x60_ek_tm5000.IAR_part0.pbi legato_qs_9x60_ek_tm5000.IAR_part1.pbi legato_qs_9x60_ek_tm5000.IAR_part2.pbi legato_qs_9x60_ek_tm5000.IAR_part3.pbi legato_qs_9x60_ek_tm5000.IAR_part4.pbi legato_qs_9x60_ek_tm5000.IAR_part5.pbi legato_qs_9x60_ek_tm5000.IAR_part6.pbi legato_qs_9x60_ek_tm5000.IAR_part7.pbi legato_qs_9x60_ek_tm5000.IAR_part8.pbi legato_qs_9x60_ek_tm5000.IAR_part9.pbi legato_qs_9x60_ek_tm5000.IAR_part10.pbi legato_qs_9x60_ek_tm5000.IAR_part11.pbi legato_qs_9x60_ek_tm5000.IAR_part12.pbi
+build legato_qs_9x60_ek_tm5000.IAR.pbw : browsedata legato_qs_9x60_ek_tm5000.IAR.pbd
+
+
