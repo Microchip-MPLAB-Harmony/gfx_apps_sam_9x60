@@ -6,7 +6,7 @@ nav_order: 99
 ![MPLAB® Harmony Graphics Suite](./docs/images/mhgs.png) Microchip MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family v3.10.0
+## MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family v3.11.0
 
 ### Development kit and demo application support
 
@@ -14,8 +14,22 @@ Following table provides number of peripheral library examples available for dif
 
 | Development Kits  | MPLABx applications |
 |:-----------------|:-------------------:|
-| SAM 9x60 Evaluation Kit | 10 |
+| [SAM 9x60 Evaluation Kit](https://www.microchip.com/en-us/development-tool/DT100126) | 8 |
+| [SAM9X60 Curiosity Development Board](https://www.microchip.com/en-us/development-tool/EV40E67A) | 7 |
 |
+
+## Release v3.11.0
+
+### New Features
+
+New features added in this release are as follows:
+
+- Added Blank Quickstart (Single-Buffered) WVGA configuration for SAM9x60 Curiosity Board
+- Added Blank Quickstart (Double-Buffered) WVGA configuration for SAM9x60 Curiosity Board
+- Added Blank Canvas Quickstart WVGA configuration for SAM9x60 Curiosity Board
+- Added Legato Canvas Quickstart WVGA configuration for SAM9x60 Curiosity Board
+- Added Legato Quickstart WVGA configuration for SAM9x60 Curiosity Board
+
 
 ## Release v3.10.0
 
@@ -72,13 +86,12 @@ The current known issues are as follows:
 
 ### Development Tools
 
-- [MPLAB® X IDE v6.00 and above](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB® X IDE v6.05 and above](https://www.microchip.com/mplab/mplab-x-ide)
 - MPLAB® X IDE plug-ins:
-    - [MPLAB® Harmony Configurator (MHC) v3.8.3](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator).
-    - [MPLAB® Code Configurator (MCC) v5.1.1](https://github.com/Microchip-MPLAB-Harmony/mplabx-plugin).
-- [MPLAB® XC32 C/C++ Compiler v3.01 and above](https://www.microchip.com/mplab/compilers)
+    - [MPLAB® Harmony Configurator (MHC) v3.8.5](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator).
+    - [MPLAB® Code Configurator (MCC) v5.2.2](https://github.com/Microchip-MPLAB-Harmony/mplabx-plugin).
+- [MPLAB® XC32 C/C++ Compiler v4.20 and above](https://www.microchip.com/mplab/compilers)
 
 ### Dependent Components
 
-* [GFX v3.10.0](https://github.com/Microchip-MPLAB-Harmony/gfx/releases/tag/v3.10.0)
-* [IAR Embedded WorkBench ARM v8.40.1 and above](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
+* [GFX v3.12.0](https://github.com/Microchip-MPLAB-Harmony/gfx/releases/tag/v3.12.0)

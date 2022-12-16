@@ -1,0 +1,14 @@
+configName: lcdc_rgba8888_mxt_9x60_cu_wvga
+folderName: legato_qs_9x60_cu_tm5000
+format_version: v1.0
+frameworkPath: C:\harmony3_release
+processor: SAM9X60D1G
+projectName: legato_qs_9x60_cu_wvga
+settings:
+  PackageFilter: aerospace;audio;azure-rtos-threadx;azure_rtos;bsp;core;crypto;csp;Devices;dev_packs;gfx;gfx_apps_pic32mz_da;gfx_apps_sam_d5x_e5x;gfx_apps_sam_e70_s70_v70_v71;gfx_apps_sam_l22;harmony-services;net;quick_docs;touch;usb
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.7.85\atdf\SAM9X60D1G.atdf

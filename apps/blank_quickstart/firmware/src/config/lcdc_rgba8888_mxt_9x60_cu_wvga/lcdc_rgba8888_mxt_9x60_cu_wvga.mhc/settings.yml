@@ -1,0 +1,14 @@
+configName: lcdc_rgba8888_mxt_9x60_cu_wvga
+folderName: blank_qs_9x60_cu_tm5000
+format_version: v1.0
+frameworkPath: ..\..\..\..\harmony3_dev
+processor: SAM9X60D1G
+projectName: blank_quickstart_9x60_cu_wvga
+settings:
+  PackageFilter: azure_rtos;bsp;core;core_apps_sam_9x60;csp;csp_apps_sam_9x60;Devices;dev_packs;gfx;gfx_apps_pic32mz_da;gfx_apps_sam_9x60;gfx_apps_sam_d5x_e5x;gfx_apps_sam_e70_s70_v70_v71;harmony-services;harmony_gfx_apps_sam_9x60;mc_apps_pic32cm_mc;mc_apps_pic32mk;mc_apps_sam_c2x;mc_apps_sam_d5x_e5x;mc_apps_sam_e7x_s7x_v7x;mc_apps_sam_rh707;mc_apps_sam_rh71;motor_control;quick_docs;reference_apps;touch;touch_apps;touch_host_driver;usb;x2c
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.7.85\atdf\SAM9X60D1G.atdf

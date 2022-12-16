@@ -1,0 +1,84 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.gfx_apps_sam_9x60_legato_dashboard_legato_db_9x60_cu_tm5000",
+		"version": "3.10.0",
+		"displayName": "Legato Dashboard Example for SAM 9x60 Family",
+		"projectName": "legato_dashboard_9x60_cu_wvga",
+		"shortDescription": "This application presents a vehicle dashboard User Interface (UI).  It has a gauge to show the engine RPM (tachometer), dynamic text to show speed and distance traveled; and images for indicators like turn signals and other alerts. ",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.45.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.50.0"
+			}
+		],
+		"dfp": {
+			"name": "SAM9X6_DFP",
+			"semverRange": "^1.4.45"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.2"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "SAM9X60",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "SAM9X60-EK Evaluation Kit"
+			],
+			[
+				"Harmony", "Middleware", "Graphics", "Legato", "LEGATO_DASHBOARD"
+			],
+			[
+				"Middleware", "Graphics", "Legato", "LEGATO_DASHBOARD"
+			]
+		],
+		"peripherals": [
+			"GPU",
+            "Display Controller",
+            "Touch",
+            "I2C"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"Middleware",
+			"Graphics",
+			"SAM9X60",
+			"SAM 9x60 Family",
+			"Memory",
+			"Legato",
+            "Display Controller",
+            "GPU",
+            "Touch",
+            "I2C",
+            "MaxTouch 5in"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

@@ -301,9 +301,9 @@ gfxResult DRV_LCDC_Initialize()
     rightMargin     = 40;
     leftMargin      = 40;
     hsyncLength     = 48;
-    vsyncLength     = 10;
+    vsyncLength     = 3;
     upperMargin     = 29;
-    lowerMargin     = 10;
+    lowerMargin     = 3;
 
 
     /* LCDC initialization */
@@ -412,7 +412,7 @@ gfxResult DRV_LCDC_Initialize()
         LCDC_SetBlenderDMALayerEnable(drvLayer[layerCount].hwLayerID, true); //Enable blender DMA
         LCDC_SetBlenderLocalAlphaEnable(drvLayer[layerCount].hwLayerID, true); //Use local alpha
         LCDC_SetBlenderIteratedColorEnable(drvLayer[layerCount].hwLayerID, true); //Enable iterated color
-        LCDC_SetBlenderUseIteratedColor(drvLayer[layerCount].hwLayerID, true); //Use iterated color        
+        LCDC_SetBlenderUseIteratedColor(drvLayer[layerCount].hwLayerID, true); //Use iterated color  
         LCDC_UpdateOverlayAttributesEnable(drvLayer[layerCount].hwLayerID);
         LCDC_UpdateAttribute(drvLayer[layerCount].hwLayerID); //Apply the attributes
         

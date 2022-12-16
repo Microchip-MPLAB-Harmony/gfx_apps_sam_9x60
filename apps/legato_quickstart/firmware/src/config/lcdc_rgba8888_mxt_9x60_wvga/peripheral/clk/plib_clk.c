@@ -29,7 +29,7 @@
 
 
 /*********************************************************************************
-Initialize Programmable clocks 
+Initialize Programmable clocks
 *********************************************************************************/
 static void initProgrammableClk(void)
 {
@@ -46,7 +46,7 @@ static void initPeriphClk(void)
         uint8_t clken;
         uint8_t gclken;
         uint8_t css;
-        uint8_t div;
+        uint8_t divv;
     } periphList[] =
     {
         { ID_PIOA, 1, 0, 0, 0},
@@ -57,23 +57,23 @@ static void initPeriphClk(void)
         { ID_LCDC, 1, 1, 0x3, 0},
         { ID_GFX2D, 1, 0, 0, 0},
         { ID_PIOD, 1, 0, 0, 0},
-        { ID_PERIPH_MAX + 1, 0, 0, 0, 0}//end of list marker
+        { ID_PERIPH_MAX + 1U, 0, 0, 0, 0}//end of list marker
     };
 
-    int count = sizeof(periphList)/sizeof(periphList[0]);
-    for (int i = 0; i < count; i++)
+    uint32_t count = sizeof(periphList)/sizeof(periphList[0]);
+    for (uint32_t i = 0; i < count; i++)
     {
-        if (periphList[i].id == (ID_PERIPH_MAX + 1))
+        if (periphList[i].id == (ID_PERIPH_MAX + 1U))
         {
             break;
         }
 
         PMC_REGS->PMC_PCR = PMC_PCR_CMD_Msk |\
-                            PMC_PCR_GCLKEN(periphList[i].gclken) |\
-                            PMC_PCR_EN(periphList[i].clken) |\
-                            PMC_PCR_GCLKDIV(periphList[i].div) |\
-                            PMC_PCR_GCLKCSS(periphList[i].css) |\
-                            PMC_PCR_PID(periphList[i].id);                
+                            PMC_PCR_GCLKEN((uint32_t)periphList[i].gclken) |\
+                            PMC_PCR_EN((uint32_t)periphList[i].clken) |\
+                            PMC_PCR_GCLKDIV((uint32_t)periphList[i].divv) |\
+                            PMC_PCR_GCLKCSS((uint32_t)periphList[i].css) |\
+                            PMC_PCR_PID((uint32_t)periphList[i].id);
     }
 
 }
@@ -84,11 +84,11 @@ Clock Initialize
 *********************************************************************************/
 void CLK_Initialize( void )
 {
-    
+
     /* Initialize Programmable clock */
     initProgrammableClk();
 
     /* Initialize Peripheral clock */
     initPeriphClk();
- 
+
 }

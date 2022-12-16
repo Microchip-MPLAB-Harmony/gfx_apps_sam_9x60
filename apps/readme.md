@@ -38,13 +38,6 @@ This application shows how to use Canvas with legato graphics library.
 ![](./../docs/html/legato_canvas_quickstart.png)
 
 
-* [Legato Benchmark](./legato_benchmark/readme.md)
-
-This demonstration is used to benchmark the draw performance of the Legato Graphics Library on the device.
-
-![](./../docs/html/legato_benchmark.png)
-
-
 ## Blank Library Examples
 
 * [Blank Quickstart](./blank_quickstart/readme.md)

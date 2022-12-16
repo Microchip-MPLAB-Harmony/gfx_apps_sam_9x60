@@ -1,14 +1,14 @@
 configName: lcdc_rgba8888_mxt_9x60_wqvga
 folderName: legato_db_9x60_ek_tm5000
 format_version: v1.0
-frameworkPath: ..\..\..
+frameworkPath: C:\harmony3_release
 processor: SAM9X60
 projectName: legato_dashboard_9x60_ek_wvga
 settings:
-  PackageFilter: bsp;core;core_apps_sam_9x60;core_apps_sam_a5d2;crypto;csp;csp_apps_sam_9x60;csp_apps_sam_a5d2;dev_packs;gfx;gfx_apps_sam_9x60;harmony-services;net;quick_docs;touch;usb;usb_apps_device
+  PackageFilter: aerospace;audio;azure-rtos-threadx;azure_rtos;bsp;core;crypto;csp;Devices;dev_packs;gfx;gfx_apps_pic32mz_da;gfx_apps_sam_d5x_e5x;gfx_apps_sam_e70_s70_v70_v71;gfx_apps_sam_l22;harmony-services;net;quick_docs;touch;usb
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'
   CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.6.61\atdf\SAM9X60.atdf
+  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.7.85\atdf\SAM9X60.atdf

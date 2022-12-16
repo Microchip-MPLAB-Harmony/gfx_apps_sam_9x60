@@ -128,6 +128,8 @@ bool DRV_ISI_Enable(void)
     PLIB_ISI_CR_ISI_EN_Set(1);
     
     while(PLIB_ISI_SR_ENABLE_Get() == 0);
+    
+    return true;
 }
 
 bool DRV_ISI_Disable(void)

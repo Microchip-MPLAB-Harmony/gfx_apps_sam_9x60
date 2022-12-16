@@ -66,10 +66,10 @@ The following application is provided to demonstrate the usage of the SAM9X60-EK
 ____
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/blob/master/mplab_harmony_license.md)
-[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/gfx.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/releases/latest)
-[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/gfx.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/releases/latest)
-[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/gfx.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/graphs/commit-activity)
-[![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/gfx.svg)]()
+[![Latest release](https://img.shields.io/github/release/mchpgfx/legato.docs.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx/tree/v3.12.0)
+[![Latest release date](https://img.shields.io/github/release-date/mchpgfx/legato.docs.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx/tree/v3.12.0)
+[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/graphs/commit-activity)
+[![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60.svg)]()
 
 ____
 

@@ -448,6 +448,7 @@ leRasterFont NotoSans_48 =
             6132, // data size
         },
         LE_RASTER_FONT,
+        0,
     },
     47,
     35,

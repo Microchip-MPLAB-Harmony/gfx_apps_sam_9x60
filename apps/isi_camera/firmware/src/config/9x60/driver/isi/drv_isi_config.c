@@ -281,6 +281,12 @@ bool DRV_ISI_SetInputColorMode(DRV_ISI_InputColorMode mode)
     {
         PLIB_ISI_CFG2_GRAYSCALE_Set(1);
     }
+    else
+    {
+		return false;
+	}
+	
+	return true;
 }
 
 bool DRV_ISI_GetInputSize(uint32_t* w,

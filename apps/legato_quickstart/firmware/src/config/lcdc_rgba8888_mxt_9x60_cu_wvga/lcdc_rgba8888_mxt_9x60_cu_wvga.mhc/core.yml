@@ -1,0 +1,1722 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: core}
+children:
+- type: Symbols
+  children:
+  - type: KeyValueSet
+    attributes: {id: ADC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: ADC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: AES_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: AES_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Combo
+    attributes: {id: AIC_CODE_GENERATION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: AIC}
+  - type: String
+    attributes: {id: APP_START_ADDRESS}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0x23f00000'}
+  - type: KeyValueSet
+    attributes: {id: CAN0_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: CAN0_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: CAN1_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: CAN1_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: CLASSD_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: CLASSD_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: CLK_LCDC_GCLKCSS}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: '3'}
+  - type: Boolean
+    attributes: {id: CLK_LCDC_GCLKEN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: COMPILER_CHOICE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Menu
+    attributes: {id: CoreIARMenu}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: KeyValueSet
+    attributes: {id: DBGU_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: DBGU_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: String
+    attributes: {id: ECC_INTERRUPT_HANDLER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: ECC_SharedHandler}
+  - type: KeyValueSet
+    attributes: {id: ECC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: ECC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Integer
+    attributes: {id: ECC_NUM_SHARES}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '2'}
+  - type: KeyValueSet
+    attributes: {id: EMAC0_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: EMAC0_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: EMAC1_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: EMAC1_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: EXT_FIQ_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: EXT_FIQ_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: EXT_IRQ_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: EXT_IRQ_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM0_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM0_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM10_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM10_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM11_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM11_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM12_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM12_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM1_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM1_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM2_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM2_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM3_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM3_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM4_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM4_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM5_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM5_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Boolean
+    attributes: {id: FLEXCOM6_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom6, value: 'true'}
+  - type: Integer
+    attributes: {id: FLEXCOM6_CLOCK_FREQUENCY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '200000000'}
+  - type: Boolean
+    attributes: {id: FLEXCOM6_INTERRUPT_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom6, value: 'true'}
+  - type: String
+    attributes: {id: FLEXCOM6_INTERRUPT_HANDLER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom6, value: FLEXCOM6_InterruptHandler}
+  - type: Boolean
+    attributes: {id: FLEXCOM6_INTERRUPT_HANDLER_LOCK}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom6, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM6_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM6_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM7_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM7_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM8_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM8_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM9_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: FLEXCOM9_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Boolean
+    attributes: {id: GFX2D_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: plib_gfx2d, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: GFX2D_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: GFX2D_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: I2SMCC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: I2SMCC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Integer
+    attributes: {id: IAR_HEAP_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: '32768'}
+  - type: KeyValueSet
+    attributes: {id: ISI_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: ISI_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: String
+    attributes: {id: KEIL_STACK_HEAP_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0x1200'}
+  - type: Boolean
+    attributes: {id: LCDC_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lcdc, value: 'true'}
+  - type: Integer
+    attributes: {id: LCDC_CLOCK_FREQUENCY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '200000000'}
+  - type: Integer
+    attributes: {id: LCDC_GCLK_FREQUENCY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '200000000'}
+  - type: Boolean
+    attributes: {id: LCDC_INTERRUPT_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lcdc, value: 'true'}
+  - type: String
+    attributes: {id: LCDC_INTERRUPT_HANDLER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lcdc, value: LCDC_Interrupt_Handler}
+  - type: KeyValueSet
+    attributes: {id: LCDC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: LCDC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: MATRIX_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: MATRIX_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: String
+    attributes: {id: MC_INTERRUPT_HANDLER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: MC_SharedHandler}
+  - type: KeyValueSet
+    attributes: {id: MC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: MC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Integer
+    attributes: {id: MC_NUM_SHARES}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '3'}
+  - type: Integer
+    attributes: {id: NUM_SHARED_VECTORS}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '3'}
+  - type: KeyValueSet
+    attributes: {id: OTPC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: OTPC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: String
+    attributes: {id: PIN_100_LAT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: ''}
+  - type: String
+    attributes: {id: PIN_100_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: LED_AH}
+  - type: String
+    attributes: {id: PIN_101_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: FLEXCOM6_IO0}
+  - type: String
+    attributes: {id: PIN_101_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_102_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: FLEXCOM6_IO1}
+  - type: String
+    attributes: {id: PIN_102_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_111_LAT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: ''}
+  - type: String
+    attributes: {id: PIN_111_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: LED_AH}
+  - type: String
+    attributes: {id: PIN_174_DIR}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: In}
+  - type: String
+    attributes: {id: PIN_174_FUNCTION_NAME}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: BSP_MAXTOUCH_CHG}
+  - type: String
+    attributes: {id: PIN_174_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: GPIO}
+  - type: String
+    attributes: {id: PIN_174_LAT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: ''}
+  - type: String
+    attributes: {id: PIN_174_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: GPIO}
+  - type: String
+    attributes: {id: PIN_175_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT19}
+  - type: String
+    attributes: {id: PIN_175_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_177_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT21}
+  - type: String
+    attributes: {id: PIN_177_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_178_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDEN}
+  - type: String
+    attributes: {id: PIN_178_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_182_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDHSYNC}
+  - type: String
+    attributes: {id: PIN_182_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_187_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT9}
+  - type: String
+    attributes: {id: PIN_187_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_188_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT7}
+  - type: String
+    attributes: {id: PIN_188_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_190_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT13}
+  - type: String
+    attributes: {id: PIN_190_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_191_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT4}
+  - type: String
+    attributes: {id: PIN_191_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_193_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT18}
+  - type: String
+    attributes: {id: PIN_193_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_194_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT17}
+  - type: String
+    attributes: {id: PIN_194_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_196_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT16}
+  - type: String
+    attributes: {id: PIN_196_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_199_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDPWM}
+  - type: String
+    attributes: {id: PIN_199_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_200_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT22}
+  - type: String
+    attributes: {id: PIN_200_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_204_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT3}
+  - type: String
+    attributes: {id: PIN_204_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_206_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT11}
+  - type: String
+    attributes: {id: PIN_206_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_207_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT2}
+  - type: String
+    attributes: {id: PIN_207_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_208_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT12}
+  - type: String
+    attributes: {id: PIN_208_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_209_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT6}
+  - type: String
+    attributes: {id: PIN_209_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_210_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT10}
+  - type: String
+    attributes: {id: PIN_210_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_211_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT23}
+  - type: String
+    attributes: {id: PIN_211_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_214_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDPCK}
+  - type: String
+    attributes: {id: PIN_214_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_215_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT20}
+  - type: String
+    attributes: {id: PIN_215_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_220_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT14}
+  - type: String
+    attributes: {id: PIN_220_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_221_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT1}
+  - type: String
+    attributes: {id: PIN_221_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_222_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT5}
+  - type: String
+    attributes: {id: PIN_222_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_223_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT15}
+  - type: String
+    attributes: {id: PIN_223_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_224_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT8}
+  - type: String
+    attributes: {id: PIN_224_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_225_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDAT0}
+  - type: String
+    attributes: {id: PIN_225_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_226_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDVSYNC}
+  - type: String
+    attributes: {id: PIN_226_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_230_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: LCDC_LCDDISP}
+  - type: String
+    attributes: {id: PIN_230_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: legato_gfx_pda_tm5000, value: A}
+  - type: String
+    attributes: {id: PIN_40_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: SWITCH_AL}
+  - type: String
+    attributes: {id: PIN_99_LAT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: ''}
+  - type: String
+    attributes: {id: PIN_99_PERIPHERAL_FUNCTION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: LED_AH}
+  - type: Hex
+    attributes: {id: PIOA_ABCDSR1_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOA_ABCDSR2_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Boolean
+    attributes: {id: PIOA_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: PIOA_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: PIOA_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOA_OER_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOA_PDR_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '3221225472'}
+  - type: Hex
+    attributes: {id: PIOA_PUER_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '536870912'}
+  - type: Boolean
+    attributes: {id: PIOB_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: PIOB_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: PIOB_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOC_ABCDSR1_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOC_ABCDSR2_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Boolean
+    attributes: {id: PIOC_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: PIOC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: PIOC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOC_OER_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOC_PDR_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '2113929215'}
+  - type: Hex
+    attributes: {id: PIOC_SODR_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOD_ABCDSR1_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOD_ABCDSR2_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Boolean
+    attributes: {id: PIOD_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: PIOD_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: PIOD_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOD_OER_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '2752512'}
+  - type: Hex
+    attributes: {id: PIOD_PDR_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Hex
+    attributes: {id: PIOD_SODR_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: PIT64B_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: PIT64B_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: PWM_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: PWM_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: QSPI_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: QSPI_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: SDMMC0_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: SDMMC0_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: SDMMC1_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: SDMMC1_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Boolean
+    attributes: {id: SECURE_TO_NONSECURE_REDIRECTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: SHA_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: SHA_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: SSC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: SSC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Boolean
+    attributes: {id: SYSC_INTERRUPT_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'false'}
+  - type: String
+    attributes: {id: SYSC_INTERRUPT_HANDLER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: SYSC_SharedHandler}
+  - type: KeyValueSet
+    attributes: {id: SYSC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: SYSC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Integer
+    attributes: {id: SYSC_NUM_SHARES}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '6'}
+  - type: Integer
+    attributes: {id: TC0_CH0_CLOCK_FREQUENCY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '200000000'}
+  - type: Integer
+    attributes: {id: TC0_CH3_CLOCK_FREQUENCY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '200000000'}
+  - type: Boolean
+    attributes: {id: TC0_CHANNEL0_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tc0, value: 'true'}
+  - type: Boolean
+    attributes: {id: TC0_CHANNEL1_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tc0, value: 'false'}
+  - type: Boolean
+    attributes: {id: TC0_CHANNEL2_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tc0, value: 'false'}
+  - type: Boolean
+    attributes: {id: TC0_CLOCK_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: Boolean
+    attributes: {id: TC0_INTERRUPT_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tc0, value: 'true'}
+  - type: String
+    attributes: {id: TC0_INTERRUPT_HANDLER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tc0, value: TC0_InterruptHandler}
+  - type: Boolean
+    attributes: {id: TC0_INTERRUPT_HANDLER_LOCK}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tc0, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: TC0_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: TC0_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: TC1_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: TC1_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: TDES_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: TDES_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: TRNG_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: TRNG_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: UDPHS_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: UDPHS_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: UHPHS_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: UHPHS_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: WDT_EARLY_RESET_ACTION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Integer
+    attributes: {id: WDT_EARLY_RESET_THRESHOLD_COUNT}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '3749'}
+  - type: Integer
+    attributes: {id: WDT_EARLY_RESET_THRESHOLD_MILLISECONDS}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '1000'}
+  - type: Boolean
+    attributes: {id: WDT_INTERRUPT_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'false'}
+  - type: String
+    attributes: {id: WDT_INTERRUPT_HANDLER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: WDT_Handler}
+  - type: Boolean
+    attributes: {id: WDT_INTERRUPT_HANDLER_LOCK}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'false'}
+  - type: KeyValueSet
+    attributes: {id: WDT_LEVEL_EXPIRATION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Integer
+    attributes: {id: WDT_LEVEL_THRESHOLD_COUNT}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '3999'}
+  - type: Integer
+    attributes: {id: WDT_LEVEL_THRESHOLD_MILLISECONDS}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '15000'}
+  - type: Integer
+    attributes: {id: WDT_PERIOD_COUNT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '4000'}
+  - type: KeyValueSet
+    attributes: {id: WDT_PERIOD_EXPIRATION}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: Integer
+    attributes: {id: WDT_PERIOD_MILLISECONDS}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '16000'}
+  - type: KeyValueSet
+    attributes: {id: XDMAC_INTERRUPT_PRIORITY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+  - type: KeyValueSet
+    attributes: {id: XDMAC_INTERRUPT_SRC_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: '0'}
+- type: ElementPosition
+  attributes: {x: '240', y: '20', id: core}

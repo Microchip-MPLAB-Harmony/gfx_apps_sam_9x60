@@ -83,6 +83,9 @@ const DRV_I2C_PLIB_INTERFACE drvI2C0PLibAPI = {
     /* I2C PLib Transfer Write Read Add function */
     .writeRead = (DRV_I2C_PLIB_WRITE_READ)FLEXCOM0_TWI_WriteRead,
 
+    /*I2C PLib Transfer Abort function */
+    .transferAbort = (DRV_I2C_PLIB_TRANSFER_ABORT)FLEXCOM0_TWI_TransferAbort,
+
     /* I2C PLib Transfer Status function */
     .errorGet = (DRV_I2C_PLIB_ERROR_GET)FLEXCOM0_TWI_ErrorGet,
 
@@ -379,6 +382,8 @@ static void SYSC_Disable( void )
 
 void SYS_Initialize ( void* data )
 {
+    /* MISRAC 2012 deviation block start */
+    /* MISRA C-2012 Rule 2.2 deviated in this file.  Deviation record ID -  H3_MISRAC_2012_R_2_2_DR_1 */
 
 	SYSC_Disable( );
 
@@ -416,13 +421,13 @@ void SYS_Initialize ( void* data )
 
     sysObj.sysTime = SYS_TIME_Initialize(SYS_TIME_INDEX_0, (SYS_MODULE_INIT *)&sysTimeInitData);
  
+	/* Initialize the USB Host layer */
+    sysObj.usbHostObject0 = USB_HOST_Initialize (( SYS_MODULE_INIT *)& usbHostInitData );	
+
      /* Initialize USB Driver */ 
     sysObj.drvUSBEHCIObject = DRV_USB_EHCI_Initialize (DRV_USB_EHCI_INDEX_0, (SYS_MODULE_INIT *) &drvUSBEHCIInit);
     sysObj.drvUSBOHCIObject = DRV_USB_OHCI_Initialize (DRV_USB_OHCI_INDEX_0, (SYS_MODULE_INIT *) &drvUSBOHCIInit);
     
-	/* Initialize the USB Host layer */
-    sysObj.usbHostObject0 = USB_HOST_Initialize (( SYS_MODULE_INIT *)& usbHostInitData );	
-
     /*** File System Service Initialization Code ***/
     SYS_FS_Initialize( (const void *) sysFSInit );
 
@@ -431,6 +436,7 @@ void SYS_Initialize ( void* data )
 
 
 
+    /* MISRAC 2012 deviation block end */
 }
 
 

@@ -34,13 +34,6 @@ children:
       children:
       - type: Dynamic
         attributes: {id: le_gfx_lcdc, value: '800'}
-  - type: Boolean
-    attributes: {id: GlobalAlphaEnable}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: 'true'}
   - type: Comment
     attributes: {id: HALComment}
     children:

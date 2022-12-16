@@ -5,7 +5,7 @@ frameworkPath: ..\..\..\..\harmony3_dev
 processor: SAM9X60
 projectName: legato_canvas_quickstart_9x60_ek_wvga
 settings:
-  PackageFilter: bsp;core;core_apps_sam_9x60;core_apps_sam_a5d2;crypto;csp;csp_apps_sam_9x60;csp_apps_sam_a5d2;dev_packs;gfx;gfx_apps_sam_9x60;harmony-services;net;quick_docs;touch;usb;usb_apps_device
+  PackageFilter: bsp;core;core_apps_sam_9x60;core_apps_sam_a5d2;crypto;csp;csp_apps_sam_9x60;csp_apps_sam_a5d2;Devices;dev_packs;gfx;gfx_apps_sam_9x60;harmony-services;net;quick_docs;touch;usb;usb_apps_device
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'

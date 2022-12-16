@@ -123,7 +123,7 @@ void LCDC_SetHorizontalFrontPorchWidth(uint16_t value)
 
 void LCDC_SetHorizontalBackPorchWidth(uint16_t value)
 {
-    LCDC_REGS->LCDC_LCDCFG4 = (LCDC_REGS->LCDC_LCDCFG4 & ~LCDC_LCDCFG3_HBPW_Msk) | 
+    LCDC_REGS->LCDC_LCDCFG3 = (LCDC_REGS->LCDC_LCDCFG3 & ~LCDC_LCDCFG3_HBPW_Msk) | 
                                   LCDC_LCDCFG3_HBPW(value - 1);
 }
 

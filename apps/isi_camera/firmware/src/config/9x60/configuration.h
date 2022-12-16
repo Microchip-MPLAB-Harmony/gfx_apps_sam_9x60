@@ -105,7 +105,7 @@ extern "C" {
 #define SYS_FS_CWD_STRING_LEN             1024
 
 
-#define SYS_FS_FAT_VERSION                "v0.14a"
+#define SYS_FS_FAT_VERSION                "v0.14b"
 #define SYS_FS_FAT_READONLY               false
 #define SYS_FS_FAT_CODE_PAGE              437
 #define SYS_FS_FAT_MAX_SS                 SYS_FS_MEDIA_MAX_BLOCK_SIZE
@@ -153,6 +153,31 @@ extern "C" {
 #define USB_HOST_MSD_LUN_NUMBERS              1
 
 
+// *****************************************************************************
+// *****************************************************************************
+// Section: USB Host Layer Configuration
+// *****************************************************************************
+// **************************************************************************
+
+/* Number of Endpoints used */
+
+/* Total number of devices to be supported */
+#define USB_HOST_DEVICES_NUMBER                             1 
+
+/* Target peripheral list entries */
+#define  USB_HOST_TPL_ENTRIES                               1 
+
+/* Maximum number of configurations supported per device */
+#define USB_HOST_DEVICE_INTERFACES_NUMBER                   5    
+
+#define USB_HOST_CONTROLLERS_NUMBER                         2
+
+#define USB_HOST_TRANSFERS_NUMBER                           10
+
+/* Provides Host pipes number */
+#define USB_HOST_PIPES_NUMBER                               10
+
+
 	
 /*** USB EHCI Driver Configurations ***/
 
@@ -195,31 +220,6 @@ extern "C" {
 #ifndef USB_ALIGN
 #define USB_ALIGN __ALIGNED(32)
 #endif 
-
-// *****************************************************************************
-// *****************************************************************************
-// Section: USB Host Layer Configuration
-// *****************************************************************************
-// **************************************************************************
-
-/* Number of Endpoints used */
-
-/* Total number of devices to be supported */
-#define USB_HOST_DEVICES_NUMBER                             1
-
-/* Target peripheral list entries */
-#define  USB_HOST_TPL_ENTRIES                               1 
-
-/* Maximum number of configurations supported per device */
-#define USB_HOST_DEVICE_INTERFACES_NUMBER                   5    
-
-#define USB_HOST_CONTROLLERS_NUMBER                         2
-
-#define USB_HOST_TRANSFERS_NUMBER                           10
-
-/* Provides Host pipes number */
-#define USB_HOST_PIPES_NUMBER                               10
-
 
 
 

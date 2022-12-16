@@ -5,10 +5,10 @@ frameworkPath: ..\..\..\..\harmony3_dev
 processor: SAM9X60
 projectName: legato_quickstart_9x60_ek_wvga_270
 settings:
-  PackageFilter: bsp;core;core_apps_sam_9x60;core_apps_sam_a5d2;crypto;csp;csp_apps_sam_9x60;csp_apps_sam_a5d2;dev_packs;gfx;gfx_apps_sam_9x60;harmony-services;net;quick_docs;touch;usb;usb_apps_device
+  PackageFilter: azure_rtos;bsp;core;core_apps_sam_9x60;csp;csp_apps_sam_9x60;Devices;dev_packs;gfx;gfx_apps_pic32mz_da;gfx_apps_sam_9x60;gfx_apps_sam_d5x_e5x;gfx_apps_sam_e70_s70_v70_v71;harmony-services;harmony_gfx_apps_sam_9x60;mc_apps_pic32cm_mc;mc_apps_pic32mk;mc_apps_sam_c2x;mc_apps_sam_d5x_e5x;mc_apps_sam_e7x_s7x_v7x;mc_apps_sam_rh707;mc_apps_sam_rh71;motor_control;quick_docs;reference_apps;touch;touch_apps;touch_host_driver;usb;x2c
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'
   CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.6.61\atdf\SAM9X60.atdf
+  DFPPath: .\dev_packs\Microchip\SAM9X60_DFP\1.7.85\atdf\SAM9X60.atdf

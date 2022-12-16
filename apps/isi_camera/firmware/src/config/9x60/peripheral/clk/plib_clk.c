@@ -29,7 +29,7 @@
 
 
 /*********************************************************************************
-Generate Software delay (in multiples of microsecond units) 
+Generate Software delay (in multiples of microsecond units)
 *********************************************************************************/
 static void swDelayUs(uint32_t delay)
 {
@@ -62,16 +62,16 @@ static void initUPLLCLK(void)
     PMC_REGS->PMC_PLL_CTRL1 = PMC_PLL_CTRL1_MUL(39) |\
                               PMC_PLL_CTRL1_FRACR(0);
 
-    /* STEP 4: Enable UTMI Bandgap */ 
+    /* STEP 4: Enable UTMI Bandgap */
     PMC_REGS->PMC_PLL_ACR |= PMC_PLL_ACR_UTMIBG_Msk;
 
-    /* STEP 5: Wait 10 us */        
+    /* STEP 5: Wait 10 us */
     swDelayUs(10);
 
     /* STEP 6: Enable UTMI Internal Regulator */
     PMC_REGS->PMC_PLL_ACR |= PMC_PLL_ACR_UTMIVR_Msk;
 
-    /* STEP 7: Wait 10 us */        
+    /* STEP 7: Wait 10 us */
     swDelayUs(10);
 
     /* STEP 8: Update the PLL controls */
@@ -81,13 +81,13 @@ static void initUPLLCLK(void)
     PMC_REGS->PMC_PLL_CTRL0 = PMC_PLL_CTRL0_ENLOCK_Msk |\
                               PMC_PLL_CTRL0_ENPLL_Msk |\
                               PMC_PLL_CTRL0_ENPLLCK_Msk;
-    
+
     /* STEP 10: Wait for the lock bit to rise by polling the PMC_PLL_ISR0 */
     while ((PMC_REGS->PMC_PLL_ISR0 & PMC_PLL_ISR0_LOCKU_Msk) != PMC_PLL_ISR0_LOCKU_Msk);
 }
 
 /*********************************************************************************
-Initialize Programmable clocks 
+Initialize Programmable clocks
 *********************************************************************************/
 static void initProgrammableClk(void)
 {
@@ -108,7 +108,7 @@ static void initPeriphClk(void)
         uint8_t clken;
         uint8_t gclken;
         uint8_t css;
-        uint8_t div;
+        uint8_t divv;
     } periphList[] =
     {
         { ID_PIOA, 1, 0, 0, 0},
@@ -119,36 +119,36 @@ static void initPeriphClk(void)
         { ID_UHPHS_EHCI, 1, 0, 0, 0},
         { ID_ISI, 1, 0, 0, 0},
         { ID_PIOD, 1, 0, 0, 0},
-        { ID_PERIPH_MAX + 1, 0, 0, 0, 0}//end of list marker
+        { ID_PERIPH_MAX + 1U, 0, 0, 0, 0}//end of list marker
     };
 
-    int count = sizeof(periphList)/sizeof(periphList[0]);
-    for (int i = 0; i < count; i++)
+    uint32_t count = sizeof(periphList)/sizeof(periphList[0]);
+    for (uint32_t i = 0; i < count; i++)
     {
-        if (periphList[i].id == (ID_PERIPH_MAX + 1))
+        if (periphList[i].id == (ID_PERIPH_MAX + 1U))
         {
             break;
         }
 
         PMC_REGS->PMC_PCR = PMC_PCR_CMD_Msk |\
-                            PMC_PCR_GCLKEN(periphList[i].gclken) |\
-                            PMC_PCR_EN(periphList[i].clken) |\
-                            PMC_PCR_GCLKDIV(periphList[i].div) |\
-                            PMC_PCR_GCLKCSS(periphList[i].css) |\
-                            PMC_PCR_PID(periphList[i].id);                
+                            PMC_PCR_GCLKEN((uint32_t)periphList[i].gclken) |\
+                            PMC_PCR_EN((uint32_t)periphList[i].clken) |\
+                            PMC_PCR_GCLKDIV((uint32_t)periphList[i].divv) |\
+                            PMC_PCR_GCLKCSS((uint32_t)periphList[i].css) |\
+                            PMC_PCR_PID((uint32_t)periphList[i].id);
     }
 
 }
 
 /*********************************************************************************
-Initialize USB OHCI clocks 
+Initialize USB OHCI clocks
 *********************************************************************************/
 static void initUSBClk ( void )
-{    	
+{
     /* Configure USB OHCI clock source and divider */
-	PMC_REGS->PMC_USB = PMC_USB_USBDIV(9) | PMC_USB_USBS_UPLL;
-	
-	/* Enable UHP48M and UHP12M OHCI clocks */
+    PMC_REGS->PMC_USB = PMC_USB_USBDIV(9) | PMC_USB_USBS_UPLL;
+
+    /* Enable UHP48M and UHP12M OHCI clocks */
     PMC_REGS->PMC_SCER |= PMC_SCER_UHP_Msk;
 }
 
@@ -161,7 +161,7 @@ void CLK_Initialize( void )
 
     /* Initialize UPLLA clock generator */
     initUPLLCLK();
-    
+
     /* Initialize Programmable clock */
     initProgrammableClk();
 
@@ -170,5 +170,5 @@ void CLK_Initialize( void )
 
     /* Initialize USB Clock */
     initUSBClk();
- 
+
 }

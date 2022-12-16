@@ -77,7 +77,6 @@
 
 #define LCDC_HSYNC_POLARITY LCDC_POLARITY_NEGATIVE
 
-#define LCDC_ENABLE_GLOBAL_HW_ALPHA 1
 
 #define LCDC_PWM_CLOCK_SOURCE LCDC_PWM_SOURCE_SYSTEM
 #define LCDC_PWM_PRESCALER 5
@@ -413,7 +412,7 @@ gfxResult DRV_LCDC_Initialize()
         LCDC_SetBlenderDMALayerEnable(drvLayer[layerCount].hwLayerID, true); //Enable blender DMA
         LCDC_SetBlenderLocalAlphaEnable(drvLayer[layerCount].hwLayerID, true); //Use local alpha
         LCDC_SetBlenderIteratedColorEnable(drvLayer[layerCount].hwLayerID, true); //Enable iterated color
-        LCDC_SetBlenderUseIteratedColor(drvLayer[layerCount].hwLayerID, true); //Use iterated color        
+        LCDC_SetBlenderUseIteratedColor(drvLayer[layerCount].hwLayerID, true); //Use iterated color  
         LCDC_UpdateOverlayAttributesEnable(drvLayer[layerCount].hwLayerID);
         LCDC_UpdateAttribute(drvLayer[layerCount].hwLayerID); //Apply the attributes
         
@@ -578,9 +577,11 @@ static gfxDriverIOCTLResponse DRV_LCDC_layerConfig(gfxDriverIOCTLRequest request
 
         LCDC_SetRGBModeInput(drvLayer[arg->id].hwLayerID, drvLayer[arg->id].colorspace);
 
-        LCDC_SetBlenderGlobalAlpha(drvLayer[arg->id].hwLayerID, drvLayer[arg->id].alpha);        
-
-        LCDC_SetChannelEnable(drvLayer[arg->id].hwLayerID, drvLayer[arg->id].enabled);
+        //If global alpha is not supported, disable the layer if alpha is = 0 
+        if (drvLayer[arg->id].alpha == 0)
+            LCDC_SetChannelEnable(drvLayer[arg->id].hwLayerID, false);
+        else
+            LCDC_SetChannelEnable(drvLayer[arg->id].hwLayerID, drvLayer[arg->id].enabled);
 
         //Update overlay attributes before the start of the next frame
         LCDC_UpdateOverlayAttributesEnable(drvLayer[arg->id].hwLayerID);

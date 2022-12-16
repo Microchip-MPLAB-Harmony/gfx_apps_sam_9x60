@@ -258,13 +258,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: BEAE49ADD38336EAF594CC0F390A7856
-- generatedChecksum: 7F8901D4B7517E1F420F03A759BEFBF2
+- generatedChecksum: 0F2A5AF2EE9B3B27C4F444985D151DA7
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga/gfx/legato/renderer
   name: legato_gpu.c
   physicalPath: gfx/legato/renderer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7F8901D4B7517E1F420F03A759BEFBF2
+  userChecksum: 0F2A5AF2EE9B3B27C4F444985D151DA7
 - generatedChecksum: AD1126687188EBF0194B8D83099D80DC
   logicalPath: config/lcdc_rgba8888_mxt_9x60_wvga/gfx/legato/image
   name: legato_image.c

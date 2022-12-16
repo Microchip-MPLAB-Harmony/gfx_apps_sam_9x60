@@ -59,12 +59,12 @@
 #include "driver/isi/drv_isi.h"
 #include "peripheral/tc/plib_tc0.h"
 #include "peripheral/flexcom/twi/master/plib_flexcom0_twi_master.h"
-#include "driver/i2c/drv_i2c.h"
 #include "system/time/sys_time.h"
-#include "driver/usb/uhp/drv_usb_ehci.h"
-#include "driver/usb/uhp/drv_usb_ohci.h"
+#include "driver/i2c/drv_i2c.h"
 #include "usb/usb_chapter_9.h"
 #include "usb/usb_host.h"
+#include "driver/usb/uhp/drv_usb_ehci.h"
+#include "driver/usb/uhp/drv_usb_ohci.h"
 #include "system/fs/sys_fs.h"
 #include "system/fs/sys_fs_media_manager.h"
 #include "system/fs/sys_fs_fat_interface.h"
@@ -207,10 +207,10 @@ typedef struct
     SYS_MODULE_OBJ drvI2C0;
 
     SYS_MODULE_OBJ  sysTime;
+	SYS_MODULE_OBJ  usbHostObject0;
+
     SYS_MODULE_OBJ  drvUSBEHCIObject;
     SYS_MODULE_OBJ  drvUSBOHCIObject;
-
-	SYS_MODULE_OBJ  usbHostObject0;
 
 
 } SYSTEM_OBJECTS;

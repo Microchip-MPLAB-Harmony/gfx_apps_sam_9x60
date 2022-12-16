@@ -1,0 +1,21 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: lcdc}
+children:
+- type: Attachments
+  children:
+  - type: DirectCapability
+    attributes: {id: LCDC_LCDC}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: le_gfx_lcdc}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: LCDC}
+- type: ElementPosition
+  attributes: {x: '334', y: '107', id: lcdc}
