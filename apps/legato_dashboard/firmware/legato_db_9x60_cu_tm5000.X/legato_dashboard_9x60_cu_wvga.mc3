@@ -1,4 +1,4 @@
-<config configName="lcdc_rgba8888_mxt_9x60_cu_wqvga" projectName="legato_dashboard_9x60_cu_wvga" configVersion="1.1" device="SAM9X60D1G" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.11">
+<config configName="lcdc_rgba8888_mxt_9x60_cu_wqvga" projectName="legato_dashboard_9x60_cu_wvga" configVersion="1.1" device="SAM9X60D1G" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.6.1">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -23,10 +23,6 @@
       </entry>
       <entry>
          <string>drv_i2c_0</string>
-         <string>class com.microchip.mcc.harmony.HarmonyModule</string>
-      </entry>
-      <entry>
-         <string>drv_i2c_1</string>
          <string>class com.microchip.mcc.harmony.HarmonyModule</string>
       </entry>
       <entry>
@@ -79,7 +75,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.2.0"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.4.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1030,7 +1026,10 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
     &lt;GraphSettings canvasHeight=&quot;402&quot; canvasWidth=&quot;1011&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;PowerProfiles dnOrder=&quot;1&quot;&gt;
+      &lt;Profile dnOrder=&quot;0&quot; id=&quot;profile0&quot; name=&quot;Main&quot;/&gt;
+    &lt;/PowerProfiles&gt;
+    &lt;ComponentGraph dnOrder=&quot;2&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BSP_SAM_9X60_Curiosity&quot; x=&quot;320&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;HarmonyCore&quot; x=&quot;575&quot; y=&quot;8&quot;/&gt;
@@ -2489,11 +2488,33 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_101_DRIVER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_101_DRIVER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;High&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_101_FUNCTION_TYPE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_101_FUNCTION_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;User dnOrder=&quot;0&quot; value=&quot;FLEXCOM6_IO0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_101_OD"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_101_OD&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;True&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -2522,11 +2543,33 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_102_DRIVER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_102_DRIVER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;High&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_102_FUNCTION_TYPE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_102_FUNCTION_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;User dnOrder=&quot;0&quot; value=&quot;FLEXCOM6_IO1&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_102_OD"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_102_OD&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;True&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -4008,6 +4051,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIOA_DRIVER_VALUE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIOA_DRIVER_VALUE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;3221225472&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIOA_INTERRUPT_PRIORITY"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIOA_INTERRUPT_PRIORITY&quot;&gt;
@@ -4024,6 +4078,17 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIOA_INTERRUPT_SRC_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIOA_MDER_VALUE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIOA_MDER_VALUE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;3221225472&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5369,53 +5434,6 @@
     &lt;/Values&gt;
   &lt;/drv_i2c_0&gt;
 &lt;/drv_i2c_0&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drv_i2c_1" name="!@#harmonyAttachmentState"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drv_i2c_1&gt;
-  &lt;drv_i2c_1 dnOrder=&quot;0&quot;/&gt;
-&lt;/drv_i2c_1&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drv_i2c_1" name="#&amp;__MCC_Group_Parrent_id"/>
-         <value>drv_i2c</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drv_i2c_1" name="DRV_I2C_NUM_CLIENTS"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drv_i2c_1&gt;
-  &lt;drv_i2c_1 dnOrder=&quot;0&quot; id=&quot;DRV_I2C_NUM_CLIENTS&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drv_i2c_1&gt;
-&lt;/drv_i2c_1&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drv_i2c_1" name="DRV_I2C_PLIB"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drv_i2c_1&gt;
-  &lt;drv_i2c_1 dnOrder=&quot;0&quot; id=&quot;DRV_I2C_PLIB&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drv_i2c_1&gt;
-&lt;/drv_i2c_1&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drv_i2c_1" name="DRV_I2C_QUEUE_SIZE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drv_i2c_1&gt;
-  &lt;drv_i2c_1 dnOrder=&quot;0&quot; id=&quot;DRV_I2C_QUEUE_SIZE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drv_i2c_1&gt;
-&lt;/drv_i2c_1&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drv_i2c_1" name="INDEX"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drv_i2c_1&gt;
-  &lt;drv_i2c_1 dnOrder=&quot;0&quot; id=&quot;INDEX&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/drv_i2c_1&gt;
-&lt;/drv_i2c_1&gt;
 </value>
       </entry>
       <entry>
@@ -8260,11 +8278,11 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\bsp\bsp.h</file>
-         <hash>26c965d3b62555c9fc783b17b1db2dc540b875b67dedc1bd7788ff04b1654b6a</hash>
+         <hash>eac11da09b4c244ff9ab6915c54486aaad3453ac0e9e8abe8059a050b6eb5821</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\configuration.h</file>
-         <hash>b080b1c574b84bef2b3f0f5ebe02cadcece6e690622798280a0587e79ce167f1</hash>
+         <hash>07ea371ae7434a70583e4f580eb7cbdc7a5ec7cbe02aee0291cdcee301fc4833</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\cstartup.S</file>
@@ -8276,7 +8294,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\definitions.h</file>
-         <hash>e17dc83f8181d2059974cb40fc74d838e01d8bbb3d86a76af78fcf1dfc120fa9</hash>
+         <hash>2f33c4dfb7441d1c3e976420e22817a397e0e5c1cf441fdd01072781d837c726</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\device.h</file>
@@ -8296,19 +8314,19 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\driver\i2c\drv_i2c.h</file>
-         <hash>1add02b0380f67be5dc9707f01b290af08eccc0957775327f44a8c1afc823410</hash>
+         <hash>098d38bbc9c9d42befb9e601cfaf7f342ce8c670b788c961ef84df6db1ecbf82</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\driver\i2c\drv_i2c_definitions.h</file>
-         <hash>73ed094aba8f1de3ae1497ff414474f02588381d94801f6beac411f8c7f9b329</hash>
+         <hash>308393d7dc25f042ea7443ac00d81cc8fafb0eec952207d88f64a0b48ea04bae</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\driver\i2c\src\drv_i2c.c</file>
-         <hash>d27c94dc19b7413b120ca9aca2689f5d95e5a2c46f2b3918d37587bf64c85551</hash>
+         <hash>5d5aba18ec8e697a064a2eb4b862f0bb5ae34e68d88e71de23b5b1a9019e90c4</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\driver\i2c\src\drv_i2c_local.h</file>
-         <hash>f82fd4270a023c7d3281752352a98a33d139a03992f8cf32e6ad04adaf8fcf5f</hash>
+         <hash>efe3b598a6fc3492f7f448c0077edcce4378d2029b5a26d304e0293e0d4711f7</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\driver\input\drv_maxtouch.c</file>
@@ -8320,11 +8338,11 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\fault_handlers.c</file>
-         <hash>34134ba54c0becfbe75cd670be15133f2a10dea081d9fa5fab75f17afc1109ba</hash>
+         <hash>931e951cf7431d3d70d6ab81bcd265ff0ac8b3f473b73cd7a541f59d49786b7c</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\canvas\gfx_canvas.c</file>
-         <hash>6dea298c23bedb944cdb3b711f03973f761db19c2bf79b4e243cbceba7987b51</hash>
+         <hash>157fa188504e564f7a79fa5951bd11134c297220533159262aa02c261928abce</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\canvas\gfx_canvas.h</file>
@@ -8340,7 +8358,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\driver\controller\lcdc\drv_gfx_lcdc.c</file>
-         <hash>0345bd924cde26397cc0b105c3c62da5c94c3e6a6846f8ce7a932ba2d3fcce32</hash>
+         <hash>34106b2f429a093c5240f52f9f957ae05c440a3f55771eb861ab0f95f54ba5b5</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\driver\controller\lcdc\drv_gfx_lcdc.h</file>
@@ -8352,7 +8370,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\driver\gfx_driver.h</file>
-         <hash>bf14e0b4683445342c4f763c36b615e24b0ffab33dade7ab1cccdb1b0112b7f6</hash>
+         <hash>4905b31711d649d5892374e43d49d8130a77c78998d557958eb71c4f71cdf237</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\common\legato_color.c</file>
@@ -8380,7 +8398,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\common\legato_common.h</file>
-         <hash>9c048287015309dace77916404332a3bc017289c0727ab56277d651727a5b8e3</hash>
+         <hash>a5901f452e13a7663245f052bdfa26ad31b49b289b9f310b78f750e3288e80d5</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\common\legato_error.c</file>
@@ -8388,7 +8406,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\common\legato_error.h</file>
-         <hash>d37f93003691dc91b4fe0d327ca3b3a874da4962122c17870550106f5d9fe2fa</hash>
+         <hash>ea71092a2341a7b4776fc16b9682ebb30a9b315b88f049c3e64c5e9f0dd376da</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\common\legato_math.c</file>
@@ -8432,7 +8450,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\core\legato_input.c</file>
-         <hash>065da654944d4bf2353d9d60f15cb1fa9f22ef1d669250dd05f25e6b15bf0ec6</hash>
+         <hash>33d63a672ae146acdf56cbfb86c4da4eb25ea6230f82a84587e6a6e613bee676</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\core\legato_input.h</file>
@@ -8488,7 +8506,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\font\legato_font.c</file>
-         <hash>398421927fb718787cb904b8f56a9c93e7870d611c4f0c198de17371425a5537</hash>
+         <hash>2147f47f2298508c2cae98691a7157313c6f03375a706f3bae3ed799a1d9068d</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\font\legato_font.h</file>
@@ -8524,7 +8542,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\generated\le_gen_harmony.c</file>
-         <hash>d9760de919a7e528590804aa5a37e1f5d01e2e7883f90c999c605638b74491cb</hash>
+         <hash>36c31abc6bcd91d7c298d51d6b6e71eb8240659f35f5b6ddb74d5cc2c3a7b4c3</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\generated\le_gen_harmony.h</file>
@@ -8532,7 +8550,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\generated\le_gen_init.c</file>
-         <hash>dcb79ad7d8da18e6429046583372d68504bb8ef442fb1ab120100a58dfeac3ce</hash>
+         <hash>b38ec66db8fd7643faa3c429ae57c664a89e6b078956d82274be89a6ed7b07ba</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\generated\le_gen_init.h</file>
@@ -8552,7 +8570,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\generated\screen\le_gen_screen_Screen0.c</file>
-         <hash>cd4fac74a1a69f4b5084cea21ce39e30a54798adfd660e648fd7700b98cd0309</hash>
+         <hash>ae378286f3afb57559ead873eed2bef66a540b6fcbd6bc14a0854f3f909e0177</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\generated\screen\le_gen_screen_Screen0.h</file>
@@ -8584,7 +8602,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\image\legato_image.h</file>
-         <hash>eac79467eeba5158cc581ab5fd98a9a8a0266bf34d3f3e35d9f1de44f5d29245</hash>
+         <hash>b920952ed97bb57bf1b0848f6ee957d5a15110b5b3142365b180b909685ecce2</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\image\legato_image_utils.c</file>
@@ -8628,7 +8646,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\image\png\lodepng.c</file>
-         <hash>75b029a69d4a50c3ac27f75766577bf227abf5f35b38bc1375fb18d4e537e833</hash>
+         <hash>4753f5d064d52b83ea992004bdc569e5dd9b2c00f37f8a1466f5044969488df7</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\image\png\lodepng.h</file>
@@ -8644,7 +8662,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\image\raw\legato_imagedecoder_raw_blend.c</file>
-         <hash>ef046613a6fa79b2a6c085acc22e2eec7b2158ee9ba31019337e0c65a3055ec9</hash>
+         <hash>a618fa3bd1c9915c02143ae065c92200da98143a771af8355e3e4c9be83873c4</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\image\raw\legato_imagedecoder_raw_convert.c</file>
@@ -8652,11 +8670,11 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\image\raw\legato_imagedecoder_raw_mask.c</file>
-         <hash>04a56f67ab3ef840d89ab44d03ddac16e4ad55dbbcce72d91174d19071c749d7</hash>
+         <hash>6aebd76da11fb7cb0a1ac48563b741391204857a673f384c34dde4e083889e9f</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\image\raw\legato_imagedecoder_raw_palette_internal.c</file>
-         <hash>89ebac404e6aa269ca0bcc895fc9e11d2d593ad53e1f423d0c1f33881068a39d</hash>
+         <hash>0cec862ead00d99e9cb82c61e943185c336660170b1f4ac3af84689428938e2b</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\image\raw\legato_imagedecoder_raw_palette_stream.c</file>
@@ -8704,7 +8722,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\legato_config.h</file>
-         <hash>33ea3eb0630361172f6e80c67bda2b60a438ced356a84c4b0a0a6a5b22ea506a</hash>
+         <hash>3585ada3b37979a1ce51a9b1fb53071398f0b67070827c603f4275eee2082106</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\memory\legato_fixedheap.c</file>
@@ -8716,7 +8734,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\memory\legato_memory.c</file>
-         <hash>0703d9b8268ae3f2b07abe69b19b2055e8c959b1cb9ebce3e5845515a0479b9e</hash>
+         <hash>8047bcaf8c3b284df0c455e2a2067bceef3cfc1d3a91f19ec40933c7544ba207</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\memory\legato_memory.h</file>
@@ -8724,7 +8742,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\memory\legato_variableheap.c</file>
-         <hash>e7d7931e13bcceca0d1238232693aabdaea793010004fa185ea0cf4f3e373813</hash>
+         <hash>1a9fb6e89e156bef847d47d58a552ac7e97a31b075d229559b487b479b1ebf4d</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\memory\legato_variableheap.h</file>
@@ -8836,7 +8854,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\bargraph\legato_widget_bar_graph.c</file>
-         <hash>7437fbc8b9a263bbd7a897f98d44a76665ee809bd10b6f9e8b7aef2bda6d446a</hash>
+         <hash>493b11e33116cd709add657e3fd44499e7d753b079e3c4be68de526fbac7ac68</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\bargraph\legato_widget_bar_graph.h</file>
@@ -8944,7 +8962,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\image\legato_widget_image.c</file>
-         <hash>5bb1d0e1c99405acc3ef79aebdbf413524d822466831e5d7326561e0f340f535</hash>
+         <hash>850da06063b06132ed4bc020af7fb28adef50b89517aa6507cc6febedcd07ab7</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\image\legato_widget_image.h</file>
@@ -9056,7 +9074,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\linegraph\legato_widget_line_graph.c</file>
-         <hash>a445b7089f15ff14dad9fa864658a94c633790b4c1d0a6415a178a00dfbbf34c</hash>
+         <hash>8dd3aab89037bd4a56a7a94c5b91bcf12a044d1ec84fe4356ce3ca441a4b10eb</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\linegraph\legato_widget_line_graph.h</file>
@@ -9064,7 +9082,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\linegraph\legato_widget_line_graph_skin_classic.c</file>
-         <hash>8e3de8e4c850d8674b7085b78db8cc85e3381b187a8a86e2c28bf0ef8d7db7ea</hash>
+         <hash>f096ec470a4e83e29db6e90423a462656ed53c30184ffaecff2d353d99a16c77</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\list\legato_widget_list.c</file>
@@ -9176,7 +9194,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\slider\legato_widget_slider.c</file>
-         <hash>598a95c15cc5096c046cefeeb2987dbbbd691a783c24e3521e40e07ed680e5ed</hash>
+         <hash>64bfd7a705db6c2f26865a9d2dfc4a6133ce29cc0fc3edd2be35916b7887f5e5</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\gfx\legato\widget\slider\legato_widget_slider.h</file>
@@ -9224,39 +9242,39 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\initialization.c</file>
-         <hash>ae137018cfa59a3b0cd03dec29f31ce03a1f2ad708ed66a6319e17e0683badc0</hash>
+         <hash>3267a18aceb7b35a07e6c5b44ce746d431f5bbaa729059d840a0701afaf7ca7c</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\interrupts.c</file>
-         <hash>7c1f77c404bf88a86b4c725010e5173d5274771d56ca40e9a04200510a0caa12</hash>
+         <hash>361f5e1d843df60d762741cff2e30549cff849154b7e8d5aa89a3b3a8b07aa80</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\interrupts.h</file>
-         <hash>91abdb8d191ae865fc6082f30783c3d6cca8aa8d5aca823a7fb2cc65e3a57d24</hash>
+         <hash>e59b3b0c01dbf2913a884a40b5bb47de5ed37d1c603fc7d7285956b8c244f3b4</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\osal\osal.h</file>
-         <hash>d42702188d00d3e1d7219d7eef030485896bf8b5ebe55318656e82f0fbb89788</hash>
+         <hash>8404fbe44807fa0484ffb38843a72cb9af8e31c9c30bd1b2594e609b8ea317d9</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\osal\osal_definitions.h</file>
-         <hash>0a5ca28c4812bb37babfebc1fe30a90b13583504d81910ad159feb746a5b002c</hash>
+         <hash>5f0a2513a093b6d228e2b50646b204923a82047335a47f3d35a2938309ab6f37</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\osal\osal_impl_basic.h</file>
-         <hash>0c388837ef1d4e207a028ed31bfe07f1aac7ea8b0505caff58f737667ccbeaee</hash>
+         <hash>67ce72d34fd1e4dee0b6937fa026ab2c7bd285f82a24da09742c68333adaf0fc</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\aic\plib_aic.c</file>
-         <hash>30e5b7f3a5259938cd4534624854beb942b8fccd9aa0f5d69175d8b663536abe</hash>
+         <hash>f5edd5eb4d476ed4ec6a5ee6bc98fe72337cd038be45ef9df0f5d1d4a09cb896</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\aic\plib_aic.h</file>
-         <hash>3744d8f5ae1843ce5b3b78bbae13a22a7f22b2f0584db476b657b40cb7850809</hash>
+         <hash>9ff729f3819887a6769c1a4386db9727e6e88fe6bee25960985d9ccd09229a7d</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\clk\plib_clk.c</file>
-         <hash>6c34d8f720d5c8d765816f75e304eeb80862d8f579273afe2216b959fa1d97f5</hash>
+         <hash>a2b0c49e6cfe3ae909ee4499415990046d53ecd5f2e48314ae71ac7cf4af5ef0</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\clk\plib_clk.h</file>
@@ -9264,11 +9282,11 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\flexcom\twi\master\plib_flexcom6_twi_master.c</file>
-         <hash>f656572013885cff48359b95f8d760f61d1c2939873780aeb90dd4cbe29a813a</hash>
+         <hash>6d574565662001fa74fd3eb3ece2e3914ebdfeafc4cf25df7ec03ff92cd3d993</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\flexcom\twi\master\plib_flexcom6_twi_master.h</file>
-         <hash>c91dad9bbabed01808f11d719893cb2a447c2e97654e8b1fb37c958f6608d7b7</hash>
+         <hash>ec172c9f29f28a6cd23db61ccc5f0039b2f257f1c74a10be2c06bb5b75949e94</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\flexcom\twi\master\plib_flexcom_twi_master_common.h</file>
@@ -9276,27 +9294,27 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\lcdc\plib_lcdc.c</file>
-         <hash>b6bdc8782625b1a340bbde576705f07655aab0f5b454eb23b25605f1670db941</hash>
+         <hash>abea7c9fd3f447d9fdcd0428c216dcd639beee368ae45ac2a07b08ee35783cfe</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\lcdc\plib_lcdc.h</file>
-         <hash>2628b51ef887007cb4890b9a884a9b6afeae0aecd76ed4f52d49fd61442c0b9a</hash>
+         <hash>6b55d7fa9cecdaabe9f8e7d03e099e5ad3ff96931f696f8202af2962b200d428</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\mmu\cp15.h</file>
-         <hash>24907eff18f34ad82252c89fde571ebd0f51da7ca4b9f72c8810e9c3d6485edb</hash>
+         <hash>d927deee45b9b50351c5513daf446ae3278f5fa85915c06c434b24c7eb61b64b</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\mmu\plib_mmu.c</file>
-         <hash>7ef66d78f0234e1889fc9cb8fb94616eb51fa7517881f86270c68856d7072b5d</hash>
+         <hash>8850b951d047f69283a6961301dfa7333cd338c9f27278bee79dcfd36ad1076e</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\mmu\plib_mmu.h</file>
-         <hash>a777af67221ce686baec242376d2cccad707ed3e197c3b049b7d9fd5519e3dfe</hash>
+         <hash>7fb6e6b8ad6a80b7fc04c0264b7cdf49e6d6b887e4f3c5aa394eda88e32e0116</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\pio\plib_pio.c</file>
-         <hash>dba6043732a73c4086a16f1e6932e91d220373acee76a0ec875c6effaab96b3b</hash>
+         <hash>c0137b0b1609b678924049af41fe2ddd3fe370e1b7d495eeddb3c02d0ca9a4c3</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\pio\plib_pio.h</file>
@@ -9304,7 +9322,7 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\tc\plib_tc0.c</file>
-         <hash>31be478f89108b048d6ad4c0dfb9a8d973a950f18def476cc985b832ce10ca3b</hash>
+         <hash>c9bf7dc22d3246852f35ef21424a686d58bc801ade85fd2cc3c9d54092f68b15</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\tc\plib_tc0.h</file>
@@ -9312,31 +9330,35 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\peripheral\tc\plib_tc_common.h</file>
-         <hash>444f1845776c5bbdd53278a60d8f2101e23eb3605b8b3950811ef24f9fd05ec0</hash>
+         <hash>aa07077b6355fa1dc9e938cb4def1c725bffddf452ffc55e4f982f83d3988a9e</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\pin_configurations.csv</file>
-         <hash>76789950ad037d6f14562784429497a27793de6ed8dfbfaf5972323633cf0261</hash>
+         <hash>f34c7f63cee30f04c3be08144296d3530368ba2f1f8fd623e0cbd86816c828c9</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\stdio\xc32_monitor.c</file>
          <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
+         <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\sys_tasks.h</file>
+         <hash>21f254f497a18a024cd00128d06c4776c2643f867a460c1ba9880a7dd41a8d56</hash>
+      </entry>
+      <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\cache\sys_cache.c</file>
-         <hash>96e3cf05b3e24641f89f3726e0f900a28002ae53ccebb23c8cf27563c59d3076</hash>
+         <hash>9754314ec0e099723a3604ecfe12fb6e682cf64cddf01c968ca931d26c448f0e</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\cache\sys_cache.h</file>
-         <hash>3407ecac4da455d4b8ba70043f10c20b10e1304e92402db824ca5efa6a2f8402</hash>
+         <hash>b4b3a4e7434759c9bbcd3c6a0ab97558eb2a007f083a4eb76dbedcb2e2c3d86b</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\debug\sys_debug.h</file>
-         <hash>222cdc284bd651e83188b9641cc57c133cf86563dbeb5d5523766d4a36087165</hash>
+         <hash>9ee0362649aa389b355ecff1ce0e64d124f8f83eda7e40a0c5195ee099c1a0ff</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\input\sys_input.c</file>
-         <hash>e40e4ffe1dae0584eda92df7a87e3df4e9ae0e831db34bb76ac8493a70800eac</hash>
+         <hash>ebae84fd66e137b1803f597267fa5e03b22aba212d276c5b72b04da298f801d7</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\input\sys_input.h</file>
@@ -9368,15 +9390,15 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\int\src\sys_int.c</file>
-         <hash>f188fc9be907b9be357e526fbba7eb3a14b5fa936d029c3e33d324298aa77548</hash>
+         <hash>5a683ab50cabf3aa131d76d12f4715e103de0e5cce67d22ab26d11665c38614f</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\int\sys_int.h</file>
-         <hash>71e36331ee689ae305b3d8ec49948e3dde0324b65f51bf38f4472b900a421ed6</hash>
+         <hash>dc104ae181fd5309e1bb42896246644fae95915a8e639b23ecfccc8840850274</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\int\sys_int_mapping.h</file>
-         <hash>a88ed061ebd75cff98fc9703d2dbd3c868a729737c0d00afff3e0755ab4f8910</hash>
+         <hash>652a7ea6c065e3a4cbcbfaef7c3519fca207fa36de25351875c3ba746dff242b</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\system.h</file>
@@ -9384,35 +9406,35 @@
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\system_common.h</file>
-         <hash>0dbf2f60b29c97426e70187bc59c652ab5a355f51cfbe3f195ff1c8c6c0b1602</hash>
+         <hash>c9f34bd226f8efab12f5766e77f8355996cd0430b50e0f6ee30258664c494984</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\system_module.h</file>
-         <hash>981fac23277aa77f682e7a9a28d436f892006cd5b4c7f23f50941b6d9a30e740</hash>
+         <hash>96c74368801b0a7aaa25aec3ec2cb0d483250385f103ffc1ff64089b4ca2c6d9</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\time\src\sys_time.c</file>
-         <hash>b722ac0c5d955d289bd906609ab6f302342166c5ba66f87b30cac17ac6bfdcd9</hash>
+         <hash>fa2d85ab967b80157caf8483f6e28a23b12b548844a1d80f2fef760cd9b99271</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\time\src\sys_time_local.h</file>
-         <hash>d3ef06b59d9a89efe9e8eb54fcf3b75120d56156cc21f6847ca4f9e902eb7c9d</hash>
+         <hash>df56f970664902417d798760e44978cf4b84c108cf0761647a383e91db76980c</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\time\sys_time.h</file>
-         <hash>f21b100d8f0b8b79af9217315098d51df855d9015f05a7e25ad77414cd19b2c3</hash>
+         <hash>6357468f7670698b16bfb6439d9919ed38eba99d4f03277a8b43ac34586fa1b3</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\system\time\sys_time_definitions.h</file>
-         <hash>904195d4340ba6b97cf19c25b9695d2a9f37ed67cf6abdf8ee1ee839506e2801</hash>
+         <hash>46537746b1d12ece6b682c9be1c8f3f219663c638c21a51a973762b7b393afe6</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\tasks.c</file>
-         <hash>398101dd9b3cde5fb509322793d653c8f15be530ccf0c750217359e75e547450</hash>
+         <hash>6280782a185a7b43771f24c15c4e3d17c1142dab21b49307f69db33612a627cd</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\toolchain_specifics.h</file>
-         <hash>943f2c097f75062855ef1434b1b63a84e68ac691a93097a46016a699601a3306</hash>
+         <hash>d93ab2a56ea91cac163fc49b5e3f3491fe3c8ada3bd2f72c752b286f280b40ef</hash>
       </entry>
       <entry>
          <file>..\src\config\lcdc_rgba8888_mxt_9x60_cu_wqvga\user.h</file>

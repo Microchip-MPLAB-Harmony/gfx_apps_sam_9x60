@@ -470,7 +470,7 @@ void _IntHandlerLayerReadComplete(uintptr_t context)
     }
     
 
-    if (state[i] == SWAP)
+    if (i < SYNC && state[i] == SWAP)
     {
         state[i] = SYNC;
     }

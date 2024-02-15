@@ -1,0 +1,14 @@
+configName: lcdc_rgb565_mxt_9x60_cu_wvga
+folderName: lvgl_sc_9x60_sc_tm5000
+format_version: v1.0
+frameworkPath: c:\harmony3_latest
+processor: SAM9X60D1G
+projectName: lvgl_sc_9x60_sc_tm5000
+settings:
+  PackageFilter: ''
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: SAM9X6_DFP\1.7.85

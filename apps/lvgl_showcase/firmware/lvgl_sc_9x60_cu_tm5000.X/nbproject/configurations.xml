@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="lcdc_rgb565_mxt_9x60_cu_wvga"
+                       displayName="lcdc_rgb565_mxt_9x60_cu_wvga"
+                       projectFiles="true">
+          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/bsp/bsp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="driver" displayName="driver" projectFiles="true">
+            <logicalFolder name="i2c" displayName="i2c" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/driver/i2c/drv_i2c_definitions.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/driver/i2c/src/drv_i2c_local.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/driver/i2c/drv_i2c.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="input" displayName="input" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/driver/input/drv_maxtouch.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/driver/driver_common.h</itemPath>
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/driver/driver.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="gfx" displayName="gfx" projectFiles="true">
+            <logicalFolder name="driver" displayName="driver" projectFiles="true">
+              <logicalFolder name="gfx2d" displayName="gfx2d" projectFiles="true">
+                <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/gfx/driver/processor/gfx2d/drv_gfx2d.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="lcdc" displayName="lcdc" projectFiles="true">
+                <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/gfx/driver/controller/lcdc/drv_gfx_lcdc.h</itemPath>
+                <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/gfx/driver/gfx_driver.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="osal" displayName="osal" projectFiles="true">
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/osal/osal_definitions.h</itemPath>
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/osal/osal.h</itemPath>
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/osal/osal_impl_basic.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="aic" displayName="aic" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/aic/plib_aic.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="clk" displayName="clk" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/clk/plib_clk.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="flexcom" displayName="flexcom" projectFiles="true">
+              <logicalFolder name="twi" displayName="twi" projectFiles="true">
+                <logicalFolder name="master" displayName="master" projectFiles="true">
+                  <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/flexcom/twi/master/plib_flexcom6_twi_master.h</itemPath>
+                  <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/flexcom/twi/master/plib_flexcom_twi_master_common.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="gfx2d" displayName="gfx2d" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/gfx2d/plib_gfx2d.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="lcdc" displayName="lcdc" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/lcdc/plib_lcdc.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="mmu" displayName="mmu" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/mmu/cp15.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/mmu/plib_mmu.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="pio" displayName="pio" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/pio/plib_pio.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="tc" displayName="tc" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/tc/plib_tc0.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/tc/plib_tc_common.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="system" displayName="system" projectFiles="true">
+            <logicalFolder name="cache" displayName="cache" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/cache/sys_cache.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="debug" displayName="debug" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/debug/sys_debug.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="input" displayName="input" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/input/sys_input_mouse.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/input/sys_input_touch.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/input/sys_input_keyboard.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/input/sys_input_listener.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/input/sys_input_gesture.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/input/sys_input.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="int" displayName="int" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/int/sys_int_mapping.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/int/sys_int.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="time" displayName="time" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/time/sys_time.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/time/src/sys_time_local.h</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/time/sys_time_definitions.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/system_module.h</itemPath>
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/system.h</itemPath>
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/system_common.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/toolchain_specifics.h</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/interrupts.h</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/definitions.h</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/device.h</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/user.h</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/device_cache.h</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/configuration.h</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/sys_tasks.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="packs" displayName="packs" projectFiles="true">
+        <logicalFolder name="SAM9X60D1G_DFP"
+                       displayName="SAM9X60D1G_DFP"
+                       projectFiles="true">
+          <logicalFolder name="component" displayName="component" projectFiles="true">
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/trng.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/rtc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/sdramc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/gfx2d.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/pio.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/shdwc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/qspi.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/udphs.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/dbgu.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/aes.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/smc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/otpc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/lcdc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/mpddrc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/uhpfs.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/isi.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/gpbr.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/emac.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/syscwp.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/i2smcc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/ssc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/uhphs.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/pit64b.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/adc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/pmc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/can.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/pmecc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/tdes.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/sha.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/sdmmc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/aic.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/matrix.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/pwm.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/sckc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/rstc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/rtt.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/pit.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/tc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/xdmac.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/sfr.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/wdt.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/pmerrloc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/classd.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/bsc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/component/flexcom.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="instance" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/pioc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/sdmmc0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/gfx2d.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/mpddrc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom7.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/xdmac.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom3.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/pit.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/smc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/aes.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/emac1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/syscwp.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/udphs.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/pwm.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/uhphs_ehci.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/i2smcc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/pit64b.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/aic.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom8.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/isi.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom10.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/rstc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/pmerrloc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/shdwc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/ssc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/otpc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom4.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/lcdc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/can1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/piob.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/sdramc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/emac0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/pmc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/adc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/sckc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/bsc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/sha.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/pmecc.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom5.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom11.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom9.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/gpbr.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/trng.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/can0.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/pioa.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/tdes.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/classd.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/qspi.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/piod.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/sdmmc1.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/wdt.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom6.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom12.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/sfr.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/flexcom2.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/matrix.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/rtt.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/uhphs_ohci.h</itemPath>
+            <itemPath>../src/packs/SAM9X60D1G_DFP/instance/dbgu.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="pio" displayName="pio" projectFiles="true">
+            <itemPath>../src/packs/SAM9X60D1G_DFP/pio/sam9x60d1g.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/packs/SAM9X60D1G_DFP/sam9x60d1g.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../src/app.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="lcdc_rgb565_mxt_9x60_cu_wvga"
+                       displayName="lcdc_rgb565_mxt_9x60_cu_wvga"
+                       projectFiles="true">
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/ddram.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="lvgl" displayName="lvgl" projectFiles="true">
+      <logicalFolder name="demos" displayName="demos" projectFiles="true">
+        <logicalFolder name="benchmark" displayName="benchmark" projectFiles="true">
+          <logicalFolder name="assets" displayName="assets" projectFiles="true">
+            <itemPath>../src/third_party/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c</itemPath>
+          </logicalFolder>
+          <itemPath>../src/third_party/lvgl/demos/benchmark/lv_demo_benchmark.c</itemPath>
+          <itemPath>../src/third_party/lvgl/demos/benchmark/lv_demo_benchmark.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="keypad_encoder"
+                       displayName="keypad_encoder"
+                       projectFiles="true">
+          <itemPath>../src/third_party/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c</itemPath>
+          <itemPath>../src/third_party/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="music" displayName="music" projectFiles="true">
+          <logicalFolder name="assets" displayName="assets" projectFiles="true">
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_list_border.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_logo.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/spectrum_1.h</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/spectrum_2.h</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/music/assets/spectrum_3.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/third_party/lvgl/demos/music/lv_demo_music.c</itemPath>
+          <itemPath>../src/third_party/lvgl/demos/music/lv_demo_music.h</itemPath>
+          <itemPath>../src/third_party/lvgl/demos/music/lv_demo_music_list.c</itemPath>
+          <itemPath>../src/third_party/lvgl/demos/music/lv_demo_music_list.h</itemPath>
+          <itemPath>../src/third_party/lvgl/demos/music/lv_demo_music_main.c</itemPath>
+          <itemPath>../src/third_party/lvgl/demos/music/lv_demo_music_main.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="stress" displayName="stress" projectFiles="true">
+          <itemPath>../src/third_party/lvgl/demos/stress/lv_demo_stress.c</itemPath>
+          <itemPath>../src/third_party/lvgl/demos/stress/lv_demo_stress.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="widgets" displayName="widgets" projectFiles="true">
+          <logicalFolder name="assets" displayName="assets" projectFiles="true">
+            <itemPath>../src/third_party/lvgl/demos/widgets/assets/img_clothes.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c</itemPath>
+            <itemPath>../src/third_party/lvgl/demos/widgets/assets/img_lvgl_logo.c</itemPath>
+          </logicalFolder>
+          <itemPath>../src/third_party/lvgl/demos/widgets/lv_demo_widgets.c</itemPath>
+          <itemPath>../src/third_party/lvgl/demos/widgets/lv_demo_widgets.h</itemPath>
+        </logicalFolder>
+        <itemPath>../src/third_party/lvgl/demos/lv_demos.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="core" displayName="core" projectFiles="true">
+          <itemPath>../src/third_party/lvgl/src/core/lv_disp.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_disp.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_event.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_event.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_group.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_group.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_indev.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_indev.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_indev_scroll.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_indev_scroll.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_class.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_class.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_draw.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_draw.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_pos.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_pos.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_scroll.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_scroll.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_style.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_style.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_style_gen.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_style_gen.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_tree.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_obj_tree.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_refr.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_refr.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_theme.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/core/lv_theme.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="draw" displayName="draw" projectFiles="true">
+          <logicalFolder name="arm2d" displayName="arm2d" projectFiles="true">
+            <itemPath>../src/third_party/lvgl/src/draw/arm2d/lv_gpu_arm2d.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/arm2d/lv_gpu_arm2d.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="nxp" displayName="nxp" projectFiles="true">
+            <logicalFolder name="pxp" displayName="pxp" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/pxp/lv_draw_pxp.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="vglite" displayName="vglite" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_vglite_buf.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/draw/nxp/vglite/lv_vglite_utils.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="renesas" displayName="renesas" projectFiles="true">
+            <itemPath>../src/third_party/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="sdl" displayName="sdl" projectFiles="true">
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_arc.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_bg.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_composite.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_composite.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_img.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_img.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_label.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_layer.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_layer.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_line.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_mask.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_mask.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_priv.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_rect.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_rect.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_utils.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sdl/lv_draw_sdl_utils.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="stm32_dma2d" displayName="stm32_dma2d" projectFiles="true">
+            <itemPath>../src/third_party/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="sw" displayName="sw" projectFiles="true">
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_arc.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_blend.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_blend.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_dither.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_dither.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_gradient.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_gradient.h</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_img.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_layer.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_letter.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_line.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_polygon.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_rect.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/sw/lv_draw_sw_transform.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="swm341_dma2d"
+                         displayName="swm341_dma2d"
+                         projectFiles="true">
+            <itemPath>../src/third_party/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c</itemPath>
+            <itemPath>../src/third_party/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_arc.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_arc.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_img.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_img.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_label.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_label.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_layer.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_layer.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_line.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_line.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_mask.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_mask.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_rect.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_rect.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_transform.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_transform.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_triangle.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_draw_triangle.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_img_buf.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_img_buf.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_img_cache.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_img_cache.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_img_decoder.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/draw/lv_img_decoder.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="extra" displayName="extra" projectFiles="true">
+          <logicalFolder name="layouts" displayName="layouts" projectFiles="true">
+            <logicalFolder name="flex" displayName="flex" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/layouts/flex/lv_flex.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/layouts/flex/lv_flex.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="grid" displayName="grid" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/layouts/grid/lv_grid.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/layouts/grid/lv_grid.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/third_party/lvgl/src/extra/layouts/lv_layouts.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="libs" displayName="libs" projectFiles="true">
+            <logicalFolder name="bmp" displayName="bmp" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/libs/bmp/lv_bmp.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/bmp/lv_bmp.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="ffmpeg" displayName="ffmpeg" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="freetype" displayName="freetype" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/libs/freetype/lv_freetype.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/freetype/lv_freetype.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="fsdrv" displayName="fsdrv" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="gif" displayName="gif" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/libs/gif/gifdec.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/gif/gifdec.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/gif/lv_gif.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/gif/lv_gif.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="png" displayName="png" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/libs/png/lodepng.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/png/lodepng.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/png/lv_png.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/png/lv_png.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="qrcode" displayName="qrcode" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/libs/qrcode/lv_qrcode.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/qrcode/lv_qrcode.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/qrcode/qrcodegen.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/qrcode/qrcodegen.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="rlottie" displayName="rlottie" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/libs/rlottie/lv_rlottie.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/rlottie/lv_rlottie.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="sjpg" displayName="sjpg" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/libs/sjpg/lv_sjpg.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/sjpg/lv_sjpg.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/sjpg/tjpgd.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/sjpg/tjpgd.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/libs/sjpg/tjpgdcnf.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/third_party/lvgl/src/extra/libs/lv_libs.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="others" displayName="others" projectFiles="true">
+            <logicalFolder name="fragment" displayName="fragment" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/others/fragment/lv_fragment.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/others/fragment/lv_fragment.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/others/fragment/lv_fragment_manager.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="gridnav" displayName="gridnav" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/others/gridnav/lv_gridnav.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/others/gridnav/lv_gridnav.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="ime" displayName="ime" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/others/ime/lv_ime_pinyin.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/others/ime/lv_ime_pinyin.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="imgfont" displayName="imgfont" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/others/imgfont/lv_imgfont.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/others/imgfont/lv_imgfont.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="monkey" displayName="monkey" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/others/monkey/lv_monkey.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/others/monkey/lv_monkey.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="msg" displayName="msg" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/others/msg/lv_msg.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/others/msg/lv_msg.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="snapshot" displayName="snapshot" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/others/snapshot/lv_snapshot.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/others/snapshot/lv_snapshot.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/third_party/lvgl/src/extra/others/lv_others.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="themes" displayName="themes" projectFiles="true">
+            <logicalFolder name="basic" displayName="basic" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/themes/basic/lv_theme_basic.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/themes/basic/lv_theme_basic.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="default" displayName="default" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/themes/default/lv_theme_default.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/themes/default/lv_theme_default.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="mono" displayName="mono" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/themes/mono/lv_theme_mono.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/themes/mono/lv_theme_mono.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/third_party/lvgl/src/extra/themes/lv_themes.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="widgets" displayName="widgets" projectFiles="true">
+            <logicalFolder name="animimg" displayName="animimg" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/animimg/lv_animimg.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/animimg/lv_animimg.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="calendar" displayName="calendar" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/calendar/lv_calendar.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/calendar/lv_calendar.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="chart" displayName="chart" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/chart/lv_chart.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/chart/lv_chart.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="colorwheel" displayName="colorwheel" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="imgbtn" displayName="imgbtn" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="keyboard" displayName="keyboard" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/keyboard/lv_keyboard.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/keyboard/lv_keyboard.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="led" displayName="led" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/led/lv_led.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/led/lv_led.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="list" displayName="list" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/list/lv_list.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/list/lv_list.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="menu" displayName="menu" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/menu/lv_menu.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/menu/lv_menu.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="meter" displayName="meter" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/meter/lv_meter.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/meter/lv_meter.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="msgbox" displayName="msgbox" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/msgbox/lv_msgbox.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/msgbox/lv_msgbox.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="span" displayName="span" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/span/lv_span.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/span/lv_span.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="spinbox" displayName="spinbox" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/spinbox/lv_spinbox.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/spinbox/lv_spinbox.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="spinner" displayName="spinner" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/spinner/lv_spinner.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/spinner/lv_spinner.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="tabview" displayName="tabview" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/tabview/lv_tabview.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/tabview/lv_tabview.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="tileview" displayName="tileview" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/tileview/lv_tileview.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/tileview/lv_tileview.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="win" displayName="win" projectFiles="true">
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/win/lv_win.c</itemPath>
+              <itemPath>../src/third_party/lvgl/src/extra/widgets/win/lv_win.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/third_party/lvgl/src/extra/widgets/lv_widgets.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/third_party/lvgl/src/extra/lv_extra.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/extra/lv_extra.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="font" displayName="font" projectFiles="true">
+          <itemPath>../src/third_party/lvgl/src/font/lv_font.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_fmt_txt.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_fmt_txt.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_loader.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_loader.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_10.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_12.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_12_subpx.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_14.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_16.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_18.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_20.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_22.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_24.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_26.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_28.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_28_compressed.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_30.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_32.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_34.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_36.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_38.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_40.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_42.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_44.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_46.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_48.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_montserrat_8.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_simsun_16_cjk.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_unscii_16.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_font_unscii_8.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/font/lv_symbol_def.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="hal" displayName="hal" projectFiles="true">
+          <itemPath>../src/third_party/lvgl/src/hal/lv_hal.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/hal/lv_hal_disp.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/hal/lv_hal_disp.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/hal/lv_hal_indev.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/hal/lv_hal_indev.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/hal/lv_hal_tick.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/hal/lv_hal_tick.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="misc" displayName="misc" projectFiles="true">
+          <itemPath>../src/third_party/lvgl/src/misc/lv_anim.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_anim.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_anim_timeline.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_anim_timeline.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_area.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_area.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_assert.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_async.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_async.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_bidi.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_bidi.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_color.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_color.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_fs.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_fs.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_gc.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_gc.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_ll.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_ll.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_log.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_log.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_lru.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_lru.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_math.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_math.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_mem.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_mem.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_printf.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_printf.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_style.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_style.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_style_gen.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_style_gen.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_templ.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_templ.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_timer.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_timer.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_tlsf.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_tlsf.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_txt.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_txt.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_txt_ap.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_txt_ap.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_types.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_utils.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/misc/lv_utils.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="widgets" displayName="widgets" projectFiles="true">
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_arc.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_arc.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_bar.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_bar.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_btn.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_btn.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_btnmatrix.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_btnmatrix.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_canvas.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_canvas.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_checkbox.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_checkbox.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_dropdown.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_dropdown.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_img.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_img.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_label.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_label.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_line.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_line.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_objx_templ.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_objx_templ.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_roller.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_roller.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_slider.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_slider.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_switch.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_switch.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_table.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_table.h</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_textarea.c</itemPath>
+          <itemPath>../src/third_party/lvgl/src/widgets/lv_textarea.h</itemPath>
+        </logicalFolder>
+        <itemPath>../src/third_party/lvgl/src/lvgl.h</itemPath>
+        <itemPath>../src/third_party/lvgl/src/lv_api_map.h</itemPath>
+        <itemPath>../src/third_party/lvgl/src/lv_conf_internal.h</itemPath>
+        <itemPath>../src/third_party/lvgl/src/lv_conf_kconfig.h</itemPath>
+      </logicalFolder>
+      <itemPath>../src/third_party/lvgl/lvgl.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="lcdc_rgb565_mxt_9x60_cu_wvga"
+                       displayName="lcdc_rgb565_mxt_9x60_cu_wvga"
+                       projectFiles="true">
+          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/bsp/bsp.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="driver" displayName="driver" projectFiles="true">
+            <logicalFolder name="i2c" displayName="i2c" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/driver/i2c/src/drv_i2c.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="input" displayName="input" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/driver/input/drv_maxtouch.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="gfx" displayName="gfx" projectFiles="true">
+            <logicalFolder name="driver" displayName="driver" projectFiles="true">
+              <logicalFolder name="gfx2d" displayName="gfx2d" projectFiles="true">
+                <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/gfx/driver/processor/gfx2d/drv_gfx2d.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="lcdc" displayName="lcdc" projectFiles="true">
+                <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/gfx/driver/controller/lcdc/drv_gfx_lcdc.c</itemPath>
+                <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/gfx/driver/gfx_driver.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="aic" displayName="aic" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/aic/plib_aic.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="clk" displayName="clk" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/clk/plib_clk.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="flexcom" displayName="flexcom" projectFiles="true">
+              <logicalFolder name="twi" displayName="twi" projectFiles="true">
+                <logicalFolder name="master" displayName="master" projectFiles="true">
+                  <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/flexcom/twi/master/plib_flexcom6_twi_master.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="gfx2d" displayName="gfx2d" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/gfx2d/plib_gfx2d.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="lcdc" displayName="lcdc" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/lcdc/plib_lcdc.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="mmu" displayName="mmu" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/mmu/plib_mmu.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="pio" displayName="pio" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/pio/plib_pio.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="tc" displayName="tc" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/peripheral/tc/plib_tc0.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+            <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/stdio/xc32_monitor.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="system" displayName="system" projectFiles="true">
+            <logicalFolder name="cache" displayName="cache" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/cache/sys_cache.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="input" displayName="input" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/input/sys_input_listener.c</itemPath>
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/input/sys_input.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="int" displayName="int" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/int/src/sys_int.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="time" displayName="time" projectFiles="true">
+              <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/system/time/src/sys_time.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/tasks.c</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/fault_handlers.c</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/initialization.c</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/interrupts.c</itemPath>
+          <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/cstartup.S</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../src/main.c</itemPath>
+      <itemPath>../src/app.c</itemPath>
+      <itemPath>../src/config/lcdc_rgb565_mxt_9x60_cu_wvga/pin_configurations.csv</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+      <itemPath>lvgl_showcase_9x60_cu_wvga.mc3</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src/third_party/lvgl</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="lcdc_rgb565_mxt_9x60_cu_wvga" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>SAM9X60D1G</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>noID</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>4.35</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="SAM9X6_DFP" vendor="Microchip" version="1.7.85"/>
+      </packs>
+      <ScriptingSettings>
+        <ScriptingSetting key="boot.load_adr" value=""/>
+        <ScriptingSetting key="boot.use" value="true"/>
+        <ScriptingSetting key="boot.entry_adr" value=""/>
+        <ScriptingSetting key="boot.path" value="${ProjectDir}\at91bootstrap.elf"/>
+        <ScriptingSetting key="boot.prj" value=""/>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>true</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep>${MP_CC_DIR}/xc32-objcopy -O binary ${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.elf ${DISTDIR}/harmony.bin</makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="true"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/lcdc_rgb565_mxt_9x60_cu_wvga;../src/packs/SAM9X60D1G_DFP"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="true"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="true"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="tentative-definitions" value="-fno-common"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-CO>
+        <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
+      </C32-CO>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="additional-options-write-sla" value="false"/>
+        <property key="allocate-dinit" value="false"/>
+        <property key="appendMe" value=""/>
+        <property key="code-dinit" value="false"/>
+        <property key="ebase-addr" value=""/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value="512"/>
+        <property key="input-libraries" value=""/>
+        <property key="kseg-length" value=""/>
+        <property key="kseg-origin" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-device-startup-code" value="true"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="serial-length" value=""/>
+        <property key="serial-origin" value=""/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/lcdc_rgb565_mxt_9x60_cu_wvga;../src/packs/SAM9X60D1G_DFP"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
+      <C32Global>
+        <property key="common-include-directories" value=""/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="false"/>
+        <property key="mdtcm" value=""/>
+        <property key="mitcm" value=""/>
+        <property key="mstacktcm" value="false"/>
+        <property key="omit-pack-options" value="1"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="stack-smashing" value=""/>
+        <property key="wpo-lto" value="false"/>
+      </C32Global>
+      <Tool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="communication.adaptivespeed" value="false"/>
+        <property key="communication.autoselectspeed" value="true"/>
+        <property key="communication.interface" value="4wire"/>
+        <property key="communication.speed" value="4"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
+        <property key="jlink.override" value=""/>
+        <property key="lastid" value=""/>
+        <property key="loader.board_file" value="${ProjectDir}/board.xboard"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges.default}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0x300000-0x4fffff"/>
+        <property key="programoptions.eraseb4program" value="false"/>
+        <property key="programoptions.preservebootflash" value="false"/>
+        <property key="programoptions.preserveprogrammemory" value="false"/>
+        <property key="programoptions.preserveprogramrange.ranges"
+                  value="0x300000-0x4fffff"/>
+        <property key="programoptions.resetafterprogram" value="true"/>
+        <property key="script.has_reset" value="true"/>
+        <property key="script.log_level" value="1"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
+      </Tool>
+      <samice>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="communication.adaptivespeed" value="false"/>
+        <property key="communication.autoselectspeed" value="true"/>
+        <property key="communication.interface" value="4wire"/>
+        <property key="communication.speed" value="4"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
+        <property key="jlink.override" value=""/>
+        <property key="lastid" value=""/>
+        <property key="loader.board_file" value="${ProjectDir}/board.xboard"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges.default}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0x300000-0x4fffff"/>
+        <property key="programoptions.eraseb4program" value="false"/>
+        <property key="programoptions.preservebootflash" value="false"/>
+        <property key="programoptions.preserveprogrammemory" value="false"/>
+        <property key="programoptions.preserveprogramrange.ranges"
+                  value="0x300000-0x4fffff"/>
+        <property key="programoptions.resetafterprogram" value="true"/>
+        <property key="script.has_reset" value="true"/>
+        <property key="script.log_level" value="1"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
+      </samice>
+    </conf>
+  </confs>
+</configurationDescriptor>

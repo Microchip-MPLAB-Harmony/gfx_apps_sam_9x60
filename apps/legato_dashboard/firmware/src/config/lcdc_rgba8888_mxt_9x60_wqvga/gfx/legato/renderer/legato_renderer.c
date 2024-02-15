@@ -128,7 +128,7 @@ leRenderState _rendererState;
 #define MAX_RECTARRAYS_SZ    8
 
 #ifndef LE_NO_CACHE_ATTR
-#define LE_NO_CACHE_ATTR SECTION(".region_nocache") 
+#define LE_NO_CACHE_ATTR
 #endif
 
 

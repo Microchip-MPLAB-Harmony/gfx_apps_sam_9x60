@@ -301,9 +301,9 @@ gfxResult DRV_LCDC_Initialize()
     rightMargin     = 40;
     leftMargin      = 40;
     hsyncLength     = 48;
-    vsyncLength     = 10;
+    vsyncLength     = 3;
     upperMargin     = 29;
-    lowerMargin     = 10;
+    lowerMargin     = 3;
 
 
     /* LCDC initialization */
@@ -470,7 +470,7 @@ void _IntHandlerLayerReadComplete(uintptr_t context)
     }
     
 
-    if (state[i] == SWAP)
+    if (i < SYNC && state[i] == SWAP)
     {
         state[i] = SYNC;
     }

@@ -321,7 +321,7 @@ typedef enum gfxColorMode
     GFX_COLOR_MODE_INDEX_4    = 8,
     GFX_COLOR_MODE_INDEX_8    = 9,
     GFX_COLOR_MODE_MONOCHROME = 10,
-    GFX_COLOR_MODE_LAST = GFX_COLOR_MODE_MONOCHROME
+	GFX_COLOR_MODE_LAST = GFX_COLOR_MODE_MONOCHROME
 } gfxColorMode;
 
 #define GFX_COLOR_MODE_LAST_COLOR     (GFX_COLOR_MODE_MONOCHROME)
@@ -532,6 +532,7 @@ typedef struct gfxPixelBuffer
     uint32_t flags;
 } gfxPixelBuffer;
 
+typedef void (*gfxBlitCallBack) (void);
 typedef void (*gfxIRQCallBack) (uintptr_t layerID);
 
 // *****************************************************************************
@@ -1059,6 +1060,7 @@ typedef enum gfxDriverIOCTLRequest
     GFX_IOCTL_SET_LAYER_BASE_ADDRESS, // set layer base address, arg = gfxIOCTLArg_LayerValue
     GFX_IOCTL_SET_LAYER_COLOR_MODE, // set layer color mode, arg = gfxIOCTLArg_LayerValue
 
+    GFX_IOCTL_SET_BLIT_CALLBACK, // set a callback for scratch buffer blit completion, arg = gfxIOCTLArg_Value
     GFX_IOCTL_SET_IRQ_CALLBACK, // set a callback for the driver IRQ, arg = gfxIOCTLArg_LayerValue
 
 } gfxDriverIOCTLRequest;

@@ -45,22 +45,25 @@ void legato_showScreen(uint32_t id)
 
 void legato_updateScreenState(void)
 {
+    if(leIsDrawing() == LE_TRUE)
+        return;
+
     if(changingToScreen >= 0)
     {
-    legato_hideCurrentScreen();
+        legato_hideCurrentScreen();
 
         switch(changingToScreen)
-    {
-        case screenID_Screen0:
         {
-            screenShow_Screen0();
-            break;
+            case screenID_Screen0:
+            {
+                screenShow_Screen0();
+                break;
+            }
         }
-    }
 
         currentScreen = changingToScreen;
         changingToScreen = -1;
-}
+    }
 
     switch(currentScreen)
     {

@@ -62,7 +62,7 @@
 #define DISPLAY_HEIGHT 480
 
 #define PIXEL_CLOCK_DIV 7
-#define LCDC_OUTPUT_COLOR_MODE LCDC_OUTPUT_COLOR_MODE_18BPP
+#define LCDC_OUTPUT_COLOR_MODE LCDC_OUTPUT_COLOR_MODE_24BPP
 #define LCDC_DISPLAY_GUARD_NUM_FRAMES 30
 #define LCDC_SYNC_EDGE LCDC_SYNC_EDGE_FIRST
 #define LCDC_PWM_POLARITY LCDC_POLARITY_POSITIVE
@@ -288,9 +288,9 @@ gfxResult DRV_LCDC_Initialize()
     rightMargin     = 40;
     leftMargin      = 40;
     hsyncLength     = 48;
-    vsyncLength     = 10;
+    vsyncLength     = 3;
     upperMargin     = 29;
-    lowerMargin     = 10;
+    lowerMargin     = 3;
 
 
     /* LCDC initialization */

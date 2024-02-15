@@ -3,7 +3,7 @@ title: Harmony 3 Graphics SAM 9x60 Applications Package
 nav_order: 1
 ---
 
-# ![MPLAB® Harmony Graphics Suite](./docs/images/mhgs.png) MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family
+# ![MPLAB® Harmony Graphics Suite](./images/mhgs.png) MPLAB® Harmony 3 Graphics Application Examples for SAM 9x60 Family
 
 MPLAB® Harmony Graphics Suite  is an extension of the MPLAB® ecosystem for creating
 embedded graphics firmware solutions for Microchip 32-bit SAM and PIC microcontroller
@@ -20,7 +20,7 @@ For more information on the tools, libraries and basic development with the MPLA
  - [Release Notes](./release_notes.md)
  - [MPLAB® Harmony License](./mplab_harmony_license.md)
  - [MPLAB® Harmony 3 Graphics User Guides Wiki](https://github.com/mchpgfx/legato.docs/wiki)
- - [MPLAB® Harmony 3 Graphics API Help](https://mchpgfx.github.io/legato.docs/html/index.html)
+ - [MPLAB® Harmony 3 Graphics API Help](https://mchpgfx.github.io/legato.images/index.html)
  - [MPLAB® Harmony 3 Graphics Videos](https://www.youtube.com/playlist?list=PL9B4edd-p2ag5xsIIHhja-caKYY7AKPxe)
  - [MPLAB® Harmony 3 Graphics Suite Documentation](https://microchip-mplab-harmony.github.io/gfx/documentation.html)
 
@@ -54,6 +54,14 @@ The following applications are provided to demonstrate a subset of the capabilit
 |     | [legato_dashboard](./apps/legato_dashboard/readme.md) | Legato Graphics Library and Canvas Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 |     | [legato_canvas_quickstart](./apps/legato_canvas_quickstart/readme.md) | Legato Graphics Library and simple Canvas Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 |     | [legato_benchmark](./apps/legato_benchmark/readme.md) | Legato Graphics Library Performance Benchmarking Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+
+## Graphics application examples (LVGL)
+
+The following applications are provided to demonstrate a subset of the capabilities of Harmony Graphics Suite.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+|  apps | [lvgl_showcase](./apps/lvgl_showcase/readme.md) | Legato Graphics Library Quickstart Example | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
 ## Camera application examples (ISI)
 

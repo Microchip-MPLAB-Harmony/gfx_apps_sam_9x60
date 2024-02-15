@@ -54,12 +54,12 @@
 #include "peripheral/pio/plib_pio.h"
 #include "peripheral/aic/plib_aic.h"
 #include "gfx/driver/controller/lcdc/drv_gfx_lcdc.h"
-#include "peripheral/flexcom/twi/master/plib_flexcom6_twi_master.h"
 #include "peripheral/tc/plib_tc0.h"
+#include "peripheral/flexcom/twi/master/plib_flexcom6_twi_master.h"
 #include "peripheral/lcdc/plib_lcdc.h"
 #include "driver/i2c/drv_i2c.h"
-#include "gfx/canvas/gfx_canvas_api.h"
 #include "system/time/sys_time.h"
+#include "gfx/canvas/gfx_canvas_api.h"
 #include "system/input/sys_input.h"
 #include "bsp/bsp.h"
 #include "driver/input/drv_maxtouch.h"
@@ -78,6 +78,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "SAM9X60D1G"
+#define DEVICE_ARCH			 "ARM926EJ-S"
+#define DEVICE_FAMILY		 "SAM9"
+#define DEVICE_SERIES		 "SAM9X"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 600000000
